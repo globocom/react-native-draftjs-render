@@ -47,6 +47,7 @@
       1,
       "^([A-Z][a-z0-9]+)+Type$"
     ],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/sort-comp": [
       2, {
          order: [
