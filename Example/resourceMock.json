@@ -17,176 +17,389 @@
   },
   "scheduled": false,
   "bodyData": {
-    "entityMap": {},
     "blocks": [
       {
-        "key": "edual",
-        "text": "Após mais de 10 anos, o Manchester United recuperou o status de clube mais rico do mundo. Os Red Devils desbancaram a dupla Barcelona e Real Madrid e fecharam a temporada 2015/16 com o maior faturamento do futebol. Com 689 milhões de euros (cerca de R$ 2,3 bi) nos cofres, os ingleses interromperam oito anos de liderança dos merengues. Os dados são da consultoria Deloitte, que publicou nesta quinta-feira o seu estudo anual “Football Money League”.",
-        "type": "unstyled",
-        "depth": 0,
-        "inlineStyleRanges": [],
         "entityRanges": [],
-        "data": {}
+        "depth": 0,
+        "data": {},
+        "inlineStyleRanges": [],
+        "text": "",
+        "type": "unstyled",
+        "key": "g706"
       },
       {
-        "key": "cbp57",
+        "entityRanges": [],
+        "depth": 0,
+        "data": {
+           "identifier": 5707838,
+           "type": "backstage-video",
+           "caption": "S\u00e9rgio Cabral \u00e9 acusado de receber propina em euros"
+        },
+        "inlineStyleRanges": [],
         "text": "",
         "type": "atomic",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {
-          "type": "backstage-photo",
-          "rightsHolder": "Globo",
-          "caption": "Cristiano Ronaldo comemora primeiro gol da partida",
-          "file": {
-            "url": "https://i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/F/5/rB8A2OQuG3IAJgjTxblg/cristiano-ronaldo.png",
-            "width": 2400,
-            "type": "image/png",
-            "height": 1345,
-            "thumborUrl": "http://s2.glbimg.qa.globoi.com/OAb7nlaD2WrySi4U-KQ_OaHDTMI=/200x0/filters:quality(70)/i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/F/5/rB8A2OQuG3IAJgjTxblg/cristiano-ronaldo.png",
-            "crop": {
-              "top": 0,
-              "left": 0,
-              "bottom": 1345,
-              "right": 2400,
-              "height": 1345,
-              "width": 2400
-            }
+        "key": "1kvhr"
+      },
+      {
+        "entityRanges": [
+          {
+            "offset": 99,
+            "key": 0,
+            "length": 13
           },
-          "display": "featured"
-        }
-      },
-      {
-        "key": "6n5d5",
-        "text": "A última vez que o United havia aparecido no topo foi na temporada 2003/04. O Real Madrid faturou 620,1 mi de euros (cerca de R$ 2,1 bi) e ficou na terceira posição, atrás do rival Barcelona, que registrou ganhos de 620,2 mi de euros (R$ 2,2 bi). ",
+          {
+            "offset": 285,
+            "key": 1,
+            "length": 4
+          }
+        ],
+        "depth": 0,
+        "data": {},
+        "inlineStyleRanges": [],
+        "text": "O Minist\u00e9rio P\u00fablico Federal (MPF) fez mais uma den\u00fancia \u2014 a sexta \u2014 contra o ex-governador do Rio S\u00e9rgio Cabral. Foi denunciado tamb\u00e9m o doleiro brasileiro preso no Uruguai Vin\u00edcius Clar\u00e9, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
         "type": "unstyled",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {}
-      },
-      {
-        "key": "a3mpc",
-        "text": "",
-        "type": "atomic",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {
-          "type": "backstage-photo",
-          "rightsHolder": "Globo",
-          "caption": "Bale é um dos destaques do Real na temporada",
-          "file": {
-            "url": "https://i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/c/M/ANO5WsSeCRUksZLSIdDA/foto-vertical.png",
-            "width": 1051,
-            "type": "image/png",
-            "height": 1400,
-            "thumborUrl": "http://s2.glbimg.qa.globoi.com/6WOXBZak31WZcn7QpVfFl-vEqT0=/200x0/filters:quality(70)/i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/c/M/ANO5WsSeCRUksZLSIdDA/foto-vertical.png",
-            "crop": {
-              "top": 0,
-              "left": 0,
-              "bottom": 1400,
-              "right": 1051,
-              "height": 1400,
-              "width": 1051
-            }
+        "key": "57ec1"
+     },
+     {
+        "entityRanges":[
+           {
+              "offset":79,
+              "key":2,
+              "length":12
+           }
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"A den\u00fancia \u00e9 um desdobramento da Opera\u00e7\u00e3o Efici\u00eancia, que prendeu o empres\u00e1rio Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milh\u00f5es \u2013 o equivalente a mais de R$ 300 milh\u00f5es. Os valores foram distribu\u00eddos em 10 contas em para\u00edsos fiscais no exterior. A den\u00fancia do MPF vai ser analisada pelo juiz da 7\u00aa Vara Federal Criminal, Marcelo Bretas.",
+        "type":"unstyled",
+        "key":"fp5av"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"O MPF acusa Juca Bala e o s\u00f3cio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por S\u00e9rgio Cabral.",
+        "type":"unstyled",
+        "key":"6sn7n"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milh\u00f5es desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organiza\u00e7\u00e3o criminosa e tinham contato estreito com a empresa Odebrecht.",
+        "type":"unstyled",
+        "key":"4es47"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"Al\u00e9m de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza tamb\u00e9m traziam recursos de fora para o Brasil. Segundo a den\u00fancia, entre 2011 e 2014, eles fizeram com que US$ 3 milh\u00f5es de propina da Odebrecht viessem de offshores da construtora para as m\u00e3os do ex-governador.",
+        "type":"unstyled",
+        "key":"8v130"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+           "rightsHolder":"Rprodu\u00e7\u00e3o/ RPC Curitiba",
+           "display":"normal",
+           "type":"backstage-photo",
+           "caption":"S\u00e9rgio Cabral foi preso em novembro de 2016",
+           "file":{
+              "width":1275,
+              "url":"http://s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
+              "crop":{
+                 "bottom":715,
+                 "width":1275,
+                 "top":0,
+                 "right":1275,
+                 "left":0,
+                 "height":715
+              },
+              "type":"image/png",
+              "height":715,
+              "thumborUrl":"http://s2.glbimg.com/3jRdzDvLByVVioSPhzkokz7Tm2E=/200x0/filters:quality(70)/s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
+              "isAnimated":false
+           }
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"",
+        "type":"atomic",
+        "key":"1gegc"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+           {
+              "style":"BOLD",
+              "offset":0,
+              "length":14
+           }
+        ],
+        "text":"Sexta den\u00fancia\nDenunciado pela sexta vez, Cabral j\u00e1 \u00e9 r\u00e9u em tr\u00eas processos da Lava Jato e est\u00e1 preso, desde novembro de 2016, no  Complexo Penitenci\u00e1rio de Gericin\u00f3, em Bangu, na Zona Oeste do Rio.",
+        "type":"unstyled",
+        "key":"febk4"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"Al\u00e9m do ex-governador do Rio, tamb\u00e9m foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, est\u00e1 o ex-secret\u00e1rio de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irm\u00e3os doleiros Renato e Marcelo Chebar.",
+        "type":"unstyled",
+        "key":"ad9g5"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"Eles s\u00e3o acusados pelos crimes de corrup\u00e7\u00e3o passiva, organiza\u00e7\u00e3o criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irm\u00e3os Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.",
+        "type":"unstyled",
+        "key":"bquee"
+     },
+     {
+        "entityRanges":[
+           {
+              "offset":0,
+              "key":3,
+              "length":44
+           }
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"Juca Bala e Claudio foram presos no Uruguai na \u00faltima sexta-feira (3).  Eles estavam na difus\u00e3o vermelha da Interpol, a pol\u00edcia internacional, e foram presos em a\u00e7\u00e3o conjunta da pol\u00edcia do Uruguai com a Pol\u00edcia Federal brasileira.",
+        "type":"unstyled",
+        "key":"edoss"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+           {
+              "style":"BOLD",
+              "offset":0,
+              "length":24
+           }
+        ],
+        "text":"Contato com a Odebrecht\nAntes da pris\u00e3o dos doleiros, os rep\u00f3rteres Carlos de Lannoy e Arthur Guimar\u00e3es foram at\u00e9 o balne\u00e1rio uruguaio de Punta del Este e descobriram o paradeiro de Juca Bala. L\u00e1, ele aparece como s\u00f3cio no contrato de cria\u00e7\u00e3o da Paddle Board Uruguay. A empresa faz importa\u00e7\u00e3o, exporta\u00e7\u00e3o, representa\u00e7\u00e3o e venda de material esportivo.",
+        "type":"unstyled",
+        "key":"db02"
+     },
+     {
+        "entityRanges":[
+           {
+              "offset":18,
+              "key":4,
+              "length":16
+           }
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"Uma reportagem do Jornal Nacional mostrou que Juca Bala n\u00e3o usava o n\u00famero de telefone preso na porta da loja dele apenas para vender pranchas. Era tamb\u00e9m o contato do doleiro com o setor de opera\u00e7\u00f5es estruturadas da Odebrecht, mais conhecido como departamento de propina.",
+        "type":"unstyled",
+        "key":"a1vho"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+           {
+              "style":"ITALIC",
+              "offset":214,
+              "length":27
+           }
+        ],
+        "text":"O n\u00famero do celular da loja de pranchas \u00e9 o mesmo que aparece na agenda de Maria L\u00facia Tavares, ex-secret\u00e1ria da Odebrecht que, em acordo de dela\u00e7\u00e3o, ela revelou como funcionava o esquema de propina na empreiteira (veja mais no v\u00eddeo abaixo).",
+        "type":"unstyled",
+        "key":"ae0kl"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+           "identifier":5704193,
+           "type":"backstage-video",
+           "caption":"Doleiro Juca Bala era pe\u00e7a-chave no esquema da Odebrecht"
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"",
+        "type":"atomic",
+        "key":"46hff"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"",
+        "type":"unstyled",
+        "key":"bgf0a"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+           "articles":[
+              {
+                 "title":"Ex-governador S\u00e9rgio Cabral \u00e9 preso pela PF na Zona Sul do Rio",
+                 "link":"http://g1.globo.com/rio-de-janeiro/noticia/2016/11/ex-governador-sergio-cabral-e-preso-pela-pf-na-zona-sul-do-rio.html",
+                 "key":"efq7l"
+              },
+              {
+                 "title":"Fotos mostram celas de S\u00e9rgio Cabral e Adriana Ancelmo em Bangu",
+                 "link":"http://g1.globo.com/rio-de-janeiro/noticia/fotos-mostram-celas-de-sergio-cabral-e-adriana-ancelmo-em-bangu.ghtml",
+                 "key":"8c86e"
+              },
+              {
+                 "title":"Doleiro de Cabral preso era pe\u00e7a-chave no esquema de propina da Odebrecht",
+                 "link":"http://g1.globo.com/rio-de-janeiro/noticia/doleiro-de-cabral-preso-era-peca-chave-no-esquema-de-propina-da-odebrecht.ghtml",
+                 "key":"bmp67"
+              }
+           ],
+           "type":"related-articles"
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"",
+        "type":"atomic",
+        "key":"b25rr"
+     },
+     {
+        "entityRanges":[
+
+        ],
+        "depth":0,
+        "data":{
+
+        },
+        "inlineStyleRanges":[
+
+        ],
+        "text":"",
+        "type":"unstyled",
+        "key":"d474j"
+     }
+    ],
+    "entityMap":{
+       "0":{
+          "data":{
+             "url":"http://g1.globo.com/topico/sergio-cabral"
           },
-          "display": "normal"
-        }
-      },
-      {
-        "key": "ct7gh",
-        "text": "Os três clubes se revezam nas primeiras posições desde a temporada 1996/97. É a primeira vez que as equipes batem a casa dos 600 milhões de euros. Como comparação, o Flamengo, que tem o maior faturamento do futebol brasileiro, deve fechar 2016 com receitas de cerca de R$ 420 milhões. Para manter a liderança no próximo ano, o Manchester precisará se garantir na Liga dos Campeões da Europa. No momento, o time de José Mourinho ocupa a sexta posição no Campeonato Inglês e não se classificaria para a disputa. Bayern de Munique e Manchester City completam o Top-5.",
-        "type": "unstyled",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {}
-      },
-      {
-        "key": "f0c78",
-        "text": "",
-        "type": "atomic",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {
-          "type": "backstage-photo",
-          "rightsHolder": "Globo",
-          "caption": "Suarez, Neymar e Messi comemoram juntos após a vitória do Barcelona",
-          "file": {
-            "url": "https://i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/l/B/XkkBjtSiG7ny4wrbUjpA/trio-msn.png",
-            "width": 2400,
-            "type": "image/png",
-            "height": 1334,
-            "thumborUrl": "http://s2.glbimg.qa.globoi.com/sMVbN4z603-7vGKpXGy1nSpOhbA=/200x0/filters:quality(70)/i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/l/B/XkkBjtSiG7ny4wrbUjpA/trio-msn.png",
-            "crop": {
-              "top": 0,
-              "left": 0,
-              "bottom": 1334,
-              "right": 2400,
-              "height": 1334,
-              "width": 2400
-            }
+          "type":"LINK",
+          "mutability":"MUTABLE"
+       },
+       "4":{
+          "data":{
+             "url":"http://g1.globo.com/jornal-nacional/noticia/2017/03/doleiro-juca-bala-era-peca-chave-no-esquema-da-odebrecht.html"
           },
-          "display": "normal"
-        }
-      },
-      {
-        "key": "anlle",
-        "text": "Dos 10 primeiros, cinco são ingleses, dois são espanhóis, um é alemão, um é francês (PSG) e outro é italiano (Juventus). Os três mais ricos (United, Barça e Real) saíram de um faturamento de pouco mais de 100 mi de euros em 1996/97, quando o estudo começou a ser feito, para mais de 600 mi de euros na última temporada.",
-        "type": "unstyled",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {}
-      },
-      {
-        "key": "1o4tq",
-        "text": "",
-        "type": "atomic",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {
-          "type": "backstage-video",
-          "identifier": 5550099,
-          "caption": "No 1º dia do ano, francês faz gol candidato a mais bonito de 2017"
-        }
-      },
-      {
-        "key": "56l6g",
-        "text": "",
-        "type": "unstyled",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {}
-      },
-      {
-        "key": "hknl",
-        "text": "",
-        "type": "atomic",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {
-          "type": "backstage-video",
-          "identifier": 5550072,
-          "caption": "Central do Mercado analisa contratações de Corinthians, São Paulo e Oscar na China"
-        }
-      },
-      {
-        "key": "aidkd",
-        "text": "",
-        "type": "unstyled",
-        "depth": 0,
-        "inlineStyleRanges": [],
-        "entityRanges": [],
-        "data": {}
+          "type":"LINK",
+          "mutability":"MUTABLE"
+       },
+       "1":{
+          "data":{
+             "url":"http://g1.globo.com/rio-de-janeiro/rjtv-1edicao/videos/"
+          },
+          "type":"LINK",
+          "mutability":"MUTABLE"
+       },
+       "3":{
+          "data":{
+             "url":"http://g1.globo.com/rio-de-janeiro/noticia/suspeitos-de-envolvimento-com-esquema-de-sergio-cabral-sao-presos-no-uruguai.ghtml"
+          },
+          "type":"LINK",
+          "mutability":"MUTABLE"
+       },
+       "2":{
+          "data":{
+             "url":"http://g1.globo.com/topico/eike-batista"
+          },
+          "type":"LINK",
+          "mutability":"MUTABLE"
       }
-    ]
+    }
   },
   "annotation": {
     "g1:cita_entidade_generica": [],
