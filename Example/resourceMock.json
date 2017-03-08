@@ -1,0 +1,212 @@
+{
+  "title": "United desbanca Barça e Real e fecha 2016 como clube mais rico do mundo",
+  "subtitle": "Red Devils voltam ao topo após mais de 10 anos com faturamento de 689 milhões de euros (cerca de R$ 2,3 bi) na última temporada. Barça ocupa segunda posição",
+  "creator": "Igor Giusti",
+  "newsroom": "",
+  "externalSourceId": "",
+  "location": "",
+  "slug": "ministro-da-agricultura-pede-flexibilizacao-na-importacao-de-cafe-robusta",
+  "context": "https://g1-core.backstage.qa.globoi.com/api/editorias/94",
+  "category": "https://apis.backstage.qa.globoi.com/api/backstage-structure/routes/category?resource_uri=https://apis.backstage.qa.globoi.com/api/backstage-structure/325e3717-8bd2-4b12-a5c0-3d99f1154b8b",
+  "comments": true,
+  "issued": "2017-02-13T20:17:59.947Z",
+  "status": {
+    "slug": "published",
+    "type": "published",
+    "name": "Publicado"
+  },
+  "scheduled": false,
+  "bodyData": {
+    "entityMap": {},
+    "blocks": [
+      {
+        "key": "edual",
+        "text": "Após mais de 10 anos, o Manchester United recuperou o status de clube mais rico do mundo. Os Red Devils desbancaram a dupla Barcelona e Real Madrid e fecharam a temporada 2015/16 com o maior faturamento do futebol. Com 689 milhões de euros (cerca de R$ 2,3 bi) nos cofres, os ingleses interromperam oito anos de liderança dos merengues. Os dados são da consultoria Deloitte, que publicou nesta quinta-feira o seu estudo anual “Football Money League”.",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "cbp57",
+        "text": "",
+        "type": "atomic",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {
+          "type": "backstage-photo",
+          "rightsHolder": "Globo",
+          "caption": "Cristiano Ronaldo comemora primeiro gol da partida",
+          "file": {
+            "url": "https://i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/F/5/rB8A2OQuG3IAJgjTxblg/cristiano-ronaldo.png",
+            "width": 2400,
+            "type": "image/png",
+            "height": 1345,
+            "thumborUrl": "http://s2.glbimg.qa.globoi.com/OAb7nlaD2WrySi4U-KQ_OaHDTMI=/200x0/filters:quality(70)/i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/F/5/rB8A2OQuG3IAJgjTxblg/cristiano-ronaldo.png",
+            "crop": {
+              "top": 0,
+              "left": 0,
+              "bottom": 1345,
+              "right": 2400,
+              "height": 1345,
+              "width": 2400
+            }
+          },
+          "display": "featured"
+        }
+      },
+      {
+        "key": "6n5d5",
+        "text": "A última vez que o United havia aparecido no topo foi na temporada 2003/04. O Real Madrid faturou 620,1 mi de euros (cerca de R$ 2,1 bi) e ficou na terceira posição, atrás do rival Barcelona, que registrou ganhos de 620,2 mi de euros (R$ 2,2 bi). ",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "a3mpc",
+        "text": "",
+        "type": "atomic",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {
+          "type": "backstage-photo",
+          "rightsHolder": "Globo",
+          "caption": "Bale é um dos destaques do Real na temporada",
+          "file": {
+            "url": "https://i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/c/M/ANO5WsSeCRUksZLSIdDA/foto-vertical.png",
+            "width": 1051,
+            "type": "image/png",
+            "height": 1400,
+            "thumborUrl": "http://s2.glbimg.qa.globoi.com/6WOXBZak31WZcn7QpVfFl-vEqT0=/200x0/filters:quality(70)/i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/c/M/ANO5WsSeCRUksZLSIdDA/foto-vertical.png",
+            "crop": {
+              "top": 0,
+              "left": 0,
+              "bottom": 1400,
+              "right": 1051,
+              "height": 1400,
+              "width": 1051
+            }
+          },
+          "display": "normal"
+        }
+      },
+      {
+        "key": "ct7gh",
+        "text": "Os três clubes se revezam nas primeiras posições desde a temporada 1996/97. É a primeira vez que as equipes batem a casa dos 600 milhões de euros. Como comparação, o Flamengo, que tem o maior faturamento do futebol brasileiro, deve fechar 2016 com receitas de cerca de R$ 420 milhões. Para manter a liderança no próximo ano, o Manchester precisará se garantir na Liga dos Campeões da Europa. No momento, o time de José Mourinho ocupa a sexta posição no Campeonato Inglês e não se classificaria para a disputa. Bayern de Munique e Manchester City completam o Top-5.",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "f0c78",
+        "text": "",
+        "type": "atomic",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {
+          "type": "backstage-photo",
+          "rightsHolder": "Globo",
+          "caption": "Suarez, Neymar e Messi comemoram juntos após a vitória do Barcelona",
+          "file": {
+            "url": "https://i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/l/B/XkkBjtSiG7ny4wrbUjpA/trio-msn.png",
+            "width": 2400,
+            "type": "image/png",
+            "height": 1334,
+            "thumborUrl": "http://s2.glbimg.qa.globoi.com/sMVbN4z603-7vGKpXGy1nSpOhbA=/200x0/filters:quality(70)/i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/l/B/XkkBjtSiG7ny4wrbUjpA/trio-msn.png",
+            "crop": {
+              "top": 0,
+              "left": 0,
+              "bottom": 1334,
+              "right": 2400,
+              "height": 1334,
+              "width": 2400
+            }
+          },
+          "display": "normal"
+        }
+      },
+      {
+        "key": "anlle",
+        "text": "Dos 10 primeiros, cinco são ingleses, dois são espanhóis, um é alemão, um é francês (PSG) e outro é italiano (Juventus). Os três mais ricos (United, Barça e Real) saíram de um faturamento de pouco mais de 100 mi de euros em 1996/97, quando o estudo começou a ser feito, para mais de 600 mi de euros na última temporada.",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "1o4tq",
+        "text": "",
+        "type": "atomic",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {
+          "type": "backstage-video",
+          "identifier": 5550099,
+          "caption": "No 1º dia do ano, francês faz gol candidato a mais bonito de 2017"
+        }
+      },
+      {
+        "key": "56l6g",
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      },
+      {
+        "key": "hknl",
+        "text": "",
+        "type": "atomic",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {
+          "type": "backstage-video",
+          "identifier": 5550072,
+          "caption": "Central do Mercado analisa contratações de Corinthians, São Paulo e Oscar na China"
+        }
+      },
+      {
+        "key": "aidkd",
+        "text": "",
+        "type": "unstyled",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+      }
+    ]
+  },
+  "annotation": {
+    "g1:cita_entidade_generica": [],
+    "g1:cita_entidade_de_politica": [],
+    "g1:cita_entidade_de_carros": [],
+    "g1:cita_entidade_de_loteria": [],
+    "g1:cita_entidade_de_aeroportos": [],
+    "g1:cita_entidade_de_educacao": [],
+    "g1:cita_entidade_de_carnaval": [],
+    "g1:cita_entidade_de_musica": []
+  },
+  "instantArticle": false,
+  "contentType": "03e64b65-b332-401e-8aed-dbc604c9b311",
+  "cessionTerm": true,
+  "expiration": "2017-02-14T02:00:00.000Z",
+  "created": "2017-02-13T20:17:46.607Z",
+  "modified": "2017-03-06T19:02:39.393Z",
+  "createdBy": "igor.giusti@corp.globo.com",
+  "versionId": "2138c6ac-5401-4467-9eeb-80f40d50712b",
+  "tenantId": "g1",
+  "id": "327971aa-7153-4d44-b70d-5a6121bf6983",
+  "secondaryContext": []
+}
