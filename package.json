@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "jest",
+    "test": "make test",
     "linter": "eslint index.js"
   },
   "main": "index.js",
@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
-    "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
     "eslint": "^3.17.1",
     "eslint-config-airbnb": "^14.1.0",
@@ -30,11 +29,6 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
     "eslint-plugin-react-native": "^2.3.1",
-    "flow": "^0.2.3",
-    "jest": "19.0.2",
-    "react-test-renderer": "15.4.2"
-  },
-  "jest": {
-    "preset": "react-native"
+    "flow": "^0.2.3"
   }
 }
