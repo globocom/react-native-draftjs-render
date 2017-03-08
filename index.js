@@ -1,14 +1,8 @@
-import React, { Component } from "react";
-import { View, Text } from "react-native";
+import React from 'react';
+import { View, Text } from 'react-native';
 
-class RNDraftJS extends Component {
-    render() {
-        return (
-          <View>
-            <Text>Hello World</Text>
-          </View>
-        );
-    }
-}
+const RNDraftJS = () => <View>
+  <Text>Hello World</Text>
+</View>;
 
 module.exports = RNDraftJS;
