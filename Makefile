@@ -6,6 +6,6 @@ reset:
 	@npm cache clean
 	@npm install
 test:
-	@cd Example && npm test
+	@cd example && npm test
 lint:
 	@npm run linter
