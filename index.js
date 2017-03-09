@@ -1,5 +1,11 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React, {
+  PropTypes,
+} from 'react';
+import {
+  View,
+} from 'react-native';
+
+import getBlocks from './src/getBlocks';
 
 const styles = {
   container: {
@@ -7,16 +13,8 @@ const styles = {
   },
 };
 
-function getBlocks(bodyData = {}) {
-  if (!bodyData.blocks) {
-    return;
-  }
-
-  return bodyData.blocks.map(item => <Text key={item.key}>{item.text}</Text>);
-}
-
-function RNDraftJS({ contentState }) {
-  const blocks = getBlocks(contentState);
+function RNDraftJS({ contentState, customStyles }) {
+  const blocks = getBlocks(contentState, customStyles);
 
   return (
     <View style={styles.container}>
@@ -25,4 +23,14 @@ function RNDraftJS({ contentState }) {
   );
 }
 
+RNDraftJS.propTypes = {
+  contentState: PropTypes.object.isRequired,
+  customStyles: PropTypes.object,
+};
+
+RNDraftJS.defaultProps = {
+  customStyles: {},
+};
+
 module.exports = RNDraftJS;
+

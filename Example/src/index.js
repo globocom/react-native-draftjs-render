@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  View,
+  ScrollView,
 } from 'react-native';
 import RNDraftJS from 'react-native-draftjs';
 
@@ -10,8 +10,6 @@ import getJson from './getJson';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
 });
@@ -33,10 +31,18 @@ export default class App extends Component {
   }
 
   render() {
+    const customStyles = {
+      unstyled: {
+        fontSize: 18,
+        fontWeight: 'normal',
+        letterSpacing: -0.75,
+        lineHeight: 31.86,
+      },
+    };
     return (
-      <View style={styles.container}>
-        <RNDraftJS contentState={this.state.resourceMock} />
-      </View>
+      <ScrollView style={styles.container}>
+        <RNDraftJS contentState={this.state.resourceMock} customStyles={customStyles} />
+      </ScrollView>
     );
   }
 }

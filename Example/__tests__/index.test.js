@@ -1,11 +1,15 @@
 import 'react-native';
+
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Index from '../index';
+import RNDraftJS from '../../index';
+
+// Note: test renderer must be required after react-native.
 
 it('renders correctly', () => {
+  const data = {};
   const tree = renderer.create(
-    <Index />
+    <RNDraftJS contentState={data} />
   );
 });

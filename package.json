@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "make test",
-    "linter": "eslint index.js"
+    "linter": "eslint ."
   },
   "main": "index.js",
   "keywords": [

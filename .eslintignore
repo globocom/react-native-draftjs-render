@@ -1,2 +1,7 @@
+android/**/*.js
+ios/**/*.js
+**/coverage/**
 # Ignore flowtype-test
 flowtype-test/index.js
+
+Example/**
