@@ -5,4 +5,4 @@ import {
 
 import App from './src';
 
-AppRegistry.registerComponent('react_native_draftjs', () => App);
+AppRegistry.registerComponent('react_native_draftjs_render', () => App);

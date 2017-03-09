@@ -1,4 +1,4 @@
-package com.react_native_draftjs;
+package com.react_native_draftjs_render;
 
 import android.app.Application;
 

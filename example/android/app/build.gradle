@@ -87,7 +87,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.react_native_draftjs"
+        applicationId "com.react_native_draftjs_render"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1

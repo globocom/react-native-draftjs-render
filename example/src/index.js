@@ -3,7 +3,7 @@ import {
   StyleSheet,
   ScrollView,
 } from 'react-native';
-import RNDraftJS from 'react-native-draftjs';
+import RNDraftJS from 'react-native-draftjs-render';
 
 import getJson from './getJson';
 
