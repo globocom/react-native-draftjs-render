@@ -16,6 +16,7 @@ function getBlocks(bodyData: Object = {}, customStyles: Object = {}): ?React$Ele
         key: item.key,
         text: item.text,
         type: item.type,
+        inlineStyles: item.inlineStyleRanges,
       };
 
       switch (item.type) {
