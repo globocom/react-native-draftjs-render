@@ -18,18 +18,22 @@ const styles = StyleSheet.create({
   },
 });
 
-const Paragraph = (props: ParagraphPropsType): any => (
-  <Text
-    style={[styles.paragraph, props.customStyle]}
-  >{props.text}</Text>
-);
+const Paragraph = (props: ParagraphPropsType): any => {
+  if (props.text) {
+    return (<Text
+      style={[styles.paragraph, props.customStyle]}
+    >{props.text}</Text>);
+  }
+  return null;
+};
 
 Paragraph.propTypes = {
-  text: React.PropTypes.string.isRequired,
+  text: React.PropTypes.string,
   customStyle: React.PropTypes.any,
 };
 
 Paragraph.defaultProps = {
+  text: '',
   customStyle: undefined,
 };
 

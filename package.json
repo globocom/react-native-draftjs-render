@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "test": "make test",
+    "test-reset": "make test-reset",
     "linter": "eslint .",
     "flow": "flow",
     "flow-stop": "flow stop"

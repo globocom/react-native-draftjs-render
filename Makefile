@@ -10,6 +10,9 @@ reset:
 test:
 	@cd example && npm test
 
+test-reset:
+	@cd example && npm run test-reset
+
 lint:
 	@npm run linter
 

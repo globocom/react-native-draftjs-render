@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`extends a style with a customStyle 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
+      Object {
+        "fontSize": 18,
+        "fontWeight": "normal",
+        "letterSpacing": -0.75,
+        "lineHeight": 32,
+      },
+    ]
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`renders correctly with a text 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
+      undefined,
+    ]
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`renders null without a text 1`] = `null`;
