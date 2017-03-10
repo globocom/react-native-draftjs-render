@@ -6,12 +6,12 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import parseStyles from '../parseStyles';
+// import parseStyles from '../parseStyles';
 
 type ParagraphPropsType = {
  text: string,
  customStyle?: any,
- inlineStyles: Array<Object>,
+ // inlineStyles: Array<Object>,
 };
 
 const styles = StyleSheet.create({
@@ -22,12 +22,12 @@ const styles = StyleSheet.create({
 });
 
 const Paragraph = (props: ParagraphPropsType): any => {
-  const textElements = parseStyles(props.text, props.inlineStyles);
+  // const textElements = parseStyles(props.text, props.inlineStyles);
 
   if (props.text) {
     return (<Text
       style={[styles.paragraph, props.customStyle]}
-    >{textElements}</Text>);
+    >{props.text}</Text>);
   }
   return null;
 };
@@ -35,13 +35,13 @@ const Paragraph = (props: ParagraphPropsType): any => {
 Paragraph.propTypes = {
   text: React.PropTypes.string,
   customStyle: React.PropTypes.any,
-  inlineStyles: React.PropTypes.array,
+  // inlineStyles: React.PropTypes.array,
 };
 
 Paragraph.defaultProps = {
   text: '',
   customStyle: undefined,
-  inlineStyles: {},
+  // inlineStyles: [],
 };
 
 export default Paragraph;
