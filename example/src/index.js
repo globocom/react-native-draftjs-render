@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import RNDraftJS from 'react-native-draftjs-render';
 
-import getJson from './getJson';
+import data from './resourceMock.json';
 
 const styles = StyleSheet.create({
   container: {
@@ -27,16 +27,6 @@ export default class App extends Component {
     };
   }
 
-  componentDidMount() {
-    getJson()
-      .then((data: Object) => {
-        this.setState({ resourceMock: data });
-      })
-      .catch((error: Object) => {
-        console.warn('>>>', error); // eslint-disable-line no-console
-      });
-  }
-
   render(): any {
     const customStyles = {
       unstyled: {
@@ -48,7 +38,7 @@ export default class App extends Component {
     };
     return (
       <ScrollView style={styles.container}>
-        <RNDraftJS contentState={this.state.resourceMock} customStyles={customStyles} />
+        <RNDraftJS contentState={data} customStyles={customStyles} />
       </ScrollView>
     );
   }

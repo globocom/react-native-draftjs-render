@@ -4,13 +4,23 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import RNDraftJSRender from '../../index';
+import data from '../src/resourceMock.json';
 
-// Note: test renderer must be required after react-native.
-
-it('renders correctly', () => {
-  const data = {};
+it('renders correctly with contentState', () => {
   const tree = renderer.create(
     <RNDraftJSRender contentState={data} />
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('renders correctly with contentState and customStyle', () => {
+  const customStyles = {
+    unstyled: {
+      fontSize: 18,
+    },
+  };
+  const tree = renderer.create(
+    <RNDraftJSRender contentState={data} customStyles={customStyles} />
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });

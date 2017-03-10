@@ -1,11 +1,435 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`renders correctly with contentState 1`] = `
 <View
   style={
     Object {
       "flex": 1,
     }
   }
-/>
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Sexta denúncia
+    Denunciado pela sexta vez, Cabral já é réu em três processos da Lava Jato e está preso, desde novembro de 2016, no  Complexo Penitenciário de Gericinó, em Bangu, na Zona Oeste do Rio.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Juca Bala e Claudio foram presos no Uruguai na última sexta-feira (3).  Eles estavam na difusão vermelha da Interpol, a polícia internacional, e foram presos em ação conjunta da polícia do Uruguai com a Polícia Federal brasileira.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Contato com a Odebrecht
+    Antes da prisão dos doleiros, os repórteres Carlos de Lannoy e Arthur Guimarães foram até o balneário uruguaio de Punta del Este e descobriram o paradeiro de Juca Bala. Lá, ele aparece como sócio no contrato de criação da Paddle Board Uruguay. A empresa faz importação, exportação, representação e venda de material esportivo.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Uma reportagem do Jornal Nacional mostrou que Juca Bala não usava o número de telefone preso na porta da loja dele apenas para vender pranchas. Era também o contato do doleiro com o setor de operações estruturadas da Odebrecht, mais conhecido como departamento de propina.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    O número do celular da loja de pranchas é o mesmo que aparece na agenda de Maria Lúcia Tavares, ex-secretária da Odebrecht que, em acordo de delação, ela revelou como funcionava o esquema de propina na empreiteira (veja mais no vídeo abaixo).
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with contentState and customStyle 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Sexta denúncia
+    Denunciado pela sexta vez, Cabral já é réu em três processos da Lava Jato e está preso, desde novembro de 2016, no  Complexo Penitenciário de Gericinó, em Bangu, na Zona Oeste do Rio.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Juca Bala e Claudio foram presos no Uruguai na última sexta-feira (3).  Eles estavam na difusão vermelha da Interpol, a polícia internacional, e foram presos em ação conjunta da polícia do Uruguai com a Polícia Federal brasileira.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Contato com a Odebrecht
+    Antes da prisão dos doleiros, os repórteres Carlos de Lannoy e Arthur Guimarães foram até o balneário uruguaio de Punta del Este e descobriram o paradeiro de Juca Bala. Lá, ele aparece como sócio no contrato de criação da Paddle Board Uruguay. A empresa faz importação, exportação, representação e venda de material esportivo.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    Uma reportagem do Jornal Nacional mostrou que Juca Bala não usava o número de telefone preso na porta da loja dele apenas para vender pranchas. Era também o contato do doleiro com o setor de operações estruturadas da Odebrecht, mais conhecido como departamento de propina.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    O número do celular da loja de pranchas é o mesmo que aparece na agenda de Maria Lúcia Tavares, ex-secretária da Odebrecht que, em acordo de delação, ela revelou como funcionava o esquema de propina na empreiteira (veja mais no vídeo abaixo).
+  </Text>
+</View>
 `;
