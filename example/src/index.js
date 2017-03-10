@@ -30,7 +30,7 @@ export default class App extends Component {
   componentDidMount() {
     getJson()
       .then((data: Object) => {
-        this.setState({ resourceMock: data.bodyData });
+        this.setState({ resourceMock: data });
       })
       .catch((error: Object) => {
         console.warn('>>>', error); // eslint-disable-line no-console

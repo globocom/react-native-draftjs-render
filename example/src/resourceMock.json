@@ -1,425 +1,385 @@
 {
-  "title": "United desbanca Barça e Real e fecha 2016 como clube mais rico do mundo",
-  "subtitle": "Red Devils voltam ao topo após mais de 10 anos com faturamento de 689 milhões de euros (cerca de R$ 2,3 bi) na última temporada. Barça ocupa segunda posição",
-  "creator": "Igor Giusti",
-  "newsroom": "",
-  "externalSourceId": "",
-  "location": "",
-  "slug": "ministro-da-agricultura-pede-flexibilizacao-na-importacao-de-cafe-robusta",
-  "context": "https://g1-core.backstage.qa.globoi.com/api/editorias/94",
-  "category": "https://apis.backstage.qa.globoi.com/api/backstage-structure/routes/category?resource_uri=https://apis.backstage.qa.globoi.com/api/backstage-structure/325e3717-8bd2-4b12-a5c0-3d99f1154b8b",
-  "comments": true,
-  "issued": "2017-02-13T20:17:59.947Z",
-  "status": {
-    "slug": "published",
-    "type": "published",
-    "name": "Publicado"
-  },
-  "scheduled": false,
-  "bodyData": {
-    "blocks": [
-      {
-        "entityRanges": [],
-        "depth": 0,
-        "data": {},
-        "inlineStyleRanges": [],
-        "text": "",
-        "type": "unstyled",
-        "key": "g706"
+  "blocks": [
+    {
+      "entityRanges": [],
+      "depth": 0,
+      "data": {},
+      "inlineStyleRanges": [],
+      "text": "",
+      "type": "unstyled",
+      "key": "g706"
+    },
+    {
+      "entityRanges": [],
+      "depth": 0,
+      "data": {
+         "identifier": 5707838,
+         "type": "backstage-video",
+         "caption": "S\u00e9rgio Cabral \u00e9 acusado de receber propina em euros"
       },
-      {
-        "entityRanges": [],
-        "depth": 0,
-        "data": {
-           "identifier": 5707838,
-           "type": "backstage-video",
-           "caption": "S\u00e9rgio Cabral \u00e9 acusado de receber propina em euros"
+      "inlineStyleRanges": [],
+      "text": "",
+      "type": "atomic",
+      "key": "1kvhr"
+    },
+    {
+      "entityRanges": [
+        {
+          "offset": 99,
+          "key": 0,
+          "length": 13
         },
-        "inlineStyleRanges": [],
-        "text": "",
-        "type": "atomic",
-        "key": "1kvhr"
+        {
+          "offset": 285,
+          "key": 1,
+          "length": 4
+        }
+      ],
+      "depth": 0,
+      "data": {},
+      "inlineStyleRanges": [],
+      "text": "O Minist\u00e9rio P\u00fablico Federal (MPF) fez mais uma den\u00fancia \u2014 a sexta \u2014 contra o ex-governador do Rio S\u00e9rgio Cabral. Foi denunciado tamb\u00e9m o doleiro brasileiro preso no Uruguai Vin\u00edcius Clar\u00e9, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
+      "type": "unstyled",
+      "key": "57ec1"
+   },
+   {
+      "entityRanges":[
+         {
+            "offset":79,
+            "key":2,
+            "length":12
+         }
+      ],
+      "depth":0,
+      "data":{
+
       },
-      {
-        "entityRanges": [
-          {
-            "offset": 99,
-            "key": 0,
-            "length": 13
-          },
-          {
-            "offset": 285,
-            "key": 1,
-            "length": 4
-          }
-        ],
-        "depth": 0,
-        "data": {},
-        "inlineStyleRanges": [],
-        "text": "O Minist\u00e9rio P\u00fablico Federal (MPF) fez mais uma den\u00fancia \u2014 a sexta \u2014 contra o ex-governador do Rio S\u00e9rgio Cabral. Foi denunciado tamb\u00e9m o doleiro brasileiro preso no Uruguai Vin\u00edcius Clar\u00e9, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
-        "type": "unstyled",
-        "key": "57ec1"
-     },
-     {
-        "entityRanges":[
-           {
-              "offset":79,
-              "key":2,
-              "length":12
-           }
-        ],
-        "depth":0,
+      "inlineStyleRanges":[
+
+      ],
+      "text":"A den\u00fancia \u00e9 um desdobramento da Opera\u00e7\u00e3o Efici\u00eancia, que prendeu o empres\u00e1rio Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milh\u00f5es \u2013 o equivalente a mais de R$ 300 milh\u00f5es. Os valores foram distribu\u00eddos em 10 contas em para\u00edsos fiscais no exterior. A den\u00fancia do MPF vai ser analisada pelo juiz da 7\u00aa Vara Federal Criminal, Marcelo Bretas.",
+      "type":"unstyled",
+      "key":"fp5av"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"O MPF acusa Juca Bala e o s\u00f3cio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por S\u00e9rgio Cabral.",
+      "type":"unstyled",
+      "key":"6sn7n"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milh\u00f5es desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organiza\u00e7\u00e3o criminosa e tinham contato estreito com a empresa Odebrecht.",
+      "type":"unstyled",
+      "key":"4es47"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"Al\u00e9m de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza tamb\u00e9m traziam recursos de fora para o Brasil. Segundo a den\u00fancia, entre 2011 e 2014, eles fizeram com que US$ 3 milh\u00f5es de propina da Odebrecht viessem de offshores da construtora para as m\u00e3os do ex-governador.",
+      "type":"unstyled",
+      "key":"8v130"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+         "rightsHolder":"Rprodu\u00e7\u00e3o/ RPC Curitiba",
+         "display":"normal",
+         "type":"backstage-photo",
+         "caption":"S\u00e9rgio Cabral foi preso em novembro de 2016",
+         "file":{
+            "width":1275,
+            "url":"http://s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
+            "crop":{
+               "bottom":715,
+               "width":1275,
+               "top":0,
+               "right":1275,
+               "left":0,
+               "height":715
+            },
+            "type":"image/png",
+            "height":715,
+            "thumborUrl":"http://s2.glbimg.com/3jRdzDvLByVVioSPhzkokz7Tm2E=/200x0/filters:quality(70)/s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
+            "isAnimated":false
+         }
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"",
+      "type":"atomic",
+      "key":"1gegc"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+         {
+            "style":"BOLD",
+            "offset":0,
+            "length":14
+         }
+      ],
+      "text":"Sexta den\u00fancia\nDenunciado pela sexta vez, Cabral j\u00e1 \u00e9 r\u00e9u em tr\u00eas processos da Lava Jato e est\u00e1 preso, desde novembro de 2016, no  Complexo Penitenci\u00e1rio de Gericin\u00f3, em Bangu, na Zona Oeste do Rio.",
+      "type":"unstyled",
+      "key":"febk4"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"Al\u00e9m do ex-governador do Rio, tamb\u00e9m foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, est\u00e1 o ex-secret\u00e1rio de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irm\u00e3os doleiros Renato e Marcelo Chebar.",
+      "type":"unstyled",
+      "key":"ad9g5"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"Eles s\u00e3o acusados pelos crimes de corrup\u00e7\u00e3o passiva, organiza\u00e7\u00e3o criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irm\u00e3os Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.",
+      "type":"unstyled",
+      "key":"bquee"
+   },
+   {
+      "entityRanges":[
+         {
+            "offset":0,
+            "key":3,
+            "length":44
+         }
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"Juca Bala e Claudio foram presos no Uruguai na \u00faltima sexta-feira (3).  Eles estavam na difus\u00e3o vermelha da Interpol, a pol\u00edcia internacional, e foram presos em a\u00e7\u00e3o conjunta da pol\u00edcia do Uruguai com a Pol\u00edcia Federal brasileira.",
+      "type":"unstyled",
+      "key":"edoss"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+         {
+            "style":"BOLD",
+            "offset":0,
+            "length":24
+         }
+      ],
+      "text":"Contato com a Odebrecht\nAntes da pris\u00e3o dos doleiros, os rep\u00f3rteres Carlos de Lannoy e Arthur Guimar\u00e3es foram at\u00e9 o balne\u00e1rio uruguaio de Punta del Este e descobriram o paradeiro de Juca Bala. L\u00e1, ele aparece como s\u00f3cio no contrato de cria\u00e7\u00e3o da Paddle Board Uruguay. A empresa faz importa\u00e7\u00e3o, exporta\u00e7\u00e3o, representa\u00e7\u00e3o e venda de material esportivo.",
+      "type":"unstyled",
+      "key":"db02"
+   },
+   {
+      "entityRanges":[
+         {
+            "offset":18,
+            "key":4,
+            "length":16
+         }
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"Uma reportagem do Jornal Nacional mostrou que Juca Bala n\u00e3o usava o n\u00famero de telefone preso na porta da loja dele apenas para vender pranchas. Era tamb\u00e9m o contato do doleiro com o setor de opera\u00e7\u00f5es estruturadas da Odebrecht, mais conhecido como departamento de propina.",
+      "type":"unstyled",
+      "key":"a1vho"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+         {
+            "style":"ITALIC",
+            "offset":214,
+            "length":27
+         }
+      ],
+      "text":"O n\u00famero do celular da loja de pranchas \u00e9 o mesmo que aparece na agenda de Maria L\u00facia Tavares, ex-secret\u00e1ria da Odebrecht que, em acordo de dela\u00e7\u00e3o, ela revelou como funcionava o esquema de propina na empreiteira (veja mais no v\u00eddeo abaixo).",
+      "type":"unstyled",
+      "key":"ae0kl"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+         "identifier":5704193,
+         "type":"backstage-video",
+         "caption":"Doleiro Juca Bala era pe\u00e7a-chave no esquema da Odebrecht"
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"",
+      "type":"atomic",
+      "key":"46hff"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"",
+      "type":"unstyled",
+      "key":"bgf0a"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+         "articles":[
+            {
+               "title":"Ex-governador S\u00e9rgio Cabral \u00e9 preso pela PF na Zona Sul do Rio",
+               "link":"http://g1.globo.com/rio-de-janeiro/noticia/2016/11/ex-governador-sergio-cabral-e-preso-pela-pf-na-zona-sul-do-rio.html",
+               "key":"efq7l"
+            },
+            {
+               "title":"Fotos mostram celas de S\u00e9rgio Cabral e Adriana Ancelmo em Bangu",
+               "link":"http://g1.globo.com/rio-de-janeiro/noticia/fotos-mostram-celas-de-sergio-cabral-e-adriana-ancelmo-em-bangu.ghtml",
+               "key":"8c86e"
+            },
+            {
+               "title":"Doleiro de Cabral preso era pe\u00e7a-chave no esquema de propina da Odebrecht",
+               "link":"http://g1.globo.com/rio-de-janeiro/noticia/doleiro-de-cabral-preso-era-peca-chave-no-esquema-de-propina-da-odebrecht.ghtml",
+               "key":"bmp67"
+            }
+         ],
+         "type":"related-articles"
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"",
+      "type":"atomic",
+      "key":"b25rr"
+   },
+   {
+      "entityRanges":[
+
+      ],
+      "depth":0,
+      "data":{
+
+      },
+      "inlineStyleRanges":[
+
+      ],
+      "text":"",
+      "type":"unstyled",
+      "key":"d474j"
+   }
+  ],
+  "entityMap":{
+     "0":{
         "data":{
-
+           "url":"http://g1.globo.com/topico/sergio-cabral"
         },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"A den\u00fancia \u00e9 um desdobramento da Opera\u00e7\u00e3o Efici\u00eancia, que prendeu o empres\u00e1rio Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milh\u00f5es \u2013 o equivalente a mais de R$ 300 milh\u00f5es. Os valores foram distribu\u00eddos em 10 contas em para\u00edsos fiscais no exterior. A den\u00fancia do MPF vai ser analisada pelo juiz da 7\u00aa Vara Federal Criminal, Marcelo Bretas.",
-        "type":"unstyled",
-        "key":"fp5av"
+        "type":"LINK",
+        "mutability":"MUTABLE"
      },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
+     "4":{
         "data":{
-
+           "url":"http://g1.globo.com/jornal-nacional/noticia/2017/03/doleiro-juca-bala-era-peca-chave-no-esquema-da-odebrecht.html"
         },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"O MPF acusa Juca Bala e o s\u00f3cio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por S\u00e9rgio Cabral.",
-        "type":"unstyled",
-        "key":"6sn7n"
+        "type":"LINK",
+        "mutability":"MUTABLE"
      },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
+     "1":{
         "data":{
-
+           "url":"http://g1.globo.com/rio-de-janeiro/rjtv-1edicao/videos/"
         },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milh\u00f5es desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organiza\u00e7\u00e3o criminosa e tinham contato estreito com a empresa Odebrecht.",
-        "type":"unstyled",
-        "key":"4es47"
+        "type":"LINK",
+        "mutability":"MUTABLE"
      },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
+     "3":{
         "data":{
-
+           "url":"http://g1.globo.com/rio-de-janeiro/noticia/suspeitos-de-envolvimento-com-esquema-de-sergio-cabral-sao-presos-no-uruguai.ghtml"
         },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"Al\u00e9m de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza tamb\u00e9m traziam recursos de fora para o Brasil. Segundo a den\u00fancia, entre 2011 e 2014, eles fizeram com que US$ 3 milh\u00f5es de propina da Odebrecht viessem de offshores da construtora para as m\u00e3os do ex-governador.",
-        "type":"unstyled",
-        "key":"8v130"
+        "type":"LINK",
+        "mutability":"MUTABLE"
      },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
+     "2":{
         "data":{
-           "rightsHolder":"Rprodu\u00e7\u00e3o/ RPC Curitiba",
-           "display":"normal",
-           "type":"backstage-photo",
-           "caption":"S\u00e9rgio Cabral foi preso em novembro de 2016",
-           "file":{
-              "width":1275,
-              "url":"http://s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
-              "crop":{
-                 "bottom":715,
-                 "width":1275,
-                 "top":0,
-                 "right":1275,
-                 "left":0,
-                 "height":715
-              },
-              "type":"image/png",
-              "height":715,
-              "thumborUrl":"http://s2.glbimg.com/3jRdzDvLByVVioSPhzkokz7Tm2E=/200x0/filters:quality(70)/s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
-              "isAnimated":false
-           }
+           "url":"http://g1.globo.com/topico/eike-batista"
         },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"",
-        "type":"atomic",
-        "key":"1gegc"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-           {
-              "style":"BOLD",
-              "offset":0,
-              "length":14
-           }
-        ],
-        "text":"Sexta den\u00fancia\nDenunciado pela sexta vez, Cabral j\u00e1 \u00e9 r\u00e9u em tr\u00eas processos da Lava Jato e est\u00e1 preso, desde novembro de 2016, no  Complexo Penitenci\u00e1rio de Gericin\u00f3, em Bangu, na Zona Oeste do Rio.",
-        "type":"unstyled",
-        "key":"febk4"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"Al\u00e9m do ex-governador do Rio, tamb\u00e9m foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, est\u00e1 o ex-secret\u00e1rio de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irm\u00e3os doleiros Renato e Marcelo Chebar.",
-        "type":"unstyled",
-        "key":"ad9g5"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"Eles s\u00e3o acusados pelos crimes de corrup\u00e7\u00e3o passiva, organiza\u00e7\u00e3o criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irm\u00e3os Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.",
-        "type":"unstyled",
-        "key":"bquee"
-     },
-     {
-        "entityRanges":[
-           {
-              "offset":0,
-              "key":3,
-              "length":44
-           }
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"Juca Bala e Claudio foram presos no Uruguai na \u00faltima sexta-feira (3).  Eles estavam na difus\u00e3o vermelha da Interpol, a pol\u00edcia internacional, e foram presos em a\u00e7\u00e3o conjunta da pol\u00edcia do Uruguai com a Pol\u00edcia Federal brasileira.",
-        "type":"unstyled",
-        "key":"edoss"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-           {
-              "style":"BOLD",
-              "offset":0,
-              "length":24
-           }
-        ],
-        "text":"Contato com a Odebrecht\nAntes da pris\u00e3o dos doleiros, os rep\u00f3rteres Carlos de Lannoy e Arthur Guimar\u00e3es foram at\u00e9 o balne\u00e1rio uruguaio de Punta del Este e descobriram o paradeiro de Juca Bala. L\u00e1, ele aparece como s\u00f3cio no contrato de cria\u00e7\u00e3o da Paddle Board Uruguay. A empresa faz importa\u00e7\u00e3o, exporta\u00e7\u00e3o, representa\u00e7\u00e3o e venda de material esportivo.",
-        "type":"unstyled",
-        "key":"db02"
-     },
-     {
-        "entityRanges":[
-           {
-              "offset":18,
-              "key":4,
-              "length":16
-           }
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"Uma reportagem do Jornal Nacional mostrou que Juca Bala n\u00e3o usava o n\u00famero de telefone preso na porta da loja dele apenas para vender pranchas. Era tamb\u00e9m o contato do doleiro com o setor de opera\u00e7\u00f5es estruturadas da Odebrecht, mais conhecido como departamento de propina.",
-        "type":"unstyled",
-        "key":"a1vho"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-           {
-              "style":"ITALIC",
-              "offset":214,
-              "length":27
-           }
-        ],
-        "text":"O n\u00famero do celular da loja de pranchas \u00e9 o mesmo que aparece na agenda de Maria L\u00facia Tavares, ex-secret\u00e1ria da Odebrecht que, em acordo de dela\u00e7\u00e3o, ela revelou como funcionava o esquema de propina na empreiteira (veja mais no v\u00eddeo abaixo).",
-        "type":"unstyled",
-        "key":"ae0kl"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-           "identifier":5704193,
-           "type":"backstage-video",
-           "caption":"Doleiro Juca Bala era pe\u00e7a-chave no esquema da Odebrecht"
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"",
-        "type":"atomic",
-        "key":"46hff"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"",
-        "type":"unstyled",
-        "key":"bgf0a"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-           "articles":[
-              {
-                 "title":"Ex-governador S\u00e9rgio Cabral \u00e9 preso pela PF na Zona Sul do Rio",
-                 "link":"http://g1.globo.com/rio-de-janeiro/noticia/2016/11/ex-governador-sergio-cabral-e-preso-pela-pf-na-zona-sul-do-rio.html",
-                 "key":"efq7l"
-              },
-              {
-                 "title":"Fotos mostram celas de S\u00e9rgio Cabral e Adriana Ancelmo em Bangu",
-                 "link":"http://g1.globo.com/rio-de-janeiro/noticia/fotos-mostram-celas-de-sergio-cabral-e-adriana-ancelmo-em-bangu.ghtml",
-                 "key":"8c86e"
-              },
-              {
-                 "title":"Doleiro de Cabral preso era pe\u00e7a-chave no esquema de propina da Odebrecht",
-                 "link":"http://g1.globo.com/rio-de-janeiro/noticia/doleiro-de-cabral-preso-era-peca-chave-no-esquema-de-propina-da-odebrecht.ghtml",
-                 "key":"bmp67"
-              }
-           ],
-           "type":"related-articles"
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"",
-        "type":"atomic",
-        "key":"b25rr"
-     },
-     {
-        "entityRanges":[
-
-        ],
-        "depth":0,
-        "data":{
-
-        },
-        "inlineStyleRanges":[
-
-        ],
-        "text":"",
-        "type":"unstyled",
-        "key":"d474j"
-     }
-    ],
-    "entityMap":{
-       "0":{
-          "data":{
-             "url":"http://g1.globo.com/topico/sergio-cabral"
-          },
-          "type":"LINK",
-          "mutability":"MUTABLE"
-       },
-       "4":{
-          "data":{
-             "url":"http://g1.globo.com/jornal-nacional/noticia/2017/03/doleiro-juca-bala-era-peca-chave-no-esquema-da-odebrecht.html"
-          },
-          "type":"LINK",
-          "mutability":"MUTABLE"
-       },
-       "1":{
-          "data":{
-             "url":"http://g1.globo.com/rio-de-janeiro/rjtv-1edicao/videos/"
-          },
-          "type":"LINK",
-          "mutability":"MUTABLE"
-       },
-       "3":{
-          "data":{
-             "url":"http://g1.globo.com/rio-de-janeiro/noticia/suspeitos-de-envolvimento-com-esquema-de-sergio-cabral-sao-presos-no-uruguai.ghtml"
-          },
-          "type":"LINK",
-          "mutability":"MUTABLE"
-       },
-       "2":{
-          "data":{
-             "url":"http://g1.globo.com/topico/eike-batista"
-          },
-          "type":"LINK",
-          "mutability":"MUTABLE"
-      }
+        "type":"LINK",
+        "mutability":"MUTABLE"
     }
-  },
-  "annotation": {
-    "g1:cita_entidade_generica": [],
-    "g1:cita_entidade_de_politica": [],
-    "g1:cita_entidade_de_carros": [],
-    "g1:cita_entidade_de_loteria": [],
-    "g1:cita_entidade_de_aeroportos": [],
-    "g1:cita_entidade_de_educacao": [],
-    "g1:cita_entidade_de_carnaval": [],
-    "g1:cita_entidade_de_musica": []
-  },
-  "instantArticle": false,
-  "contentType": "03e64b65-b332-401e-8aed-dbc604c9b311",
-  "cessionTerm": true,
-  "expiration": "2017-02-14T02:00:00.000Z",
-  "created": "2017-02-13T20:17:46.607Z",
-  "modified": "2017-03-06T19:02:39.393Z",
-  "createdBy": "igor.giusti@corp.globo.com",
-  "versionId": "2138c6ac-5401-4467-9eeb-80f40d50712b",
-  "tenantId": "g1",
-  "id": "327971aa-7153-4d44-b70d-5a6121bf6983",
-  "secondaryContext": []
+  }
 }
