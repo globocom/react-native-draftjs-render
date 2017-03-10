@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const Paragraph = (props: ParagraphPropsType): React$Element<*> => (
+const Paragraph = (props: ParagraphPropsType): any => (
   <Text
     style={[styles.paragraph, props.customStyle]}
   >{props.text}</Text>
