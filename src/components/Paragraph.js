@@ -1,9 +1,15 @@
+// @flow
+
 import React from 'react';
 import {
   Text,
   StyleSheet,
 } from 'react-native';
 
+type ParagraphPropsType = {
+ text: string,
+ customStyle?: any,
+};
 
 const styles = StyleSheet.create({
   paragraph: {
@@ -12,7 +18,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const Paragraph = props => (
+const Paragraph = (props: ParagraphPropsType): React$Element<*> => (
   <Text
     style={[styles.paragraph, props.customStyle]}
   >{props.text}</Text>
