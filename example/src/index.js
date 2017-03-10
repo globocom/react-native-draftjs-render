@@ -38,7 +38,7 @@ export default class App extends Component {
         fontSize: 18,
         fontWeight: 'normal',
         letterSpacing: -0.75,
-        lineHeight: 31.86,
+        lineHeight: 32,
       },
     };
     return (

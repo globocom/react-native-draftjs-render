@@ -1,14 +1,16 @@
+// @flow
+
 import React from 'react';
 
 import Paragraph from './components/Paragraph';
 
-function getBlocks(bodyData = {}, customStyles = {}) {
+function getBlocks(bodyData: Object = {}, customStyles: Object = {}): ?React$Element<*> {
   if (!bodyData.blocks) {
     return null;
   }
 
   return bodyData.blocks
-    .map((item) => {
+    .map((item: Object): ?React$Element<*> => {
       switch (item.type) {
         case 'unstyled':
         // case 'paragraph':
