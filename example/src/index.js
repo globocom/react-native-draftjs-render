@@ -29,13 +29,15 @@ export default class App extends Component {
 
   componentDidMount() {
     getJson()
-      .then((data) => {
+      .then((data: Object) => {
         this.setState({ resourceMock: data.bodyData });
       })
-      .catch(error => console.log('>>>', error));
+      .catch((error: Object) => {
+        console.warn('>>>', error); // eslint-disable-line no-console
+      });
   }
 
-  render() {
+  render(): any {
     const customStyles = {
       unstyled: {
         fontSize: 18,

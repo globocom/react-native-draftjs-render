@@ -62,6 +62,7 @@
       }
     ]
   },
+  "globals": { "fetch": false },
   "settings": {
     "flowtype": {
       "onlyFilesWithFlowAnnotation": true
