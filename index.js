@@ -21,7 +21,7 @@ type RnDraftJsPropsType = {
 };
 
 function RNDraftJS(props: RnDraftJsPropsType): any {
-  const blocks = getBlocks(props);
+  const blocks = getBlocks(props.contentState, props.customStyles);
 
   return (
     <View style={styles.container}>
@@ -40,4 +40,3 @@ RNDraftJS.defaultProps = {
 };
 
 module.exports = RNDraftJS;
-
