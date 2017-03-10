@@ -15,8 +15,13 @@ const styles = {
   },
 };
 
-function RNDraftJS({ contentState, customStyles }) {
-  const blocks = getBlocks(contentState, customStyles);
+type RNDraftJSPropsType = {
+ contentState: Object,
+ customStyles?: Object,
+};
+
+function RNDraftJS(props: RNDraftJSPropsType): any {
+  const blocks = getBlocks(props);
 
   return (
     <View style={styles.container}>
