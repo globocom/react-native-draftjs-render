@@ -23,6 +23,15 @@
       "key": "1kvhr"
     },
     {
+      "entityRanges": [],
+      "depth": 0,
+      "data": {},
+      "inlineStyleRanges": [],
+      "text": "Al\u00e9m do governador",
+      "type": "header-one",
+      "key": "ad9sdfdg5",
+    },
+    {
       "entityRanges": [
         {
           "offset": 99,
@@ -41,6 +50,71 @@
       "text": "O Minist\u00e9rio P\u00fablico Federal (MPF) fez mais uma den\u00fancia \u2014 a sexta \u2014 contra o ex-governador do Rio S\u00e9rgio Cabral. Foi denunciado tamb\u00e9m o doleiro brasileiro preso no Uruguai Vin\u00edcius Clar\u00e9, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
       "type": "unstyled",
       "key": "57ec1"
+   },
+   {
+     "entityRanges": [],
+     "depth": 0,
+     "data": {},
+     "inlineStyleRanges": [],
+     "text": "Al\u00e9m do ex-governador",
+     "type": "header-two",
+     "key": "ad9sdsdfdg5",
+   },
+   {
+     "entityRanges": [
+       {
+         "offset": 99,
+         "key": 0,
+         "length": 13
+       },
+       {
+         "offset": 285,
+         "key": 1,
+         "length": 4
+       }
+     ],
+     "depth": 0,
+     "data": {},
+     "inlineStyleRanges": [],
+     "text": "O Minist\u00e9rio P\u00fablico Federal (MPF) fez mais uma den\u00fancia \u2014 a sexta \u2014 contra o ex-governador do Rio S\u00e9rgio Cabral. Foi denunciado tamb\u00e9m o doleiro brasileiro preso no Uruguai Vin\u00edcius Clar\u00e9, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
+     "type": "unstyled",
+     "key": "5aaa7ec1"
+  },
+   {
+     "entityRanges": [],
+     "depth": 0,
+     "data": {},
+     "inlineStyleRanges": [],
+     "text": "Al\u00e9m do ex-governador",
+     "type": "header-three",
+     "key": "ad9sdsdfdg5sd",
+   },
+   {
+     "entityRanges": [],
+     "depth": 0,
+     "data": {},
+     "inlineStyleRanges": [],
+     "text": "Al\u00e9m do ex-governador",
+     "type": "header-four",
+     "key": "ad9sdsdfdg5four",
+   },
+   {
+     "entityRanges": [],
+     "depth": 0,
+     "data": {},
+     "inlineStyleRanges": [],
+     "text": "Al\u00e9m do ex-governador",
+     "type": "header-five",
+     "key": "ad9sdsdfdg5five",
+   },
+   {
+     "entityRanges": [],
+     "depth": 0,
+     "data": {},
+     "inlineStyleRanges": [],
+     "text": "Al\u00e9m do ex-governador",
+     "type": "header-six",
+     "key": "ad9sdsdfdg5six",
    },
    {
       "entityRanges":[

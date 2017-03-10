@@ -3,6 +3,7 @@
 import React from 'react';
 
 import Paragraph from './components/Paragraph';
+import Header from './components/Header';
 
 function getBlocks(bodyData: Object = {}, customStyles: Object = {}): ?React$Element<*> {
   if (!bodyData.blocks) {
@@ -11,10 +12,23 @@ function getBlocks(bodyData: Object = {}, customStyles: Object = {}): ?React$Ele
 
   return bodyData.blocks
     .map((item: Object): any => {
+      const itemData = {
+        key: item.key,
+        text: item.text,
+        type: item.type,
+      };
+
       switch (item.type) {
         case 'unstyled':
-        // case 'paragraph':
-          return <Paragraph key={item.key} text={item.text} customStyle={customStyles.unstyled} />;
+        case 'paragraph':
+          return <Paragraph {...itemData} customStyle={customStyles.unstyled} />;
+        case 'header-one':
+        case 'header-two':
+        case 'header-three':
+        case 'header-four':
+        case 'header-five':
+        case 'header-six':
+          return <Header {...itemData} customStyle={customStyles[item.type]} />;
 
         default:
           return null;

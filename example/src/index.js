@@ -1,6 +1,6 @@
 // @flow
 
-import React, { Component } from 'react';
+import React from 'react';
 import {
   StyleSheet,
   ScrollView,
@@ -12,34 +12,25 @@ import data from './resourceMock.json';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginLeft: 16,
+    marginRight: 16,
     backgroundColor: '#F5FCFF',
   },
 });
 
-export default class App extends Component {
-  state: {
-    resourceMock: Object,
-  }
-  constructor() {
-    super();
-    this.state = {
-      resourceMock: {},
-    };
-  }
+const customStyles = {
+  unstyled: {
+    fontSize: 18,
+    fontWeight: 'normal',
+    letterSpacing: -0.75,
+    lineHeight: 32,
+  },
+};
 
-  render(): any {
-    const customStyles = {
-      unstyled: {
-        fontSize: 18,
-        fontWeight: 'normal',
-        letterSpacing: -0.75,
-        lineHeight: 32,
-      },
-    };
-    return (
-      <ScrollView style={styles.container}>
-        <RNDraftJS contentState={data} customStyles={customStyles} />
-      </ScrollView>
-    );
-  }
+export default function App(): any {
+  return (
+    <ScrollView style={styles.container}>
+      <RNDraftJS contentState={data} customStyles={customStyles} />
+    </ScrollView>
+  );
 }
