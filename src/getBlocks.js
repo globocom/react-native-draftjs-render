@@ -10,7 +10,7 @@ function getBlocks(bodyData: Object = {}, customStyles: Object = {}): ?React$Ele
   }
 
   return bodyData.blocks
-    .map((item: Object): ?React$Element<*> => {
+    .map((item: Object): any => {
       switch (item.type) {
         case 'unstyled':
         // case 'paragraph':
