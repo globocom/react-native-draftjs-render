@@ -15,12 +15,12 @@ const styles = {
   },
 };
 
-type RNDraftJSPropsType = {
+type RnDraftJsPropsType = {
  contentState: Object,
  customStyles?: Object,
 };
 
-function RNDraftJS(props: RNDraftJSPropsType): any {
+function RNDraftJS(props: RnDraftJsPropsType): any {
   const blocks = getBlocks(props);
 
   return (
