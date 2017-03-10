@@ -17,6 +17,9 @@ const styles = StyleSheet.create({
 });
 
 export default class App extends Component {
+  state: {
+    resourceMock: Object,
+  }
   constructor() {
     super();
     this.state = {
