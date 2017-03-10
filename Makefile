@@ -16,4 +16,7 @@ lint:
 flow:
 	@npm run flow
 
+flow-stop:
+	@npm run flow-stop
+
 check: lint flow test

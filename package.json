@@ -6,7 +6,8 @@
   "scripts": {
     "test": "make test",
     "linter": "eslint .",
-    "flow": "flow"
+    "flow": "flow",
+    "flow-stop": "flow stop"
   },
   "main": "index.js",
   "keywords": [
