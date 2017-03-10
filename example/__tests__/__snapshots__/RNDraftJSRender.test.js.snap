@@ -15,6 +15,24 @@ exports[`renders correctly with contentState 1`] = `
     style={
       Array [
         Object {
+          "fontSize": 32,
+          "fontWeight": "bold",
+          "marginBottom": 22,
+          "marginTop": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
           "fontSize": 14,
           "fontWeight": "normal",
         },
@@ -23,6 +41,112 @@ exports[`renders correctly with contentState 1`] = `
     }
   >
     O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 20,
+          "marginTop": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 19,
+          "fontWeight": "bold",
+          "marginBottom": 19,
+          "marginTop": 19,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginBottom": 21,
+          "marginTop": 21,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 13,
+          "fontWeight": "bold",
+          "marginBottom": 22,
+          "marginTop": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 11,
+          "fontWeight": "bold",
+          "marginBottom": 25,
+          "marginTop": 25,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
   </Text>
   <Text
     accessible={true}
@@ -220,6 +344,24 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     style={
       Array [
         Object {
+          "fontSize": 32,
+          "fontWeight": "bold",
+          "marginBottom": 22,
+          "marginTop": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
           "fontSize": 14,
           "fontWeight": "normal",
         },
@@ -230,6 +372,114 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     }
   >
     O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 20,
+          "marginTop": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 19,
+          "fontWeight": "bold",
+          "marginBottom": 19,
+          "marginTop": 19,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 15,
+          "fontWeight": "bold",
+          "marginBottom": 21,
+          "marginTop": 21,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 13,
+          "fontWeight": "bold",
+          "marginBottom": 22,
+          "marginTop": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 11,
+          "fontWeight": "bold",
+          "marginBottom": 25,
+          "marginTop": 25,
+        },
+        undefined,
+      ]
+    }
+  >
+    Além do ex-governador
   </Text>
   <Text
     accessible={true}
