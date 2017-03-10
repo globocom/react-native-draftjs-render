@@ -4,4 +4,7 @@ ios/**/*.js
 # Ignore flowtype-test
 flowtype-test/index.js
 
-example/**
+example/node_modules/**
+example/android/**
+example/ios/**
+example/__tests__/**
