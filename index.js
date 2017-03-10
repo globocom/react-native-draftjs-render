@@ -15,12 +15,12 @@ const styles = {
   },
 };
 
-type RnDraftJsPropsType = {
+type RnDraftJsRenderPropsType = {
  contentState: Object,
  customStyles?: Object,
 };
 
-function RNDraftJS(props: RnDraftJsPropsType): any {
+function RNDraftJSRender(props: RnDraftJsRenderPropsType): any {
   const blocks = getBlocks(props.contentState, props.customStyles);
 
   return (
@@ -30,13 +30,13 @@ function RNDraftJS(props: RnDraftJsPropsType): any {
   );
 }
 
-RNDraftJS.propTypes = {
+RNDraftJSRender.propTypes = {
   contentState: PropTypes.object.isRequired,
   customStyles: PropTypes.object,
 };
 
-RNDraftJS.defaultProps = {
+RNDraftJSRender.defaultProps = {
   customStyles: {},
 };
 
-module.exports = RNDraftJS;
+module.exports = RNDraftJSRender;
