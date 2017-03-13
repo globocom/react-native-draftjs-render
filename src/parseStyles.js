@@ -6,27 +6,29 @@ import {
 } from 'react-native';
 
 import TextStyled from './components/TextStyled';
+import generateKey from './utils/generateKey';
 
 function parseStyles(text: string, inlineStyles: Array<Object>): any {
   const elementList = [];
 
   if (inlineStyles[0].offset > 0) {
-    elementList.push(<Text key="mykey">{text.substring(0, inlineStyles[0].offset)}</Text>);
+    elementList.push(<Text key={generateKey()}>{text.substring(0, inlineStyles[0].offset)}</Text>);
   }
 
   inlineStyles.forEach((item: Object, index: number) => {
     if (index > 0) {
-      const offset = inlineStyles[index - 1].offset + inlineStyles[index - 1].length;
+      const previousItem = inlineStyles[index - 1];
+      const offset = previousItem.offset + previousItem.length;
       const subText = text.substring(offset, item.offset);
 
       if (subText.length) {
-        elementList.push(<Text key={`mykey${offset}${item.offset}`}>{subText}</Text>);
+        elementList.push(<Text key={generateKey()}>{subText}</Text>);
       }
     }
 
     elementList.push((
       <TextStyled
-        key={`mykey${item.offset}`}
+        key={generateKey()}
         type={item.style ? item.style.toLowerCase() : ''}
         text={text.substring(item.offset, item.offset + item.length)}
       />
@@ -34,12 +36,11 @@ function parseStyles(text: string, inlineStyles: Array<Object>): any {
   });
 
   const lastItem = inlineStyles[inlineStyles.length - 1];
-
   const offset = lastItem.offset + lastItem.length;
   const subText = text.substring(offset, text.length);
 
   if (subText.length) {
-    elementList.push(<Text key={`mykey${offset}${lastItem.offset}`}>{subText}</Text>);
+    elementList.push(<Text key={generateKey()}>{subText}</Text>);
   }
 
   return elementList;
