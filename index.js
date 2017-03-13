@@ -18,10 +18,11 @@ const styles = {
 type RnDraftJsRenderPropsType = {
  contentState: Object,
  customStyles?: Object,
+ atomicHandler: Function,
 };
 
 function RNDraftJSRender(props: RnDraftJsRenderPropsType): any {
-  const blocks = getBlocks(props.contentState, props.customStyles);
+  const blocks = getBlocks(props.contentState, props.customStyles, props.atomicHandler);
 
   return (
     <View style={styles.container}>
@@ -33,10 +34,12 @@ function RNDraftJSRender(props: RnDraftJsRenderPropsType): any {
 RNDraftJSRender.propTypes = {
   contentState: PropTypes.object.isRequired,
   customStyles: PropTypes.object,
+  atomicHandler: PropTypes.func,
 };
 
 RNDraftJSRender.defaultProps = {
   customStyles: {},
+  atomicHandler: (): any => null,
 };
 
 module.exports = RNDraftJSRender;

@@ -5,7 +5,9 @@ import React from 'react';
 import Paragraph from './components/Paragraph';
 import Header from './components/Header';
 
-function getBlocks(bodyData: Object = {}, customStyles: Object = {}): ?React$Element<*> {
+function getBlocks(bodyData: Object = {},
+  customStyles: Object = {},
+  atomicHandler: Function): ?React$Element<*> {
   if (!bodyData.blocks) {
     return null;
   }
@@ -30,6 +32,8 @@ function getBlocks(bodyData: Object = {}, customStyles: Object = {}): ?React$Ele
         case 'header-five':
         case 'header-six':
           return <Header {...itemData} customStyle={customStyles[item.type]} />;
+        case 'atomic':
+          return atomicHandler(item);
 
         default:
           return null;
