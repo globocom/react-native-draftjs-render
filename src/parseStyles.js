@@ -14,7 +14,7 @@ function parseStyles(text: string, inlineStyles: Array<Object>): any {
     elementList.push(<Text key="mykey">{text.substring(0, inlineStyles[0].offset)}</Text>);
   }
 
-  inlineStyles.forEach((item: Object, index: Number): Object => {
+  inlineStyles.forEach((item: Object, index: number) => {
     if (index > 0) {
       const offset = inlineStyles[index - 1].offset + inlineStyles[index - 1].length;
       const subText = text.substring(offset, item.offset);
@@ -27,7 +27,7 @@ function parseStyles(text: string, inlineStyles: Array<Object>): any {
     elementList.push((
       <TextStyled
         key={`mykey${item.offset}`}
-        type={item.style ? item.style.toLowerCase() : undefined}
+        type={item.style ? item.style.toLowerCase() : ''}
         text={text.substring(item.offset, item.offset + item.length)}
       />
     ));
