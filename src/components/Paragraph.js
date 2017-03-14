@@ -6,12 +6,15 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import parseStyles from '../parseStyles';
+import loadAttributes from '../loadAttributes';
 
 type ParagraphPropsType = {
  text: string,
  customStyle?: any,
  inlineStyles: Array<Object>,
+ entityRanges: Array<Object>,
+ entityMap: Object,
+ navigate: Function,
 };
 
 const styles = StyleSheet.create({
@@ -23,11 +26,16 @@ const styles = StyleSheet.create({
 
 const Paragraph = (props: ParagraphPropsType): any => {
   let textElements = props.text;
-  if (props.inlineStyles.length) {
-    textElements = parseStyles(props.text, props.inlineStyles);
-  }
 
-  if (props.text) {
+  textElements = loadAttributes(
+    props.text,
+    props.inlineStyles,
+    props.entityRanges,
+    props.entityMap,
+    props.navigate,
+  );
+
+  if (textElements) {
     return (<Text
       style={[styles.paragraph, props.customStyle]}
     >{textElements}</Text>);

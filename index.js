@@ -19,10 +19,12 @@ type RnDraftJsRenderPropsType = {
  contentState: Object,
  customStyles?: Object,
  atomicHandler: Function,
+ navigate: Function,
 };
 
 function RNDraftJSRender(props: RnDraftJsRenderPropsType): any {
-  const blocks = getBlocks(props.contentState, props.customStyles, props.atomicHandler);
+  const blocks = getBlocks(
+    props.contentState, props.customStyles, props.atomicHandler, props.navigate);
 
   return (
     <View style={styles.container}>

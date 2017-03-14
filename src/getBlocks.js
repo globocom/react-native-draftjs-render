@@ -5,9 +5,11 @@ import React from 'react';
 import Paragraph from './components/Paragraph';
 import Header from './components/Header';
 
-function getBlocks(bodyData: Object = {},
+function getBlocks(
+  bodyData: Object = {},
   customStyles: Object = {},
-  atomicHandler: Function): ?React$Element<*> {
+  atomicHandler: Function,
+  navigate: Function): ?React$Element<*> {
   if (!bodyData.blocks) {
     return null;
   }
@@ -19,19 +21,30 @@ function getBlocks(bodyData: Object = {},
         text: item.text,
         type: item.type,
         inlineStyles: item.inlineStyleRanges,
+        entityRanges: item.entityRanges,
       };
 
       switch (item.type) {
         case 'unstyled':
         case 'paragraph':
-          return <Paragraph {...itemData} customStyle={customStyles.unstyled} />;
+          return (
+            <Paragraph
+              {...itemData}
+              entityMap={bodyData.entityMap}
+              customStyle={customStyles.unstyled}
+              navigate={navigate}
+            />);
         case 'header-one':
         case 'header-two':
         case 'header-three':
         case 'header-four':
         case 'header-five':
         case 'header-six':
-          return <Header {...itemData} customStyle={customStyles[item.type]} />;
+          return (
+            <Header
+              {...itemData}
+              customStyle={customStyles[item.type]}
+            />);
         case 'atomic':
           return atomicHandler(item);
 
