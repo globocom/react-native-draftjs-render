@@ -24,8 +24,12 @@ const styles = StyleSheet.create({
   },
 });
 
-const TextStyled = (props: TextStyledPropsType): any =>
-  <Text style={styles[props.type]} onPress={props.onPress}>{props.text}</Text>;
+const TextStyled = (props: TextStyledPropsType): any => {
+  if (props.onPress) {
+    return <Text style={styles[props.type]} onPress={props.onPress}>{props.text}</Text>;
+  }
+  return <Text style={styles[props.type]}>{props.text}</Text>;
+};
 
 TextStyled.propTypes = {
   text: React.PropTypes.string,
@@ -34,7 +38,7 @@ TextStyled.propTypes = {
 
 TextStyled.defaultProps = {
   text: '',
-  onPress: (): any => null,
+  onPress: undefined,
 };
 
 export default TextStyled;

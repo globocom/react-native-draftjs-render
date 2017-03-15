@@ -40,7 +40,53 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Sérgio Cabral
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      . Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      RJTV
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       desta quarta-feira (8).
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -74,7 +120,53 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Sérgio Cabral
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      . Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      RJTV
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       desta quarta-feira (8).
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -162,7 +254,33 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Eike Batista
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -178,7 +296,13 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -194,7 +318,13 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -210,7 +340,13 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -261,7 +397,13 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -277,7 +419,13 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -293,7 +441,26 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    Juca Bala e Claudio foram presos no Uruguai na última sexta-feira (3).  Eles estavam na difusão vermelha da Interpol, a polícia internacional, e foram presos em ação conjunta da polícia do Uruguai com a Polícia Federal brasileira.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Juca Bala e Claudio foram presos no Uruguai 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      na última sexta-feira (3).  Eles estavam na difusão vermelha da Interpol, a polícia internacional, e foram presos em ação conjunta da polícia do Uruguai com a Polícia Federal brasileira.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -344,7 +511,33 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    Uma reportagem do Jornal Nacional mostrou que Juca Bala não usava o número de telefone preso na porta da loja dele apenas para vender pranchas. Era também o contato do doleiro com o setor de operações estruturadas da Odebrecht, mais conhecido como departamento de propina.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Uma reportagem do 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Jornal Nacional 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      mostrou que Juca Bala não usava o número de telefone preso na porta da loja dele apenas para vender pranchas. Era também o contato do doleiro com o setor de operações estruturadas da Odebrecht, mais conhecido como departamento de propina.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -432,7 +625,53 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Sérgio Cabral
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      . Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      RJTV
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       desta quarta-feira (8).
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -468,7 +707,53 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Sérgio Cabral
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      . Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      RJTV
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       desta quarta-feira (8).
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -558,7 +843,33 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Eike Batista
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -576,7 +887,13 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -594,7 +911,13 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -612,7 +935,13 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -667,7 +996,13 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -685,7 +1020,13 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -703,7 +1044,26 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    Juca Bala e Claudio foram presos no Uruguai na última sexta-feira (3).  Eles estavam na difusão vermelha da Interpol, a polícia internacional, e foram presos em ação conjunta da polícia do Uruguai com a Polícia Federal brasileira.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Juca Bala e Claudio foram presos no Uruguai 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      na última sexta-feira (3).  Eles estavam na difusão vermelha da Interpol, a polícia internacional, e foram presos em ação conjunta da polícia do Uruguai com a Polícia Federal brasileira.
+    </Text>
   </Text>
   <Text
     accessible={true}
@@ -758,7 +1118,33 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    Uma reportagem do Jornal Nacional mostrou que Juca Bala não usava o número de telefone preso na porta da loja dele apenas para vender pranchas. Era também o contato do doleiro com o setor de operações estruturadas da Odebrecht, mais conhecido como departamento de propina.
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Uma reportagem do 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      Jornal Nacional 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      mostrou que Juca Bala não usava o número de telefone preso na porta da loja dele apenas para vender pranchas. Era também o contato do doleiro com o setor de operações estruturadas da Odebrecht, mais conhecido como departamento de propina.
+    </Text>
   </Text>
   <Text
     accessible={true}
