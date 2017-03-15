@@ -296,13 +296,7 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
-    </Text>
+    O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
   </Text>
   <Text
     accessible={true}
@@ -318,13 +312,7 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
-    </Text>
+    Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
   </Text>
   <Text
     accessible={true}
@@ -340,13 +328,7 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
-    </Text>
+    Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
   </Text>
   <Text
     accessible={true}
@@ -397,13 +379,7 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
-    </Text>
+    Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
   </Text>
   <Text
     accessible={true}
@@ -419,13 +395,7 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
-    </Text>
+    Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
   </Text>
   <Text
     accessible={true}
@@ -887,13 +857,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
-    </Text>
+    O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.
   </Text>
   <Text
     accessible={true}
@@ -911,13 +875,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
-    </Text>
+    Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.
   </Text>
   <Text
     accessible={true}
@@ -935,13 +893,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
-    </Text>
+    Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.
   </Text>
   <Text
     accessible={true}
@@ -996,13 +948,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
-    </Text>
+    Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.
   </Text>
   <Text
     accessible={true}
@@ -1020,13 +966,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
-    </Text>
+    Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.
   </Text>
   <Text
     accessible={true}

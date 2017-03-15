@@ -7,10 +7,7 @@ exports[`extends a style with a customStyle 1`] = `
   ellipsizeMode="tail"
   style={
     Array [
-      Object {
-        "fontSize": 14,
-        "fontWeight": "normal",
-      },
+      undefined,
       Object {
         "fontSize": 18,
         "fontWeight": "normal",
@@ -20,13 +17,7 @@ exports[`extends a style with a customStyle 1`] = `
     ]
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
-    Hello World
-  </Text>
+  Hello World
 </Text>
 `;
 
@@ -37,21 +28,12 @@ exports[`renders correctly with a text 1`] = `
   ellipsizeMode="tail"
   style={
     Array [
-      Object {
-        "fontSize": 14,
-        "fontWeight": "normal",
-      },
+      undefined,
       undefined,
     ]
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
-    Hello World
-  </Text>
+  Hello World
 </Text>
 `;
 

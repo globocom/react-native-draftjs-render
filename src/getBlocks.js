@@ -2,8 +2,7 @@
 
 import React from 'react';
 
-import Paragraph from './components/Paragraph';
-import Header from './components/Header';
+import DraftJsText from './components/DraftJsText';
 
 const getBlocks = (
   bodyData: Object = {},
@@ -27,13 +26,6 @@ const getBlocks = (
       switch (item.type) {
         case 'unstyled':
         case 'paragraph':
-          return (
-            <Paragraph
-              {...itemData}
-              entityMap={bodyData.entityMap}
-              customStyle={customStyles.unstyled}
-              navigate={navigate}
-            />);
         case 'header-one':
         case 'header-two':
         case 'header-three':
@@ -41,9 +33,11 @@ const getBlocks = (
         case 'header-five':
         case 'header-six':
           return (
-            <Header
+            <DraftJsText
               {...itemData}
+              entityMap={bodyData.entityMap}
               customStyle={customStyles[item.type]}
+              navigate={navigate}
             />);
         case 'atomic':
           return atomicHandler(item);

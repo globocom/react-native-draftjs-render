@@ -3,12 +3,12 @@ import 'react-native';
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Paragraph from '../../../src/components/Paragraph';
+import DraftJsText from '../../../src/components/DraftJsText';
 
 it('renders correctly with a text', () => {
   const text = 'Hello World';
   const tree = renderer.create(
-    <Paragraph
+    <DraftJsText
       text={text}
       inlineStyles={[]}
       entityRanges={[]}
@@ -20,7 +20,7 @@ it('renders correctly with a text', () => {
 
 it('renders null without a text', () => {
   const tree = renderer.create(
-    <Paragraph />
+    <DraftJsText />
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -34,7 +34,7 @@ it('extends a style with a customStyle', () => {
     lineHeight: 32,
   };
   const tree = renderer.create(
-    <Paragraph
+    <DraftJsText
       text={text}
       customStyle={customStyle}
       inlineStyles={[]}

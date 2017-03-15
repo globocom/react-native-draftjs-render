@@ -1,18 +1,16 @@
-// @flow
-
-import React from 'react';
 import {
-  Text,
   StyleSheet,
 } from 'react-native';
 
-type HeaderPropsType = {
- text: string,
- customStyle?: any,
- type: string,
-};
-
-const styles = StyleSheet.create({
+const defaultStyles = StyleSheet.create({
+  paragraph: {
+    fontSize: 14,
+    fontWeight: 'normal',
+  },
+  unstyled: {
+    fontSize: 14,
+    fontWeight: 'normal',
+  },
   'header-one': {
     fontSize: 32,
     fontWeight: 'bold',
@@ -51,20 +49,4 @@ const styles = StyleSheet.create({
   },
 });
 
-const Header = (props: HeaderPropsType): any => (
-  <Text
-    style={[styles[props.type], props.customStyle]}
-  >{props.text}</Text>
-);
-
-Header.propTypes = {
-  text: React.PropTypes.string.isRequired,
-  customStyle: React.PropTypes.any,
-  type: React.PropTypes.string.isRequired,
-};
-
-Header.defaultProps = {
-  customStyle: undefined,
-};
-
-export default Header;
+export default defaultStyles;

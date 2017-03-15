@@ -94,7 +94,7 @@ const loadAttributes = (
       elementList.push(<Text key={generateKey()}>{subText}</Text>);
     }
   } else {
-    elementList.push(<Text key={generateKey()}>{text}</Text>);
+    elementList.push(text);
   }
 
   return elementList;

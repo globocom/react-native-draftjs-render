@@ -3,28 +3,23 @@
 import React from 'react';
 import {
   Text,
-  StyleSheet,
 } from 'react-native';
 
 import loadAttributes from '../loadAttributes';
 
-type ParagraphPropsType = {
- text: string,
- customStyle?: any,
- inlineStyles: Array<Object>,
- entityRanges: Array<Object>,
- entityMap: Object,
- navigate?: Function,
+import defaultStyles from './defaultStyles';
+
+type DraftJsTextPropsType = {
+  type: string,
+  text: string,
+  customStyle?: any,
+  inlineStyles: Array<Object>,
+  entityRanges: Array<Object>,
+  entityMap: Object,
+  navigate?: Function,
 };
 
-const styles = StyleSheet.create({
-  paragraph: {
-    fontSize: 14,
-    fontWeight: 'normal',
-  },
-});
-
-const Paragraph = (props: ParagraphPropsType): any => {
+const DraftJsText = (props: DraftJsTextPropsType): any => {
   let textElements = props.text;
 
   if (textElements) {
@@ -37,23 +32,23 @@ const Paragraph = (props: ParagraphPropsType): any => {
     );
 
     return (<Text
-      style={[styles.paragraph, props.customStyle]}
+      style={[defaultStyles[props.type], props.customStyle]}
     >{textElements}</Text>);
   }
   return null;
 };
 
-Paragraph.propTypes = {
+DraftJsText.propTypes = {
   text: React.PropTypes.string,
   customStyle: React.PropTypes.any,
   inlineStyles: React.PropTypes.array,
 };
 
-Paragraph.defaultProps = {
+DraftJsText.defaultProps = {
   text: '',
   customStyle: undefined,
   inlineStyles: [],
   navigate: undefined,
 };
 
-export default Paragraph;
+export default DraftJsText;
