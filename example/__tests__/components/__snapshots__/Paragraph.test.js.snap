@@ -20,7 +20,13 @@ exports[`extends a style with a customStyle 1`] = `
     ]
   }
 >
-  Hello World
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Hello World
+  </Text>
 </Text>
 `;
 
@@ -39,7 +45,13 @@ exports[`renders correctly with a text 1`] = `
     ]
   }
 >
-  Hello World
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Hello World
+  </Text>
 </Text>
 `;
 

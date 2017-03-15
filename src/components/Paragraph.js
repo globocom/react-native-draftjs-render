@@ -27,15 +27,15 @@ const styles = StyleSheet.create({
 const Paragraph = (props: ParagraphPropsType): any => {
   let textElements = props.text;
 
-  textElements = loadAttributes(
-    props.text,
-    props.inlineStyles,
-    props.entityRanges,
-    props.entityMap,
-    props.navigate,
-  );
-
   if (textElements) {
+    textElements = loadAttributes(
+      props.text,
+      props.inlineStyles,
+      props.entityRanges,
+      props.entityMap,
+      props.navigate,
+    );
+
     return (<Text
       style={[styles.paragraph, props.customStyle]}
     >{textElements}</Text>);

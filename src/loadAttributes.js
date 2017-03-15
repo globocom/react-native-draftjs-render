@@ -82,6 +82,8 @@ function loadAttributes(
     if (subText.length) {
       elementList.push(<Text key={generateKey()}>{subText}</Text>);
     }
+  } else {
+    elementList.push(<Text key={generateKey()}>{text}</Text>);
   }
 
   return elementList;

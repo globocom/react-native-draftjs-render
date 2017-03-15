@@ -8,7 +8,13 @@ import Paragraph from '../../../src/components/Paragraph';
 it('renders correctly with a text', () => {
   const text = 'Hello World';
   const tree = renderer.create(
-    <Paragraph text={text} />
+    <Paragraph
+      text={text}
+      inlineStyles={[]}
+      entityRanges={[]}
+      entityMap={{}}
+      navigate={() => null}
+    />
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -29,7 +35,14 @@ it('extends a style with a customStyle', () => {
     lineHeight: 32,
   };
   const tree = renderer.create(
-    <Paragraph text={text} customStyle={customStyle} />
+    <Paragraph
+      text={text}
+      customStyle={customStyle}
+      inlineStyles={[]}
+      entityRanges={[]}
+      entityMap={{}}
+      navigate={() => null}
+    />
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
