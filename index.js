@@ -19,7 +19,7 @@ type RnDraftJsRenderPropsType = {
  contentState: Object,
  customStyles?: Object,
  atomicHandler: Function,
- navigate: Function,
+ navigate?: Function,
 };
 
 const RNDraftJSRender = (props: RnDraftJsRenderPropsType): any => {
@@ -42,6 +42,7 @@ RNDraftJSRender.propTypes = {
 RNDraftJSRender.defaultProps = {
   customStyles: {},
   atomicHandler: (): any => null,
+  navigate: undefined,
 };
 
 module.exports = RNDraftJSRender;

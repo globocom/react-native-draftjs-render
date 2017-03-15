@@ -13,7 +13,6 @@ it('renders correctly with a text', () => {
       inlineStyles={[]}
       entityRanges={[]}
       entityMap={{}}
-      navigate={() => null}
     />
   ).toJSON();
   expect(tree).toMatchSnapshot();

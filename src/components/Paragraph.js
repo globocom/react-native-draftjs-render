@@ -14,7 +14,7 @@ type ParagraphPropsType = {
  inlineStyles: Array<Object>,
  entityRanges: Array<Object>,
  entityMap: Object,
- navigate: Function,
+ navigate?: Function,
 };
 
 const styles = StyleSheet.create({
@@ -53,6 +53,7 @@ Paragraph.defaultProps = {
   text: '',
   customStyle: undefined,
   inlineStyles: [],
+  navigate: undefined,
 };
 
 export default Paragraph;

@@ -3,6 +3,7 @@
 import React from 'react';
 import {
   Text,
+  Linking,
 } from 'react-native';
 
 import TextStyled from './components/TextStyled';
@@ -28,7 +29,9 @@ const getItemType = (item: Object): string => {
 };
 
 const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => {
-  if (item.key !== undefined) return () => { navigate(entityMap[item.key].data.url); };
+  if (item.key !== undefined) {
+    return () => { navigate(entityMap[item.key].data.url); };
+  }
   return undefined;
 };
 
@@ -37,7 +40,15 @@ const loadAttributes = (
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
   entityMap: Object,
-  navigate: Function): any => {
+  navigate?: Function): any => {
+  let navigateFunction;
+  if (navigate) {
+    navigateFunction = navigate;
+  } else {
+    navigateFunction = (url: string) => {
+      Linking.openURL(url);
+    };
+  }
   const elementList = [];
   let attributes = inlineStyles ? inlineStyles.concat(entityRanges) : entityRanges;
   attributes = attributes.sort((a: Object, b: Object): number => a.offset - b.offset);
@@ -67,7 +78,7 @@ const loadAttributes = (
         text: text.substring(item.offset, item.offset + item.length),
       });
 
-      const itemOnPress = getItemOnPress(item, entityMap, navigate);
+      const itemOnPress = getItemOnPress(item, entityMap, navigateFunction);
       if (itemOnPress !== undefined) Object.assign(itemData, { onPress: itemOnPress });
 
       elementList.push((

@@ -45,11 +45,6 @@ const atomicHandler = (item: Object): any => {
   }
 };
 
-const navigate = (url: string): any => {
-  console // eslint-disable-line no-console
-    .log(url);
-};
-
 export default function App(): any {
   return (
     <ScrollView style={styles.container}>
@@ -57,7 +52,6 @@ export default function App(): any {
         contentState={data}
         customStyles={customStyles}
         atomicHandler={atomicHandler}
-        navigate={navigate}
       />
     </ScrollView>
   );

@@ -9,7 +9,7 @@ const getBlocks = (
   bodyData: Object = {},
   customStyles: Object = {},
   atomicHandler: Function,
-  navigate: Function): ?React$Element<*> => {
+  navigate?: Function): ?React$Element<*> => {
   if (!bodyData.blocks) {
     return null;
   }
