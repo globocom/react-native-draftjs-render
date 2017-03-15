@@ -5,11 +5,11 @@ import React from 'react';
 import Paragraph from './components/Paragraph';
 import Header from './components/Header';
 
-function getBlocks(
+const getBlocks = (
   bodyData: Object = {},
   customStyles: Object = {},
   atomicHandler: Function,
-  navigate: Function): ?React$Element<*> {
+  navigate: Function): ?React$Element<*> => {
   if (!bodyData.blocks) {
     return null;
   }
@@ -52,6 +52,6 @@ function getBlocks(
           return null;
       }
     });
-}
+};
 
 module.exports = getBlocks;

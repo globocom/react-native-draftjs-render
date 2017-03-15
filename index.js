@@ -22,7 +22,7 @@ type RnDraftJsRenderPropsType = {
  navigate: Function,
 };
 
-function RNDraftJSRender(props: RnDraftJsRenderPropsType): any {
+const RNDraftJSRender = (props: RnDraftJsRenderPropsType): any => {
   const blocks = getBlocks(
     props.contentState, props.customStyles, props.atomicHandler, props.navigate);
 
@@ -31,7 +31,7 @@ function RNDraftJSRender(props: RnDraftJsRenderPropsType): any {
       { blocks }
     </View>
   );
-}
+};
 
 RNDraftJSRender.propTypes = {
   contentState: PropTypes.object.isRequired,

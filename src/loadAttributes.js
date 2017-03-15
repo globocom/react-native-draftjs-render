@@ -8,7 +8,7 @@ import {
 import TextStyled from './components/TextStyled';
 import generateKey from './utils/generateKey';
 
-function flatAttributes(attrsList: Array<Object>): Array<Object> {
+const flatAttributes = (attrsList: Array<Object>): Array<Object> => {
   attrsList.reduce((previous: Object, current: Object, index: number): Object => {
     if (previous.offset === current.offset) {
       Object.assign(previous, current);
@@ -19,25 +19,25 @@ function flatAttributes(attrsList: Array<Object>): Array<Object> {
     }
   });
   return attrsList;
-}
+};
 
-function getItemType(item: Object): string {
+const getItemType = (item: Object): string => {
   if (item.key !== undefined) return 'link';
   if (item.style) return item.style.toLowerCase();
   return '';
-}
+};
 
-function getItemOnPress(item: Object, entityMap: Object, navigate: Function) {
+const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => {
   if (item.key !== undefined) return () => { navigate(entityMap[item.key].data.url); };
   return undefined;
-}
+};
 
-function loadAttributes(
+const loadAttributes = (
   text: string,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
   entityMap: Object,
-  navigate: Function): any {
+  navigate: Function): any => {
   const elementList = [];
   let attributes = inlineStyles ? inlineStyles.concat(entityRanges) : entityRanges;
   attributes = attributes.sort((a: Object, b: Object): number => a.offset - b.offset);
@@ -87,6 +87,6 @@ function loadAttributes(
   }
 
   return elementList;
-}
+};
 
 export default loadAttributes;
