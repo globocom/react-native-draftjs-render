@@ -957,6 +957,37 @@ exports[`renders correctly with contentState 1`] = `
       , a medida permitiria que as empresas criassem as próprias regras sobre o despacho de bagagens.
     </Text>
   </Text>
+  <View
+    style={
+      Object {
+        "borderLeftColor": "#eee",
+        "borderLeftWidth": 4,
+        "borderStyle": "solid",
+        "marginBottom": 22,
+        "marginTop": 22,
+        "paddingLeft": 12,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontStyle": "italic",
+            "fontWeight": "normal",
+            "marginLeft": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      “Eu conversava com o Bumlai, tenho profundo respeito. Ele sabe que a relação que tinha comigo não permitia discutir nenhum negócio”, disse Lula.
+    </Text>
+  </View>
 </View>
 `;
 
@@ -1955,5 +1986,36 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       , a medida permitiria que as empresas criassem as próprias regras sobre o despacho de bagagens.
     </Text>
   </Text>
+  <View
+    style={
+      Object {
+        "borderLeftColor": "#eee",
+        "borderLeftWidth": 4,
+        "borderStyle": "solid",
+        "marginBottom": 22,
+        "marginTop": 22,
+        "paddingLeft": 12,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontStyle": "italic",
+            "fontWeight": "normal",
+            "marginLeft": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      “Eu conversava com o Bumlai, tenho profundo respeito. Ele sabe que a relação que tinha comigo não permitia discutir nenhum negócio”, disse Lula.
+    </Text>
+  </View>
 </View>
 `;
