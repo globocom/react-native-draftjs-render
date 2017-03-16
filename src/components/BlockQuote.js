@@ -14,7 +14,7 @@ type BlockQuotePropsType = {
 };
 
 const styles = StyleSheet.create({
-  'blockquoteContainer': {
+  blockquoteContainer: {
     borderLeftColor: '#eee',
     borderLeftWidth: 4,
     borderStyle: 'solid',
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     marginBottom: 22,
     paddingLeft: 12,
   },
-  'blockquote': {
+  blockquote: {
     fontSize: 14,
     fontStyle: 'italic',
     fontWeight: 'normal',
@@ -30,14 +30,13 @@ const styles = StyleSheet.create({
   },
 });
 
-const BlockQuote = (props: BlockQuotePropsType): any => {
-  return (<View style={styles.blockquoteContainer}>
-      <Text
-        style={[styles[props.type], props.customStyle]}
-      >{props.text}</Text>
-    </View>
-  )
-};
+const BlockQuote = (props: BlockQuotePropsType): any => (
+  <View style={styles.blockquoteContainer}>
+    <Text
+      style={[styles[props.type], props.customStyle]}
+    >{props.text}</Text>
+  </View>
+);
 
 BlockQuote.propTypes = {
   text: React.PropTypes.string.isRequired,
