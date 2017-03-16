@@ -55,6 +55,12 @@ const defaultStyles = StyleSheet.create({
     backgroundColor: '#cecece',
     padding: 16,
   },
+  blockquote: {
+    fontSize: 14,
+    fontStyle: 'italic',
+    fontWeight: 'normal',
+    marginLeft: 16,
+  },
 });
 
 export default defaultStyles;

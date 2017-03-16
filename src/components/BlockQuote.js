@@ -17,12 +17,6 @@ const styles = StyleSheet.create({
     marginBottom: 22,
     paddingLeft: 12,
   },
-  blockquote: {
-    fontSize: 14,
-    fontStyle: 'italic',
-    fontWeight: 'normal',
-    marginLeft: 16,
-  },
 });
 
 const BlockQuote = (props: Object): any => {
@@ -33,7 +27,6 @@ const BlockQuote = (props: Object): any => {
   return (
     <View style={[styles.blockquoteContainer, blockquoteCustomStyleContainer]}>
       <DraftJsText
-        style={[styles[props.type], props.customStyles]}
         {...props}
       />
     </View>);
