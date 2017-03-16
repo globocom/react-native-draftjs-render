@@ -1,5 +1,6 @@
 import {
   StyleSheet,
+  Platform,
 } from 'react-native';
 
 const defaultStyles = StyleSheet.create({
@@ -53,6 +54,7 @@ const defaultStyles = StyleSheet.create({
   },
   'code-block': {
     backgroundColor: '#cecece',
+    fontFamily: Platform.OS === 'android' ? 'monospace' : 'Courier New',
     padding: 16,
   },
   blockquote: {

@@ -120,7 +120,7 @@
       "depth": 0,
       "data": {},
       "inlineStyleRanges": [],
-      "text": "O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
+      "text": "'code-block': {\n  backgroundColor: '#cecece',\n  fontFamily: 'Courier New',\n  padding: 16,\n},",
       "type": "code-block",
       "key": "5aaa7ec3"
     },
