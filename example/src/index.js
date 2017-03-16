@@ -70,6 +70,15 @@ const customStyles = {
   'code-block': {
     backgroundColor: '#e2e2e2',
   },
+  blockquote: {
+    fontWeight: 'bold',
+    color: '#333',
+    lineHeight: 33,
+    paddingTop: 24,
+    marginBottom: 24,
+    fontSize: 33,
+    letterSpacing: -2,
+  },
 };
 
 const atomicHandler = (item: Object): any => {
