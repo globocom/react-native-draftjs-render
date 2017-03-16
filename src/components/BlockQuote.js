@@ -2,16 +2,11 @@
 
 import React from 'react';
 import {
-  Text,
   StyleSheet,
   View,
 } from 'react-native';
 
-type BlockQuotePropsType = {
- text: string,
- customStyle?: any,
- type: string,
-};
+import DraftJsText from '../components/DraftJsText';
 
 const styles = StyleSheet.create({
   blockquoteContainer: {
@@ -30,22 +25,29 @@ const styles = StyleSheet.create({
   },
 });
 
-const BlockQuote = (props: BlockQuotePropsType): any => (
-  <View style={styles.blockquoteContainer}>
-    <Text
-      style={[styles[props.type], props.customStyle]}
-    >{props.text}</Text>
-  </View>
-);
+const BlockQuote = (props: Object): any => {
+  const blockquoteCustomStyleContainer = props.customStyles ?
+    props.customStyles.blockquoteContainer :
+    undefined;
+
+  return (
+    <View style={[styles.blockquoteContainer, blockquoteCustomStyleContainer]}>
+      <DraftJsText
+        style={[styles[props.type], props.customStyles]}
+        {...props}
+      />
+    </View>);
+};
 
 BlockQuote.propTypes = {
   text: React.PropTypes.string.isRequired,
-  customStyle: React.PropTypes.any,
+  customStyles: React.PropTypes.any,
   type: React.PropTypes.string.isRequired,
 };
 
 BlockQuote.defaultProps = {
-  customStyle: undefined,
+  customStyles: undefined,
+  type: '',
 };
 
 export default BlockQuote;

@@ -49,7 +49,13 @@ const getBlocks = (
           ordererCounter = 0;
           return atomicHandler(item);
         case 'blockquote':
-          return <BlockQuote {...itemData} />;
+          return (
+            <BlockQuote
+              {...itemData}
+              entityMap={bodyData.entityMap}
+              customStyles={customStyles}
+              navigate={navigate}
+            />);
         case 'unordered-list-item':
           ordererCounter = 0;
           return (
