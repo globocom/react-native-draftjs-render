@@ -1199,14 +1199,17 @@ exports[`renders correctly with contentState 1`] = `
   </Text>
   <View
     style={
-      Object {
-        "borderLeftColor": "#eee",
-        "borderLeftWidth": 4,
-        "borderStyle": "solid",
-        "marginBottom": 22,
-        "marginTop": 22,
-        "paddingLeft": 12,
-      }
+      Array [
+        Object {
+          "borderLeftColor": "#eee",
+          "borderLeftWidth": 4,
+          "borderStyle": "solid",
+          "marginBottom": 22,
+          "marginTop": 22,
+          "paddingLeft": 12,
+        },
+        undefined,
+      ]
     }
   >
     <Text
@@ -1215,12 +1218,7 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontSize": 14,
-            "fontStyle": "italic",
-            "fontWeight": "normal",
-            "marginLeft": 16,
-          },
+          undefined,
           undefined,
         ]
       }
@@ -2470,14 +2468,17 @@ exports[`renders correctly with contentState and customStyle 1`] = `
   </Text>
   <View
     style={
-      Object {
-        "borderLeftColor": "#eee",
-        "borderLeftWidth": 4,
-        "borderStyle": "solid",
-        "marginBottom": 22,
-        "marginTop": 22,
-        "paddingLeft": 12,
-      }
+      Array [
+        Object {
+          "borderLeftColor": "#eee",
+          "borderLeftWidth": 4,
+          "borderStyle": "solid",
+          "marginBottom": 22,
+          "marginTop": 22,
+          "paddingLeft": 12,
+        },
+        undefined,
+      ]
     }
   >
     <Text
@@ -2486,12 +2487,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          Object {
-            "fontSize": 14,
-            "fontStyle": "italic",
-            "fontWeight": "normal",
-            "marginLeft": 16,
-          },
+          undefined,
           undefined,
         ]
       }
