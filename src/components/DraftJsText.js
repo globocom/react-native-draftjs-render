@@ -12,7 +12,7 @@ import defaultStyles from './defaultStyles';
 type DraftJsTextPropsType = {
   type: string,
   text: string,
-  customStyle?: any,
+  customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
   entityMap: Object,
@@ -25,14 +25,17 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
   if (textElements) {
     textElements = loadAttributes(
       props.text,
+      props.customStyles,
       props.inlineStyles,
       props.entityRanges,
       props.entityMap,
       props.navigate,
     );
 
+    const customStyle = props.customStyles ? props.customStyles[props.type] : undefined;
+
     return (<Text
-      style={[defaultStyles[props.type], props.customStyle]}
+      style={[defaultStyles[props.type], customStyle]}
     >{textElements}</Text>);
   }
   return null;
@@ -40,13 +43,13 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
 
 DraftJsText.propTypes = {
   text: React.PropTypes.string,
-  customStyle: React.PropTypes.any,
+  customStyles: React.PropTypes.any,
   inlineStyles: React.PropTypes.array,
 };
 
 DraftJsText.defaultProps = {
   text: '',
-  customStyle: undefined,
+  customStyles: {},
   inlineStyles: [],
   navigate: undefined,
 };

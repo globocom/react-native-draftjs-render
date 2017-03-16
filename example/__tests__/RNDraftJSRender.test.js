@@ -18,6 +18,9 @@ it('renders correctly with contentState and customStyle', () => {
     unstyled: {
       fontSize: 18,
     },
+    italic: {
+      fontSize: 20,
+    },
   };
   const tree = renderer.create(
     <RNDraftJSRender contentState={data} customStyles={customStyles} />

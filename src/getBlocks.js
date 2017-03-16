@@ -36,7 +36,7 @@ const getBlocks = (
             <DraftJsText
               {...itemData}
               entityMap={bodyData.entityMap}
-              customStyle={customStyles[item.type]}
+              customStyles={customStyles}
               navigate={navigate}
             />);
         case 'atomic':

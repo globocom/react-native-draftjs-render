@@ -8,6 +8,7 @@ import {
 type TextStyledPropsType = {
  text: string,
  type: any,
+ customStyles: any,
  onPress?: Function,
 };
 
@@ -23,18 +24,21 @@ const styles = {
   },
 };
 
-const getStyles = (itemType: any): any => {
-  if (typeof itemType === 'string') return styles[itemType];
+const getStyles = (itemType: any, customStyles: Object): any => {
+  if (typeof itemType === 'string') return [styles[itemType], customStyles[itemType]];
 
-  const newStyles = {};
+  const defaultTextStyles = {};
+  const customTextStyles = {};
   itemType.forEach((i: string) => {
-    Object.assign(newStyles, styles[i]);
+    Object.assign(defaultTextStyles, styles[i]);
+    Object.assign(customTextStyles, customStyles[i]);
   });
+  const newStyles = [defaultTextStyles, customTextStyles];
   return newStyles;
 };
 
 const TextStyled = (props: TextStyledPropsType): any => {
-  const textStyle = getStyles(props.type);
+  const textStyle = getStyles(props.type, props.customStyles);
 
   if (props.onPress) {
     return <Text style={textStyle} onPress={props.onPress}>{props.text}</Text>;

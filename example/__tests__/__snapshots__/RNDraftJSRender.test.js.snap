@@ -53,9 +53,12 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Sérgio Cabral
@@ -73,9 +76,12 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       RJTV
@@ -133,9 +139,12 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Sérgio Cabral
@@ -153,9 +162,12 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       RJTV
@@ -267,9 +279,12 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Eike Batista
@@ -349,9 +364,12 @@ exports[`renders correctly with contentState 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
       }
     >
       Sexta denúncia
@@ -417,9 +435,12 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Juca Bala e Claudio foram presos no Uruguai 
@@ -451,9 +472,12 @@ exports[`renders correctly with contentState 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
       }
     >
       Contato com a Odebrecht
@@ -494,9 +518,12 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Jornal Nacional 
@@ -535,9 +562,12 @@ exports[`renders correctly with contentState 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontStyle": "italic",
-        }
+        Array [
+          Object {
+            "fontStyle": "italic",
+          },
+          undefined,
+        ]
       }
     >
       (veja mais no vídeo abaixo)
@@ -576,10 +606,13 @@ exports[`renders correctly with contentState 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontStyle": "italic",
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontStyle": "italic",
+            "fontWeight": "bold",
+          },
+          Object {},
+        ]
       }
     >
       Agência Nacional de Aviação Civil (Anac)
@@ -619,10 +652,13 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "fontWeight": "bold",
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+            "textDecorationLine": "underline",
+          },
+          Object {},
+        ]
       }
     >
       internacionais
@@ -709,9 +745,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Sérgio Cabral
@@ -729,9 +768,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       RJTV
@@ -791,9 +833,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Sérgio Cabral
@@ -811,9 +856,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       RJTV
@@ -927,9 +975,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Eike Batista
@@ -1017,9 +1068,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
       }
     >
       Sexta denúncia
@@ -1091,9 +1145,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Juca Bala e Claudio foram presos no Uruguai 
@@ -1127,9 +1184,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
       }
     >
       Contato com a Odebrecht
@@ -1172,9 +1232,12 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "textDecorationLine": "underline",
+          },
+          undefined,
+        ]
       }
     >
       Jornal Nacional 
@@ -1215,9 +1278,14 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontStyle": "italic",
-        }
+        Array [
+          Object {
+            "fontStyle": "italic",
+          },
+          Object {
+            "fontSize": 20,
+          },
+        ]
       }
     >
       (veja mais no vídeo abaixo)
@@ -1258,10 +1326,15 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       allowFontScaling={true}
       ellipsizeMode="tail"
       style={
-        Object {
-          "fontStyle": "italic",
-          "fontWeight": "bold",
-        }
+        Array [
+          Object {
+            "fontStyle": "italic",
+            "fontWeight": "bold",
+          },
+          Object {
+            "fontSize": 20,
+          },
+        ]
       }
     >
       Agência Nacional de Aviação Civil (Anac)
@@ -1303,10 +1376,13 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       onPress={[Function]}
       style={
-        Object {
-          "fontWeight": "bold",
-          "textDecorationLine": "underline",
-        }
+        Array [
+          Object {
+            "fontWeight": "bold",
+            "textDecorationLine": "underline",
+          },
+          Object {},
+        ]
       }
     >
       internacionais

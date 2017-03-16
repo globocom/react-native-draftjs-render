@@ -7,7 +7,10 @@ exports[`extends a style with a customStyle 1`] = `
   ellipsizeMode="tail"
   style={
     Array [
-      undefined,
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
       Object {
         "fontSize": 18,
         "fontWeight": "normal",
@@ -28,7 +31,10 @@ exports[`renders correctly with a text 1`] = `
   ellipsizeMode="tail"
   style={
     Array [
-      undefined,
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
       undefined,
     ]
   }

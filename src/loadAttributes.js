@@ -31,6 +31,7 @@ const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => 
 
 const loadAttributes = (
   text: string,
+  customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
   entityMap: Object,
@@ -70,6 +71,7 @@ const loadAttributes = (
         key: generateKey(),
         type: itemType,
         text: text.substring(item.offset, item.offset + item.length),
+        customStyles,
       });
 
       const itemOnPress = getItemOnPress(item, entityMap, navigateFunction);

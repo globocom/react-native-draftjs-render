@@ -9,6 +9,7 @@ it('renders correctly with a text', () => {
   const text = 'Hello World';
   const tree = renderer.create(
     <DraftJsText
+      type="paragraph"
       text={text}
       inlineStyles={[]}
       entityRanges={[]}
@@ -27,16 +28,19 @@ it('renders null without a text', () => {
 
 it('extends a style with a customStyle', () => {
   const text = 'Hello World';
-  const customStyle = {
-    fontSize: 18,
-    fontWeight: 'normal',
-    letterSpacing: -0.75,
-    lineHeight: 32,
+  const customStyles = {
+    paragraph: {
+      fontSize: 18,
+      fontWeight: 'normal',
+      letterSpacing: -0.75,
+      lineHeight: 32,
+    },
   };
   const tree = renderer.create(
     <DraftJsText
+      type="paragraph"
       text={text}
-      customStyle={customStyle}
+      customStyles={customStyles}
       inlineStyles={[]}
       entityRanges={[]}
       entityMap={{}}

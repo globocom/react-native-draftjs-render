@@ -27,6 +27,11 @@ const customStyles = {
     letterSpacing: -0.75,
     lineHeight: 32,
   },
+  link: {
+    color: '#c4170c',
+    fontWeight: 'bold',
+    textDecorationLine: 'none',
+  },
 };
 
 const atomicHandler = (item: Object): any => {
