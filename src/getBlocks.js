@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+import BlockQuote from './components/BlockQuote';
 import DraftJsText from './components/DraftJsText';
 import UnorderedListItem from './components/UnorderedListItem';
 
@@ -42,6 +43,8 @@ const getBlocks = (
             />);
         case 'atomic':
           return atomicHandler(item);
+        case 'blockquote':
+          return <BlockQuote {...itemData} />;
         case 'unordered-list-item':
           return (
             <UnorderedListItem
