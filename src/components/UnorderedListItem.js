@@ -43,12 +43,10 @@ const UnorderedListItem = (props: Object): any => {
 };
 
 UnorderedListItem.propTypes = {
-  text: React.PropTypes.string,
   customStyles: React.PropTypes.any,
 };
 
 UnorderedListItem.defaultProps = {
-  text: '',
   customStyles: {},
 };
 

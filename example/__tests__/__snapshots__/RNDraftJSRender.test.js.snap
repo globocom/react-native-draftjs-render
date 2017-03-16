@@ -94,6 +94,140 @@ exports[`renders correctly with contentState 1`] = `
        desta quarta-feira (8).
     </Text>
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      1
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "textDecorationLine": "underline",
+            },
+            undefined,
+          ]
+        }
+      >
+        HP Compaq Presario CQ23
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         – R$ 1.099
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      2
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+              "fontWeight": "bold",
+            },
+            Object {},
+          ]
+        }
+      >
+        Positivo Duo
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         ZR3630 – R$ 1.150
+      </Text>
+    </Text>
+  </View>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -252,6 +386,96 @@ exports[`renders correctly with contentState 1`] = `
   >
     Além do ex-governador
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      1
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      Positivo Stilo – R$ 949 
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      2
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      HP Compaq Presario CQ23 – R$ 1.099
+    </Text>
+  </View>
   <View
     style={
       Array [
@@ -1087,6 +1311,142 @@ exports[`renders correctly with contentState and customStyle 1`] = `
        desta quarta-feira (8).
     </Text>
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      1
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "textDecorationLine": "underline",
+            },
+            undefined,
+          ]
+        }
+      >
+        HP Compaq Presario CQ23
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         – R$ 1.099
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      2
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+              "fontWeight": "bold",
+            },
+            Object {
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        Positivo Duo
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         ZR3630 – R$ 1.150
+      </Text>
+    </Text>
+  </View>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -1247,6 +1607,96 @@ exports[`renders correctly with contentState and customStyle 1`] = `
   >
     Além do ex-governador
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      1
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      Positivo Stilo – R$ 949 
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "marginRight": 8,
+          },
+          undefined,
+        ]
+      }
+    >
+      2
+      .
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      HP Compaq Presario CQ23 – R$ 1.099
+    </Text>
+  </View>
   <View
     style={
       Array [

@@ -5,6 +5,7 @@ import React from 'react';
 import BlockQuote from './components/BlockQuote';
 import DraftJsText from './components/DraftJsText';
 import UnorderedListItem from './components/UnorderedListItem';
+import OrderedListItem from './components/OrderedListItem';
 
 const getBlocks = (
   bodyData: Object = {},
@@ -15,6 +16,7 @@ const getBlocks = (
     return null;
   }
 
+  let ordererCounter = 0;
   return bodyData.blocks
     .map((item: Object): any => {
       const itemData = {
@@ -34,6 +36,7 @@ const getBlocks = (
         case 'header-four':
         case 'header-five':
         case 'header-six':
+          ordererCounter = 0;
           return (
             <DraftJsText
               {...itemData}
@@ -42,10 +45,12 @@ const getBlocks = (
               navigate={navigate}
             />);
         case 'atomic':
+          ordererCounter = 0;
           return atomicHandler(item);
         case 'blockquote':
           return <BlockQuote {...itemData} />;
         case 'unordered-list-item':
+          ordererCounter = 0;
           return (
             <UnorderedListItem
               {...itemData}
@@ -53,8 +58,19 @@ const getBlocks = (
               customStyles={customStyles}
               navigate={navigate}
             />);
+        case 'ordered-list-item':
+          ordererCounter += 1;
+          return (
+            <OrderedListItem
+              {...itemData}
+              counter={ordererCounter}
+              entityMap={bodyData.entityMap}
+              customStyles={customStyles}
+              navigate={navigate}
+            />);
 
         default:
+          ordererCounter = 0;
           return null;
       }
     });

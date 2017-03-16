@@ -26,21 +26,46 @@ const customStyles = {
     fontWeight: 'normal',
     letterSpacing: -0.75,
     lineHeight: 32,
+    marginBottom: 21,
   },
   link: {
     color: '#c4170c',
     fontWeight: 'bold',
     textDecorationLine: 'none',
   },
-  unorderedListContainer: {
-    marginBottom: 4,
+  unorderedListItemContainer: {
+    marginBottom: 16,
+    position: 'relative',
   },
-  unorderedListBullet: {
-    backgroundColor: '#c4170c',
-    borderRadius: 0,
+  unorderedListItemBullet: {
+    marginRight: 18,
+    position: 'relative',
+    top: 14,
+    width: 6,
+    height: 6,
+    alignSelf: 'flex-start',
   },
   'unordered-list-item': {
     fontSize: 18,
+    lineHeight: 32,
+    alignSelf: 'flex-start',
+    flex: 1,
+  },
+  orderedListContainer: {
+    marginBottom: 16,
+  },
+  orderedListItemNumber: {
+    fontSize: 18,
+    lineHeight: 32,
+    marginRight: 11,
+    alignSelf: 'flex-start',
+    color: '#c4170c',
+  },
+  'ordered-list-item': {
+    alignSelf: 'flex-start',
+    fontSize: 18,
+    lineHeight: 32,
+    flex: 1,
   },
 };
 

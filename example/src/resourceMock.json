@@ -52,6 +52,41 @@
       "key": "57ec1"
     },
     {
+      "key": "9p0id",
+      "text": "HP Compaq Presario CQ23 – R$ 1.099",
+      "type": "ordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 23,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "bb6hg",
+      "text": "Positivo Duo ZR3630 – R$ 1.150",
+      "type": "ordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "style": "BOLD",
+          "offset": 0,
+          "length": 12
+        },
+        {
+          "style": "ITALIC",
+          "offset": 0,
+          "length": 12
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
       "entityRanges": [],
       "depth": 0,
       "data": {},
