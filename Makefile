@@ -1,11 +1,23 @@
+.PHONY: android ios
+
+help:
+	@echo "Available Targets:"
+	@cat Makefile | egrep '^([-a-zA-Z]+?):' | sed 's/:\(.*\)//g' | sed 's/^/- /g'
+
 setup:
-	@npm install
+	@cd example && npm install
+
+setup-yarn:
+	@yarn config set registry http://artifactory.globoi.com/artifactory/api/npm/npm-repos/fake
+	@cd example && yarn
 
 reset:
 	@watchman watch-del-all
-	@rm -rf node_modules
+	@cd example && rm -rf node_modules
 	@npm cache clean
-	@npm install
+	@cd example && npm install
+
+reset-yarn: reset setup-yarn
 
 test:
 	@cd example && npm test
@@ -23,3 +35,9 @@ flow-stop:
 	@npm run flow-stop
 
 check: lint flow test
+
+ios:
+	@cd example && react-native run-ios
+
+android:
+	@cd example && react-native run-android

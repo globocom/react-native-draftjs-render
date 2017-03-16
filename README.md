@@ -1,6 +1,39 @@
 # React Native Draft.js Render
 A React Native render for [Draft.js](http://draftjs.org/) model.
 
+## Developing
+
+To develope using example react-native project:
+
+```
+git clone git@github.com:globoi/react-native-draftjs-render.git
+cd react-native-draftjs-render/
+make setup
+```
+To run tests:
+
+```
+make tests
+```
+
+To run sample app in iOS:
+
+```
+make ios
+```
+
+To run sample app in iOS:
+
+```
+make android
+```
+
+To run tests, flow, and lint:
+
+```
+make value
+```
+
 ## Getting Started
 Install **React Native Draft.js Render** on your Reat Native project, using NPM or Yarn:
 
