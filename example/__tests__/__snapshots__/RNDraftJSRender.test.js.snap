@@ -252,6 +252,182 @@ exports[`renders correctly with contentState 1`] = `
   >
     Além do ex-governador
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      Positivo Duo ZR3630 – R$ 1.150
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+              "fontWeight": "bold",
+            },
+            Object {},
+          ]
+        }
+      >
+        Acer Aspire ES1
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         – R$ 1.259
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "textDecorationLine": "underline",
+            },
+            undefined,
+          ]
+        }
+      >
+        Positivo Premium
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         – a partir de R$ 1.300
+      </Text>
+    </Text>
+  </View>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -297,6 +473,50 @@ exports[`renders correctly with contentState 1`] = `
        e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
     </Text>
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      Positivo Premium – a partir de R$ 1.300
+    </Text>
+  </View>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -996,6 +1216,184 @@ exports[`renders correctly with contentState and customStyle 1`] = `
   >
     Além do ex-governador
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      Positivo Duo ZR3630 – R$ 1.150
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+              "fontWeight": "bold",
+            },
+            Object {
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        Acer Aspire ES1
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         – R$ 1.259
+      </Text>
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "textDecorationLine": "underline",
+            },
+            undefined,
+          ]
+        }
+      >
+        Positivo Premium
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         – a partir de R$ 1.300
+      </Text>
+    </Text>
+  </View>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -1043,6 +1441,50 @@ exports[`renders correctly with contentState and customStyle 1`] = `
        e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.
     </Text>
   </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "backgroundColor": "black",
+            "borderRadius": 5,
+            "height": 5,
+            "marginRight": 8,
+            "width": 5,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      Positivo Premium – a partir de R$ 1.300
+    </Text>
+  </View>
   <Text
     accessible={true}
     allowFontScaling={true}

@@ -3,6 +3,7 @@
 import React from 'react';
 
 import DraftJsText from './components/DraftJsText';
+import UnorderedListItem from './components/UnorderedListItem';
 
 const getBlocks = (
   bodyData: Object = {},
@@ -41,6 +42,14 @@ const getBlocks = (
             />);
         case 'atomic':
           return atomicHandler(item);
+        case 'unordered-list-item':
+          return (
+            <UnorderedListItem
+              {...itemData}
+              entityMap={bodyData.entityMap}
+              customStyles={customStyles}
+              navigate={navigate}
+            />);
 
         default:
           return null;

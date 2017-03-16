@@ -32,6 +32,16 @@ const customStyles = {
     fontWeight: 'bold',
     textDecorationLine: 'none',
   },
+  unorderedListContainer: {
+    marginBottom: 4,
+  },
+  unorderedListBullet: {
+    backgroundColor: '#c4170c',
+    borderRadius: 0,
+  },
+  'unordered-list-item': {
+    fontSize: 18,
+  },
 };
 
 const atomicHandler = (item: Object): any => {

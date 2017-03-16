@@ -117,6 +117,68 @@
       "key": "ad9sdsdfdg5six"
     },
     {
+      "key": "15ekk",
+      "text": "Positivo Stilo – R$ 949 ",
+      "type": "ordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "9p0ic",
+      "text": "HP Compaq Presario CQ23 – R$ 1.099",
+      "type": "ordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bb6hf",
+      "text": "Positivo Duo ZR3630 – R$ 1.150",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "70tf7",
+      "text": "Acer Aspire ES1 – R$ 1.259",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "style": "BOLD",
+          "offset": 0,
+          "length": 15
+        },
+        {
+          "style": "ITALIC",
+          "offset": 0,
+          "length": 15
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "4cgi8",
+      "text": "Positivo Premium – a partir de R$ 1.300",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 16,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
       "entityRanges": [
         {
           "offset": 79,
@@ -130,6 +192,15 @@
       "text": "A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.",
       "type": "unstyled",
       "key": "fp5av"
+    },
+    {
+      "key": "4cgi9",
+      "text": "Positivo Premium – a partir de R$ 1.300",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
     },
     {
       "entityRanges": [],

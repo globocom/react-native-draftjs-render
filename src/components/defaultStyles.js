@@ -47,6 +47,10 @@ const defaultStyles = StyleSheet.create({
     marginTop: 25,
     marginBottom: 25,
   },
+  'unordered-list-item': {
+    fontSize: 14,
+    fontWeight: 'normal',
+  },
 });
 
 export default defaultStyles;
