@@ -386,7 +386,18 @@
       "text": "O limite de peso de bagagem de mão passaria de 5 para 10 quilos e, na prática, a medida permitiria que as empresas criassem as próprias regras sobre o despacho de bagagens.",
       "type": "unstyled",
       "depth": 0,
-      "inlineStyleRanges": [],
+      "inlineStyleRanges": [
+        {
+          "offset": 2,
+          "length": 32,
+          "style": "UNDERLINE"
+        },
+        {
+          "offset": 67,
+          "length": 10,
+          "style": "STRIKETHROUGH"
+        }
+      ],
       "entityRanges": [],
       "data": {}
     },

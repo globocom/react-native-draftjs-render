@@ -22,6 +22,12 @@ const styles = {
   link: {
     textDecorationLine: 'underline',
   },
+  underline: {
+    textDecorationLine: 'underline',
+  },
+  strikethrough: {
+    textDecorationLine: 'line-through',
+  },
 };
 
 const getStyles = (itemType: any, customStyles: Object): any => {
