@@ -36,6 +36,7 @@ const getBlocks = (
         case 'header-four':
         case 'header-five':
         case 'header-six':
+        case 'code-block':
           ordererCounter = 0;
           return (
             <DraftJsText

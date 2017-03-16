@@ -51,6 +51,10 @@ const defaultStyles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'normal',
   },
+  'code-block': {
+    backgroundColor: '#cecece',
+    padding: 16,
+  },
 });
 
 export default defaultStyles;

@@ -67,6 +67,9 @@ const customStyles = {
     lineHeight: 32,
     flex: 1,
   },
+  'code-block': {
+    backgroundColor: '#e2e2e2',
+  },
 };
 
 const atomicHandler = (item: Object): any => {
