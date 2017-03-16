@@ -36,6 +36,10 @@ flow-stop:
 
 check: lint flow test
 
+sync-src:
+	@rsync -rt src/* example/node_modules/react-native-draftjs-render/src
+	@echo Restart the packager.
+
 ios:
 	@cd example && react-native run-ios
 
