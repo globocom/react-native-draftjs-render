@@ -550,6 +550,107 @@ exports[`renders correctly with contentState 1`] = `
       .
     </Text>
   </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Resolução da 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Agência Nacional de Aviação Civil (Anac)
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       que permitia esse tipo de cobrança passaria a valer nesta terça, mas a Justiça Federal suspendeu a norma nesta segunda (13) em decisão liminar (relembre no vídeo abaixo).
+    </Text>
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Pela regra que havia sido aprovada pela Anac, o passageiro passaria a pagar à parte por bagagens despachadas em voos nacionais e 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "fontWeight": "bold",
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      internacionais
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      .
+    </Text>
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    O limite de peso de bagagem de mão passaria de 5 para 10 quilos e, na prática, a medida permitiria que as empresas criassem as próprias regras sobre o despacho de bagagens.
+  </Text>
 </View>
 `;
 
@@ -1128,6 +1229,113 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     >
       .
     </Text>
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Resolução da 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Agência Nacional de Aviação Civil (Anac)
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+       que permitia esse tipo de cobrança passaria a valer nesta terça, mas a Justiça Federal suspendeu a norma nesta segunda (13) em decisão liminar (relembre no vídeo abaixo).
+    </Text>
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Pela regra que havia sido aprovada pela Anac, o passageiro passaria a pagar à parte por bagagens despachadas em voos nacionais e 
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Object {
+          "fontWeight": "bold",
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      internacionais
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      .
+    </Text>
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+        },
+      ]
+    }
+  >
+    O limite de peso de bagagem de mão passaria de 5 para 10 quilos e, na prática, a medida permitiria que as empresas criassem as próprias regras sobre o despacho de bagagens.
   </Text>
 </View>
 `;

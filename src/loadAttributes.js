@@ -8,23 +8,17 @@ import {
 
 import TextStyled from './components/TextStyled';
 import generateKey from './utils/generateKey';
-
-const flatAttributes = (attrsList: Array<Object>): Array<Object> => {
-  attrsList.reduce((previous: Object, current: Object, index: number): Object => {
-    if (previous.offset === current.offset) {
-      Object.assign(previous, current);
-      attrsList.splice(index, 1);
-      return previous;
-    } else { // eslint-disable-line no-else-return
-      return current;
-    }
-  });
-  return attrsList;
-};
+import flatAttributesList from './flatAttributesList';
 
 const getItemType = (item: Object): string => {
+  if (item.style) {
+    if (Array.isArray(item.style)) {
+      return item.style.map((i: string): string => i.toLowerCase());
+    }
+    return item.style.toLowerCase();
+  }
+
   if (item.key !== undefined) return 'link';
-  if (item.style) return item.style.toLowerCase();
   return '';
 };
 
@@ -54,7 +48,7 @@ const loadAttributes = (
   attributes = attributes.sort((a: Object, b: Object): number => a.offset - b.offset);
 
   if (attributes.length) {
-    const attrs = flatAttributes(attributes);
+    const attrs = flatAttributesList(attributes);
 
     if (attrs[0].offset > 0) {
       elementList.push(<Text key={generateKey()}>{text.substring(0, attrs[0].offset)}</Text>);
