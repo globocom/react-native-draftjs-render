@@ -20,11 +20,13 @@ type RnDraftJsRenderPropsType = {
  customStyles?: Object,
  atomicHandler: Function,
  navigate?: Function,
+ orderedListSeparator?: String,
 };
 
 const RNDraftJSRender = (props: RnDraftJsRenderPropsType): any => {
   const blocks = getBlocks(
-    props.contentState, props.customStyles, props.atomicHandler, props.navigate);
+    props.contentState, props.customStyles, props.atomicHandler,
+    props.navigate, props.orderedListSeparator);
 
   return (
     <View style={styles.container}>
@@ -37,12 +39,15 @@ RNDraftJSRender.propTypes = {
   contentState: PropTypes.object.isRequired,
   customStyles: PropTypes.object,
   atomicHandler: PropTypes.func,
+  navigate: PropTypes.func,
+  orderedListSeparator: PropTypes.string,
 };
 
 RNDraftJSRender.defaultProps = {
   customStyles: {},
   atomicHandler: (): any => null,
   navigate: undefined,
+  orderedListSeparator: '.',
 };
 
 module.exports = RNDraftJSRender;

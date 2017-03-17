@@ -7,6 +7,7 @@ import {
   Image,
   View,
 } from 'react-native';
+
 import RNDraftJS from '../react-native-draftjs-render';
 
 import data from './resourceMock.json';
@@ -87,7 +88,7 @@ const atomicHandler = (item: Object): any => {
       return (
         <View key={item.key} style={{ flex: 1 }}>
           <Image
-            style={{ width: 300, height: 300 }}
+            style={{ width: 288, height: 161 }}
             source={{ uri: item.data.file.url }}
           />
         </View>

@@ -11,7 +11,10 @@ const getBlocks = (
   bodyData: Object = {},
   customStyles: Object = {},
   atomicHandler: Function,
-  navigate?: Function): ?React$Element<*> => {
+  navigate?: Function,
+  orderedListSeparator?: String): ?React$Element<*> => {
+
+  console.log(orderedListSeparator);
   if (!bodyData.blocks) {
     return null;
   }
@@ -49,6 +52,7 @@ const getBlocks = (
           ordererCounter = 0;
           return atomicHandler(item);
         case 'blockquote':
+          ordererCounter = 0;
           return (
             <BlockQuote
               {...itemData}
@@ -70,6 +74,7 @@ const getBlocks = (
           return (
             <OrderedListItem
               {...itemData}
+              separator={orderedListSeparator}
               counter={ordererCounter}
               entityMap={bodyData.entityMap}
               customStyles={customStyles}

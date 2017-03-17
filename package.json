@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "cd example; npm test",
-    "test-reset": "cd example; npm run test-reset",
+    "test": "cd sample; npm test",
+    "test-reset": "cd sample; npm run test-reset",
     "linter": "eslint .",
     "flow": "flow",
     "flow-stop": "flow stop"

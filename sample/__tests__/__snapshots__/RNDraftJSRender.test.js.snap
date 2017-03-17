@@ -322,13 +322,18 @@ exports[`renders correctly with contentState 1`] = `
       Array [
         Object {
           "backgroundColor": "#cecece",
+          "fontFamily": "Courier New",
           "padding": 16,
         },
         undefined,
       ]
     }
   >
-    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+    'code-block': {
+      backgroundColor: '#cecece',
+      fontFamily: 'Courier New',
+      padding: 16,
+    },
   </Text>
   <Text
     accessible={true}
@@ -1562,13 +1567,18 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       Array [
         Object {
           "backgroundColor": "#cecece",
+          "fontFamily": "Courier New",
           "padding": 16,
         },
         undefined,
       ]
     }
   >
-    O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).
+    'code-block': {
+      backgroundColor: '#cecece',
+      fontFamily: 'Courier New',
+      padding: 16,
+    },
   </Text>
   <Text
     accessible={true}
