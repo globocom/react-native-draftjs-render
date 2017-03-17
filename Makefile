@@ -1,3 +1,9 @@
+#
+# Copyright (c) 2017, Globo.com (https://github.com/globocom)
+# Copyright (c) 2013, Payton White (https://github.com/prwhite)
+#
+# License: MIT
+#
 .SILENT:
 .PHONY: android ios help
 
@@ -19,22 +25,24 @@ help:
 
 ## Project setup
 setup:
-	@cd example && npm install
+	@cd example && npm install && npm run sync-lib
 
 ## Setup with yarn
 setup-yarn:
 	@yarn config set registry http://artifactory.globoi.com/artifactory/api/npm/npm-repos/fake
 	@cd example && yarn
 
-## Clean dependencies
-reset:
+## Reset npm environment
+reset-npm:
 	@watchman watch-del-all
 	@cd example && rm -rf node_modules
 	@npm cache clean
-	@cd example && npm install
+
+## Clean dependencies
+reset: reset-npm setup
 
 ## Clean dependencies and reruns setup
-reset-yarn: reset setup-yarn
+reset-yarn: reset-npm setup-yarn
 
 ## Run tests
 test:
@@ -59,10 +67,17 @@ flow-stop:
 ## Checks linter, flow types and run tests
 check: lint flow test
 
-## Restrt the packager
-sync-src:
-	@rsync -rt src/* example/node_modules/react-native-draftjs-render/src
-	@echo Restart the packager.
+## Synchronize lib files with sample app
+sync-lib:
+	@cd example && npm run sync-lib
+
+## Watch lib changes to update sample app
+watch:
+	@cd example && npm run watch-src
+
+## Open iOS project on XCode
+open-ios:
+	open example/ios/react_native_draftjs_render.xcodeproj/
 
 ## Run iOS
 ios:

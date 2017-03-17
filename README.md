@@ -49,6 +49,12 @@ To run tests:
 make tests
 ```
 
+To watch lib changes to appear on Sample App:
+
+```
+make watch
+```
+
 To run sample app in iOS:
 
 ```
@@ -59,10 +65,4 @@ To run sample app in iOS:
 
 ```
 make android
-```
-
-To run tests, flow, and lint:
-
-```
-make check
 ```

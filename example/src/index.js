@@ -7,7 +7,7 @@ import {
   Image,
   View,
 } from 'react-native';
-import RNDraftJS from 'react-native-draftjs-render';
+import RNDraftJS from '../react-native-draftjs-render';
 
 import data from './resourceMock.json';
 

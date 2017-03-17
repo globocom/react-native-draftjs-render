@@ -5,18 +5,21 @@
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest",
-		"test-reset": "jest --updateSnapshot"
+		"test-reset": "jest --updateSnapshot",
+		"sync-lib": "sync-files ../src/ react-native-draftjs-render/src/; sync-files ../index.js react-native-draftjs-render/index.js",
+		"watch-src": "sync-files --watch ../src/ react-native-draftjs-render/src/",
+		"watch-index": "sync-files --watch ../index.js react-native-draftjs-render/index.js"
 	},
 	"dependencies": {
 		"react": "15.4.2",
-		"react-native": "^0.42.0",
-		"react-native-draftjs-render": "../"
+		"react-native": "0.42.0"
 	},
 	"devDependencies": {
 		"babel-jest": "19.0.0",
 		"babel-preset-react-native": "1.9.1",
 		"jest": "19.0.2",
-		"react-test-renderer": "15.4.2"
+		"react-test-renderer": "15.4.2",
+		"sync-files": "1.0.3"
 	},
 	"jest": {
 		"preset": "react-native"
