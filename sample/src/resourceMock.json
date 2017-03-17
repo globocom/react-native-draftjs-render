@@ -5,115 +5,177 @@
       "depth": 0,
       "data": {},
       "inlineStyleRanges": [],
-      "text": "",
-      "type": "unstyled",
-      "key": "g706"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {
-        "identifier": 5707838,
-        "type": "backstage-video",
-        "caption": "Sérgio Cabral é acusado de receber propina em euros"
-      },
-      "inlineStyleRanges": [],
-      "text": "",
-      "type": "atomic",
-      "key": "1kvhr"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além do governador",
+      "text": "Maecenas nec odio",
       "type": "header-one",
       "key": "ad9sdfdg5"
     },
     {
-      "entityRanges": [
+      "key": "5r867",
+      "text": "Etiam ultricies nisi vel augue. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Cras dapibus. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
         {
-          "offset": 99,
-          "key": 0,
-          "length": 13
+          "offset": 25,
+          "length": 5,
+          "style": "BOLD"
         },
         {
-          "offset": 285,
-          "key": 1,
-          "length": 4
+          "offset": 307,
+          "length": 10,
+          "style": "BOLD"
+        },
+        {
+          "offset": 241,
+          "length": 6,
+          "style": "ITALIC"
         }
       ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "3tvln",
+      "text": "",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {
+        "type": "backstage-photo",
+        "rightsHolder": "globoesporte 5",
+        "caption": "globoesporte 5",
+        "file": {
+          "url": "https://i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/f/I/iE4N81RJKFs7Thp2AwAA/05.jpg",
+          "width": 3000,
+          "type": "image/jpeg",
+          "height": 2000,
+          "thumborUrl": "http://s2.glbimg.qa.globoi.com/4y1MnAFX1sS8lTZIHePxSNsS-FU=/200x0/filters:quality(70)/i.s3.glbimg.qa.globoi.com/v1/AUTH_8fad94a6d9e64297ba0c44fdf6996554/internal_photos/bs/2017/f/I/iE4N81RJKFs7Thp2AwAA/05.jpg",
+          "crop": {
+            "top": 0,
+            "left": 0,
+            "bottom": 2000,
+            "right": 3000,
+            "height": 2000,
+            "width": 3000
+          }
+        },
+        "display": "normal"
+      }
+    },
+    {
+      "entityRanges": [],
       "depth": 0,
       "data": {},
       "inlineStyleRanges": [],
-      "text": "O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
-      "type": "unstyled",
-      "key": "57ec1"
+      "text": "Aenean leo ligula porttitor",
+      "type": "header-two",
+      "key": "c87fd"
     },
     {
-      "key": "9p0id",
-      "text": "HP Compaq Presario CQ23 – R$ 1.099",
+      "entityRanges": [],
+      "depth": 0,
+      "data": {},
+      "inlineStyleRanges": [],
+      "text": "Morbi vestibulum volutpat",
+      "type": "header-three",
+      "key": "c9mft"
+    },
+    {
+      "entityRanges": [],
+      "depth": 0,
+      "data": {},
+      "inlineStyleRanges": [],
+      "text": "Class aptent taciti sociosqu",
+      "type": "header-four",
+      "key": "ad9sdsdfdg5sd"
+    },
+    {
+      "entityRanges": [],
+      "depth": 0,
+      "data": {},
+      "inlineStyleRanges": [],
+      "text": "Phasellus leo dolor",
+      "type": "header-five",
+      "key": "9p0ic"
+    },
+    {
+      "entityRanges": [],
+      "depth": 0,
+      "data": {},
+      "inlineStyleRanges": [],
+      "text": "Donec vitae orci sed",
+      "type": "header-six",
+      "key": "bb6hf"
+    },
+    {
+      "key": "2galv",
+      "text": "Proin magna. Donec posuere vulputate arcu",
       "type": "ordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "cdsdj",
+      "text": "Etiam feugiat lorem non metus",
+      "type": "ordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "d725p",
+      "text": " Curabitur at lacus ac velit ornare lobortis",
+      "type": "ordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "c9mftj",
+      "text": "Phasellus a est.",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "3alra",
+      "text": "Fusce ac felis sit amet ligula pharetra condimentum",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "cniqr",
+      "text": "Suspendisse faucibus",
+      "type": "unordered-list-item",
       "depth": 0,
       "inlineStyleRanges": [],
       "entityRanges": [
         {
-          "offset": 0,
-          "length": 23,
+          "offset": 12,
+          "length": 8,
           "key": 0
         }
       ],
       "data": {}
     },
     {
-      "key": "bb6hg",
-      "text": "Positivo Duo ZR3630 – R$ 1.150",
-      "type": "ordered-list-item",
+      "key": "8cl9h",
+      "text": "Suspendisse potenti. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Morbi vestibulum volutpat enim. Phasellus nec sem in justo pellentesque facilisis.",
+      "type": "blockquote",
       "depth": 0,
-      "inlineStyleRanges": [
-        {
-          "style": "BOLD",
-          "offset": 0,
-          "length": 12
-        },
-        {
-          "style": "ITALIC",
-          "offset": 0,
-          "length": 12
-        }
-      ],
+      "inlineStyleRanges": [],
       "entityRanges": [],
       "data": {}
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além do ex-governador",
-      "type": "header-two",
-      "key": "ad9sdsdfdg5"
-    },
-    {
-      "entityRanges": [
-        {
-          "offset": 99,
-          "key": 0,
-          "length": 13
-        },
-        {
-          "offset": 285,
-          "key": 1,
-          "length": 4
-        }
-      ],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "O Ministério Público Federal (MPF) fez mais uma denúncia — a sexta — contra o ex-governador do Rio Sérgio Cabral. Foi denunciado também o doleiro brasileiro preso no Uruguai Vinícius Claré, conhecido como Juca Bala, e mais oito pessoas do grupo do ex-governador do Rio, como mostrou o RJTV desta quarta-feira (8).",
-      "type": "unstyled",
-      "key": "5aaa7ec1"
     },
     {
       "entityRanges": [],
@@ -123,462 +185,15 @@
       "text": "'code-block': {\n  backgroundColor: '#cecece',\n  fontFamily: 'Courier New',\n  padding: 16,\n},",
       "type": "code-block",
       "key": "5aaa7ec3"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além do ex-governador",
-      "type": "header-three",
-      "key": "ad9sdsdfdg5sd"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além do ex-governador",
-      "type": "header-four",
-      "key": "ad9sdsdfdg5four"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além do ex-governador",
-      "type": "header-five",
-      "key": "ad9sdsdfdg5five"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além do ex-governador",
-      "type": "header-six",
-      "key": "ad9sdsdfdg5six"
-    },
-    {
-      "key": "15ekk",
-      "text": "Positivo Stilo – R$ 949 ",
-      "type": "ordered-list-item",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "9p0ic",
-      "text": "HP Compaq Presario CQ23 – R$ 1.099",
-      "type": "ordered-list-item",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "bb6hf",
-      "text": "Positivo Duo ZR3630 – R$ 1.150",
-      "type": "unordered-list-item",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "70tf7",
-      "text": "Acer Aspire ES1 – R$ 1.259",
-      "type": "unordered-list-item",
-      "depth": 0,
-      "inlineStyleRanges": [
-        {
-          "style": "BOLD",
-          "offset": 0,
-          "length": 15
-        },
-        {
-          "style": "ITALIC",
-          "offset": 0,
-          "length": 15
-        }
-      ],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "4cgi8",
-      "text": "Positivo Premium – a partir de R$ 1.300",
-      "type": "unordered-list-item",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [
-        {
-          "offset": 0,
-          "length": 16,
-          "key": 0
-        }
-      ],
-      "data": {}
-    },
-    {
-      "entityRanges": [
-        {
-          "offset": 79,
-          "key": 2,
-          "length": 12
-        }
-      ],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "A denúncia é um desdobramento da Operação Eficiência, que prendeu o empresário Eike Batista e investiga crimes de lavagem de dinheiro de US$ 100 milhões – o equivalente a mais de R$ 300 milhões. Os valores foram distribuídos em 10 contas em paraísos fiscais no exterior. A denúncia do MPF vai ser analisada pelo juiz da 7ª Vara Federal Criminal, Marcelo Bretas.",
-      "type": "unstyled",
-      "key": "fp5av"
-    },
-    {
-      "key": "4cgi9",
-      "text": "Positivo Premium – a partir de R$ 1.300",
-      "type": "unordered-list-item",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "O MPF acusa Juca Bala e o sócio dele, Claudio de Souza, conhecido como Tony ou Peter, de serem os doleiros que ajudaram a movimentar esse dinheiro no esquema chefiado por Sérgio Cabral.",
-      "type": "unstyled",
-      "key": "6sn7n"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Os investigadores dizem que Juca Bala e Claudio movimentaram ao menos US$ 85 milhões desviados dos cofres do Estado do Rio. De acordo com o MPF, os doleiros integram organização criminosa e tinham contato estreito com a empresa Odebrecht.",
-      "type": "unstyled",
-      "key": "4es47"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além de enviar dinheiro para o exterior, os procuradores descobriram que Vinicius Claret e Claudio de Souza também traziam recursos de fora para o Brasil. Segundo a denúncia, entre 2011 e 2014, eles fizeram com que US$ 3 milhões de propina da Odebrecht viessem de offshores da construtora para as mãos do ex-governador.",
-      "type": "unstyled",
-      "key": "8v130"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {
-        "rightsHolder": "Rprodução/ RPC Curitiba",
-        "display": "normal",
-        "type": "backstage-photo",
-        "caption": "Sérgio Cabral foi preso em novembro de 2016",
-        "file": {
-          "width": 1275,
-          "url": "https://s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
-          "crop": {
-            "bottom": 715,
-            "width": 1275,
-            "top": 0,
-            "right": 1275,
-            "left": 0,
-            "height": 715
-          },
-          "type": "image/png",
-          "height": 715,
-          "thumborUrl": "http://s2.glbimg.com/3jRdzDvLByVVioSPhzkokz7Tm2E=/200x0/filters:quality(70)/s.glbimg.com/jo/g1/f/original/2016/12/10/cabral.png",
-          "isAnimated": false
-        }
-      },
-      "inlineStyleRanges": [],
-      "text": "",
-      "type": "atomic",
-      "key": "1gegc"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [
-        {
-          "style": "BOLD",
-          "offset": 0,
-          "length": 14
-        }
-      ],
-      "text": "Sexta denúncia\nDenunciado pela sexta vez, Cabral já é réu em três processos da Lava Jato e está preso, desde novembro de 2016, no  Complexo Penitenciário de Gericinó, em Bangu, na Zona Oeste do Rio.",
-      "type": "unstyled",
-      "key": "febk4"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Além do ex-governador do Rio, também foram denunciados Vinicius Claret, Claudio de Souza e outras seis pessoas. Entre elas, está o ex-secretário de governo, Wildon Carlos, o operador financeiro do esquema, Carlos Miranda, e os irmãos doleiros Renato e Marcelo Chebar.",
-      "type": "unstyled",
-      "key": "ad9g5"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Eles são acusados pelos crimes de corrupção passiva, organização criminosa contra o sistema financeiro nacional e de lavagem de dinheiro. Claret foi acionado pelos irmãos Chebar para ajudar a movimentar o grande volume de dinheiro de Cabral no exterior.",
-      "type": "unstyled",
-      "key": "bquee"
-    },
-    {
-      "entityRanges": [
-        {
-          "offset": 0,
-          "key": 3,
-          "length": 44
-        }
-      ],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Juca Bala e Claudio foram presos no Uruguai na última sexta-feira (3).  Eles estavam na difusão vermelha da Interpol, a polícia internacional, e foram presos em ação conjunta da polícia do Uruguai com a Polícia Federal brasileira.",
-      "type": "unstyled",
-      "key": "edoss"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [
-        {
-          "style": "BOLD",
-          "offset": 0,
-          "length": 24
-        }
-      ],
-      "text": "Contato com a Odebrecht\nAntes da prisão dos doleiros, os repórteres Carlos de Lannoy e Arthur Guimarães foram até o balneário uruguaio de Punta del Este e descobriram o paradeiro de Juca Bala. Lá, ele aparece como sócio no contrato de criação da Paddle Board Uruguay. A empresa faz importação, exportação, representação e venda de material esportivo.",
-      "type": "unstyled",
-      "key": "db02"
-    },
-    {
-      "entityRanges": [
-        {
-          "offset": 18,
-          "key": 4,
-          "length": 16
-        }
-      ],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "Uma reportagem do Jornal Nacional mostrou que Juca Bala não usava o número de telefone preso na porta da loja dele apenas para vender pranchas. Era também o contato do doleiro com o setor de operações estruturadas da Odebrecht, mais conhecido como departamento de propina.",
-      "type": "unstyled",
-      "key": "a1vho"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [
-        {
-          "style": "ITALIC",
-          "offset": 214,
-          "length": 27
-        }
-      ],
-      "text": "O número do celular da loja de pranchas é o mesmo que aparece na agenda de Maria Lúcia Tavares, ex-secretária da Odebrecht que, em acordo de delação, ela revelou como funcionava o esquema de propina na empreiteira (veja mais no vídeo abaixo).",
-      "type": "unstyled",
-      "key": "ae0kl"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {
-        "identifier": 5704193,
-        "type": "backstage-video",
-        "caption": "Doleiro Juca Bala era peça-chave no esquema da Odebrecht"
-      },
-      "inlineStyleRanges": [],
-      "text": "",
-      "type": "atomic",
-      "key": "46hff"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "",
-      "type": "unstyled",
-      "key": "bgf0a"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {
-        "articles": [
-          {
-            "title": "Ex-governador Sérgio Cabral é preso pela PF na Zona Sul do Rio",
-            "link": "http://g1.globo.com/rio-de-janeiro/noticia/2016/11/ex-governador-sergio-cabral-e-preso-pela-pf-na-zona-sul-do-rio.html",
-            "key": "efq7l"
-          },
-          {
-            "title": "Fotos mostram celas de Sérgio Cabral e Adriana Ancelmo em Bangu",
-            "link": "http://g1.globo.com/rio-de-janeiro/noticia/fotos-mostram-celas-de-sergio-cabral-e-adriana-ancelmo-em-bangu.ghtml",
-            "key": "8c86e"
-          },
-          {
-            "title": "Doleiro de Cabral preso era peça-chave no esquema de propina da Odebrecht",
-            "link": "http://g1.globo.com/rio-de-janeiro/noticia/doleiro-de-cabral-preso-era-peca-chave-no-esquema-de-propina-da-odebrecht.ghtml",
-            "key": "bmp67"
-          }
-        ],
-        "type": "related-articles"
-      },
-      "inlineStyleRanges": [],
-      "text": "",
-      "type": "atomic",
-      "key": "b25rr"
-    },
-    {
-      "entityRanges": [],
-      "depth": 0,
-      "data": {},
-      "inlineStyleRanges": [],
-      "text": "",
-      "type": "unstyled",
-      "key": "d474j"
-    },
-    {
-      "key": "e3eiq",
-      "text": "Resolução da Agência Nacional de Aviação Civil (Anac) que permitia esse tipo de cobrança passaria a valer nesta terça, mas a Justiça Federal suspendeu a norma nesta segunda (13) em decisão liminar (relembre no vídeo abaixo).",
-      "type": "unstyled",
-      "depth": 0,
-      "inlineStyleRanges": [
-        {
-          "offset": 13,
-          "length": 40,
-          "style": "BOLD"
-        },
-        {
-          "offset": 13,
-          "length": 40,
-          "style": "ITALIC"
-        }
-      ],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "46o0d",
-      "text": "Pela regra que havia sido aprovada pela Anac, o passageiro passaria a pagar à parte por bagagens despachadas em voos nacionais e internacionais.",
-      "type": "unstyled",
-      "depth": 0,
-      "inlineStyleRanges": [
-        {
-          "offset": 129,
-          "length": 14,
-          "style": "BOLD"
-        }
-      ],
-      "entityRanges": [
-        {
-          "offset": 129,
-          "length": 14,
-          "key": 0
-        }
-      ],
-      "data": {}
-    },
-    {
-      "key": "chqqh",
-      "text": "O limite de peso de bagagem de mão passaria de 5 para 10 quilos e, na prática, a medida permitiria que as empresas criassem as próprias regras sobre o despacho de bagagens.",
-      "type": "unstyled",
-      "depth": 0,
-      "inlineStyleRanges": [
-        {
-          "offset": 2,
-          "length": 32,
-          "style": "UNDERLINE"
-        },
-        {
-          "offset": 67,
-          "length": 10,
-          "style": "STRIKETHROUGH"
-        }
-      ],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "dgdoa",
-      "text": "",
-      "type": "unstyled",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "frveo",
-      "text": "",
-      "type": "unstyled",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {}
-    },
-    {
-      "key": "3m2mm",
-      "text": "“Eu conversava com o Bumlai, tenho profundo respeito. Ele sabe que a relação que tinha comigo não permitia discutir nenhum negócio”, disse Lula.",
-      "type": "blockquote",
-      "depth": 0,
-      "inlineStyleRanges": [],
-      "entityRanges": [],
-      "data": {}
-   }
+     }
   ],
   "entityMap": {
     "0": {
-      "data": {
-        "url": "http://g1.globo.com/topico/sergio-cabral"
-      },
       "type": "LINK",
-      "mutability": "MUTABLE"
-    },
-    "4": {
+      "mutability": "MUTABLE",
       "data": {
-        "url": "http://g1.globo.com/jornal-nacional/noticia/2017/03/doleiro-juca-bala-era-peca-chave-no-esquema-da-odebrecht.html"
-      },
-      "type": "LINK",
-      "mutability": "MUTABLE"
-    },
-    "1": {
-      "data": {
-        "url": "http://g1.globo.com/rio-de-janeiro/rjtv-1edicao/videos/"
-      },
-      "type": "LINK",
-      "mutability": "MUTABLE"
-    },
-    "3": {
-      "data": {
-        "url": "http://g1.globo.com/rio-de-janeiro/noticia/suspeitos-de-envolvimento-com-esquema-de-sergio-cabral-sao-presos-no-uruguai.ghtml"
-      },
-      "type": "LINK",
-      "mutability": "MUTABLE"
-    },
-    "2": {
-      "data": {
-        "url": "http://g1.globo.com/topico/eike-batista"
-      },
-      "type": "LINK",
-      "mutability": "MUTABLE"
+        "url": "http://www.google.com"
+      }
     }
   }
 }
