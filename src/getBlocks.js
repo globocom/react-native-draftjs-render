@@ -13,8 +13,6 @@ const getBlocks = (
   atomicHandler: Function,
   navigate?: Function,
   orderedListSeparator?: String): ?React$Element<*> => {
-
-  console.log(orderedListSeparator);
   if (!bodyData.blocks) {
     return null;
   }
