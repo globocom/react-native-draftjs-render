@@ -25,7 +25,7 @@ help:
 
 ## Project setup
 setup:
-	@cd sample && npm install && npm run sync-lib
+	@npm install && cd sample && npm install && npm run sync-lib
 
 ## Setup with yarn
 setup-yarn:
@@ -44,7 +44,7 @@ reset: reset-npm setup
 ## Clean dependencies and reruns setup
 reset-yarn: reset-npm setup-yarn
 
-## Run tests
+## Run library tests
 test:
 	@npm test
 
