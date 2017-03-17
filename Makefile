@@ -25,17 +25,17 @@ help:
 
 ## Project setup
 setup:
-	@cd example && npm install && npm run sync-lib
+	@cd sample && npm install && npm run sync-lib
 
 ## Setup with yarn
 setup-yarn:
 	@yarn config set registry http://artifactory.globoi.com/artifactory/api/npm/npm-repos/fake
-	@cd example && yarn
+	@cd sample && yarn
 
 ## Reset npm environment
 reset-npm:
 	@watchman watch-del-all
-	@cd example && rm -rf node_modules
+	@cd sample && rm -rf node_modules
 	@npm cache clean
 
 ## Clean dependencies
@@ -69,20 +69,20 @@ check: lint flow test
 
 ## Synchronize lib files with sample app
 sync-lib:
-	@cd example && npm run sync-lib
+	@cd sample && npm run sync-lib
 
 ## Watch lib changes to update sample app
 watch:
-	@cd example && npm run watch-src
+	@cd sample && npm run watch-src
 
 ## Open iOS project on XCode
 open-ios:
-	open example/ios/react_native_draftjs_render.xcodeproj/
+	open sample/ios/react_native_draftjs_render.xcodeproj/
 
 ## Run iOS
 ios:
-	@cd example && react-native run-ios
+	@cd sample && react-native run-ios
 
 ## Run android
 android:
-	@cd example && react-native run-android
+	@cd sample && react-native run-android
