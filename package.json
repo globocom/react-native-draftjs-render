@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "cd sample; npm test",
-    "test-reset": "cd sample; npm run test-reset",
+    "test": "jest",
+    "test-reset": "jest --updateSnapshot",
     "linter": "eslint .",
     "flow": "flow",
     "flow-stop": "flow stop"
@@ -32,6 +32,19 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
     "eslint-plugin-react-native": "^2.3.1",
-    "flow-bin": "^0.41.0"
-  }
+    "flow-bin": "^0.41.0",
+    "babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "19.0.2",
+		"react-test-renderer": "15.4.2"
+  },
+  "jest": {
+		"preset": "react-native",
+    "modulePathIgnorePatterns": ["/sample/node_modules/"],
+    "clearMocks": true,
+    "coverageDirectory": "../",
+    "coverageReporters": ["lcov", "text"],
+    "coveragePathIgnorePatterns": ["/node_modules/", "/sample/react-native-draftjs-render/"],
+    "collectCoverageFrom" : ["**/*.{js,jsx}"]
+	}
 }
