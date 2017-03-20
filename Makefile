@@ -52,6 +52,10 @@ test:
 test-reset:
 	@npm run test-reset
 
+## Run code coverage
+test-coverage:
+	@npm run coverage
+
 ## Display eslint errors
 lint:
 	@npm run linter

@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "jest",
-    "test-reset": "jest --updateSnapshot",
+    "test-reset": "npm test -- --updateSnapshot",
+    "coverage": "npm test -- --coverage",
     "linter": "eslint .",
     "flow": "flow",
     "flow-stop": "flow stop"
@@ -42,9 +43,9 @@
 		"preset": "react-native",
     "modulePathIgnorePatterns": ["/sample/node_modules/"],
     "clearMocks": true,
-    "coverageDirectory": "../",
+    "coverageDirectory": "./coverage/",
     "coverageReporters": ["lcov", "text"],
-    "coveragePathIgnorePatterns": ["/node_modules/", "/sample/"],
+    "coveragePathIgnorePatterns": ["/node_modules/", "/sample/", "/coverage/"],
     "collectCoverageFrom" : ["**/*.{js,jsx}"]
 	}
 }
