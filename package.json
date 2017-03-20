@@ -44,7 +44,7 @@
     "clearMocks": true,
     "coverageDirectory": "../",
     "coverageReporters": ["lcov", "text"],
-    "coveragePathIgnorePatterns": ["/node_modules/", "/sample/react-native-draftjs-render/"],
+    "coveragePathIgnorePatterns": ["/node_modules/", "/sample/"],
     "collectCoverageFrom" : ["**/*.{js,jsx}"]
 	}
 }
