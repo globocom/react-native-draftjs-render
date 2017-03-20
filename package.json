@@ -1,8 +1,7 @@
 {
   "name": "react-native-draftjs-render",
   "description": "React Native render for draft.js model",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
   "scripts": {
     "test": "jest",
     "test-reset": "npm test -- --updateSnapshot",
@@ -35,17 +34,35 @@
     "eslint-plugin-react-native": "^2.3.1",
     "flow-bin": "^0.41.0",
     "babel-jest": "19.0.0",
-		"babel-preset-react-native": "1.9.1",
-		"jest": "19.0.2",
-		"react-test-renderer": "15.4.2"
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
   },
   "jest": {
-		"preset": "react-native",
-    "modulePathIgnorePatterns": ["/sample/node_modules/"],
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "/sample/node_modules/"
+    ],
     "clearMocks": true,
     "coverageDirectory": "./coverage/",
-    "coverageReporters": ["lcov", "text"],
-    "coveragePathIgnorePatterns": ["/node_modules/", "/sample/", "/coverage/"],
-    "collectCoverageFrom" : ["**/*.{js,jsx}"]
-	}
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/sample/",
+      "/coverage/"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globoi/react-native-draftjs-render.git"
+  },
+  "bugs": {
+    "url": "https://github.com/globoi/react-native-draftjs-render/issues"
+  },
+  "homepage": "https://github.com/globoi/react-native-draftjs-render#readme"
 }
