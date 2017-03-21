@@ -23,12 +23,20 @@ const BlockQuote = (props: Object): any => {
   const blockquoteCustomStyleContainer = props.customStyles ?
     props.customStyles.blockquoteContainer :
     undefined;
+  const blockquoteCustomStyleIconBefore = props.customStyles ?
+    props.customStyles.blockquoteIconBefore :
+    undefined;
+  const blockquoteCustomStyleIconAfter = props.customStyles ?
+    props.customStyles.blockquoteIconAfter :
+    undefined;
 
   return (
     <View style={[styles.blockquoteContainer, blockquoteCustomStyleContainer]}>
+      <View style={blockquoteCustomStyleIconBefore} />
       <DraftJsText
         {...props}
       />
+      <View style={blockquoteCustomStyleIconAfter} />
     </View>);
 };
 

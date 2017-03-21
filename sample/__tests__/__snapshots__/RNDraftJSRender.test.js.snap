@@ -241,7 +241,10 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          undefined,
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
           undefined,
         ]
       }
@@ -286,7 +289,10 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          undefined,
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
           undefined,
         ]
       }
@@ -331,7 +337,10 @@ exports[`renders correctly with contentState 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          undefined,
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
           undefined,
         ]
       }
@@ -508,6 +517,9 @@ exports[`renders correctly with contentState 1`] = `
       ]
     }
   >
+    <View
+      style={undefined}
+    />
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -526,6 +538,9 @@ exports[`renders correctly with contentState 1`] = `
     >
       Suspendisse potenti. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Morbi vestibulum volutpat enim. Phasellus nec sem in justo pellentesque facilisis.
     </Text>
+    <View
+      style={undefined}
+    />
   </View>
   <Text
     accessible={true}
@@ -796,7 +811,10 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          undefined,
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
           undefined,
         ]
       }
@@ -841,7 +859,10 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          undefined,
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
           undefined,
         ]
       }
@@ -886,7 +907,10 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ellipsizeMode="tail"
       style={
         Array [
-          undefined,
+          Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
           undefined,
         ]
       }
@@ -1063,6 +1087,9 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       ]
     }
   >
+    <View
+      style={undefined}
+    />
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -1081,6 +1108,9 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     >
       Suspendisse potenti. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Morbi vestibulum volutpat enim. Phasellus nec sem in justo pellentesque facilisis.
     </Text>
+    <View
+      style={undefined}
+    />
   </View>
   <Text
     accessible={true}
