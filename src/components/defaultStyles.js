@@ -52,6 +52,10 @@ const defaultStyles = StyleSheet.create({
     fontSize: 14,
     fontWeight: 'normal',
   },
+  'ordered-list-item': {
+    fontSize: 14,
+    fontWeight: 'normal',
+  },
   'code-block': {
     backgroundColor: '#cecece',
     fontFamily: Platform.OS === 'android' ? 'monospace' : 'Courier New',
@@ -59,8 +63,8 @@ const defaultStyles = StyleSheet.create({
   },
   blockquote: {
     fontSize: 14,
-    fontStyle: 'italic',
     fontWeight: 'normal',
+    fontStyle: 'italic',
     marginLeft: 16,
   },
 });
