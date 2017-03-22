@@ -80,6 +80,9 @@ const customStyles = {
     fontSize: 33,
     letterSpacing: -2,
   },
+  viewAfterList: {
+    marginBottom: 32,
+  },
 };
 
 const atomicHandler = (item: Object): any => {
