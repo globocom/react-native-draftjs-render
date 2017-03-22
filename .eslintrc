@@ -8,6 +8,7 @@
   },
   "extends": "airbnb",
   "rules": {
+    "import/extensions": [2, "never", { "json": "always" }],
     "no-duplicate-imports": 0,
     "no-underscore-dangle": 0,
     "react/forbid-prop-types": 0,
