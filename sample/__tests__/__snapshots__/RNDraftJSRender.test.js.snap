@@ -8,45 +8,7 @@ exports[`renders correctly with contentState 1`] = `
     }
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 32,
-          "fontWeight": "bold",
-          "marginBottom": 22,
-          "marginTop": 22,
-        },
-        undefined,
-      ]
-    }
-  >
-    Maecenas nec odio
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 14,
-          "fontWeight": "normal",
-        },
-        undefined,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Etiam ultricies nisi vel 
-    </Text>
+  <View>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -54,415 +16,19 @@ exports[`renders correctly with contentState 1`] = `
       style={
         Array [
           Object {
+            "fontSize": 32,
             "fontWeight": "bold",
+            "marginBottom": 22,
+            "marginTop": 22,
           },
           undefined,
         ]
       }
     >
-      augue
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      . Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Cras dapibus. Sed 
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontStyle": "italic",
-          },
-          undefined,
-        ]
-      }
-    >
-      mollis
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      , eros et ultrices tempus, mauris ipsum aliquam libero, non 
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontWeight": "bold",
-          },
-          undefined,
-        ]
-      }
-    >
-      adipiscing
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-       dolor urna a orci.
-    </Text>
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 24,
-          "fontWeight": "bold",
-          "marginBottom": 20,
-          "marginTop": 20,
-        },
-        undefined,
-      ]
-    }
-  >
-    Aenean leo ligula porttitor
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 19,
-          "fontWeight": "bold",
-          "marginBottom": 19,
-          "marginTop": 19,
-        },
-        undefined,
-      ]
-    }
-  >
-    Morbi vestibulum volutpat
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 15,
-          "fontWeight": "bold",
-          "marginBottom": 21,
-          "marginTop": 21,
-        },
-        undefined,
-      ]
-    }
-  >
-    Class aptent taciti sociosqu
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 13,
-          "fontWeight": "bold",
-          "marginBottom": 22,
-          "marginTop": 22,
-        },
-        undefined,
-      ]
-    }
-  >
-    Phasellus leo dolor
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 11,
-          "fontWeight": "bold",
-          "marginBottom": 25,
-          "marginTop": 25,
-        },
-        undefined,
-      ]
-    }
-  >
-    Donec vitae orci sed
-  </Text>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "marginRight": 8,
-          },
-          undefined,
-        ]
-      }
-    >
-      1
-      .
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-      Proin magna. Donec posuere vulputate arcu
+      Maecenas nec odio
     </Text>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "marginRight": 8,
-          },
-          undefined,
-        ]
-      }
-    >
-      2
-      .
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-      Etiam feugiat lorem non metus
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "marginRight": 8,
-          },
-          undefined,
-        ]
-      }
-    >
-      3
-      .
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-       Curabitur at lacus ac velit ornare lobortis
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "black",
-            "borderRadius": 5,
-            "height": 5,
-            "marginRight": 8,
-            "width": 5,
-          },
-          undefined,
-        ]
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-      Phasellus a est.
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "black",
-            "borderRadius": 5,
-            "height": 5,
-            "marginRight": 8,
-            "width": 5,
-          },
-          undefined,
-        ]
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-      Fusce ac felis sit amet ligula pharetra condimentum
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "black",
-            "borderRadius": 5,
-            "height": 5,
-            "marginRight": 8,
-            "width": 5,
-          },
-          undefined,
-        ]
-      }
-    />
+  <View>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -482,44 +48,77 @@ exports[`renders correctly with contentState 1`] = `
         allowFontScaling={true}
         ellipsizeMode="tail"
       >
-        Suspendisse 
+        Etiam ultricies nisi vel 
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        onPress={[Function]}
         style={
           Array [
             Object {
-              "textDecorationLine": "underline",
+              "fontWeight": "bold",
             },
             undefined,
           ]
         }
       >
-        faucibus
+        augue
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        . Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Cras dapibus. Sed 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+            },
+            undefined,
+          ]
+        }
+      >
+        mollis
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        , eros et ultrices tempus, mauris ipsum aliquam libero, non 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+            },
+            undefined,
+          ]
+        }
+      >
+        adipiscing
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         dolor urna a orci.
       </Text>
     </Text>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "borderLeftColor": "#eee",
-          "borderLeftWidth": 4,
-          "borderStyle": "solid",
-          "marginBottom": 22,
-          "marginTop": 22,
-          "paddingLeft": 12,
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={undefined}
-    />
+  <View>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -527,42 +126,479 @@ exports[`renders correctly with contentState 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 14,
-            "fontStyle": "italic",
-            "fontWeight": "normal",
-            "marginLeft": 16,
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "marginBottom": 20,
+            "marginTop": 20,
           },
           undefined,
         ]
       }
     >
-      Suspendisse potenti. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Morbi vestibulum volutpat enim. Phasellus nec sem in justo pellentesque facilisis.
+      Aenean leo ligula porttitor
     </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 19,
+            "fontWeight": "bold",
+            "marginBottom": 19,
+            "marginTop": 19,
+          },
+          undefined,
+        ]
+      }
+    >
+      Morbi vestibulum volutpat
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "marginBottom": 21,
+            "marginTop": 21,
+          },
+          undefined,
+        ]
+      }
+    >
+      Class aptent taciti sociosqu
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "marginBottom": 22,
+            "marginTop": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      Phasellus leo dolor
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 11,
+            "fontWeight": "bold",
+            "marginBottom": 25,
+            "marginTop": 25,
+          },
+          undefined,
+        ]
+      }
+    >
+      Donec vitae orci sed
+    </Text>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "marginRight": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        1
+        .
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Proin magna. Donec posuere vulputate arcu
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "marginRight": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        2
+        .
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Etiam feugiat lorem non metus
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "marginRight": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        3
+        .
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+         Curabitur at lacus ac velit ornare lobortis
+      </Text>
+    </View>
+  </View>
+  <View>
     <View
       style={undefined}
     />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "black",
+              "borderRadius": 5,
+              "height": 5,
+              "marginRight": 8,
+              "width": 5,
+            },
+            undefined,
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Phasellus a est.
+      </Text>
+    </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#cecece",
-          "fontFamily": "Courier New",
-          "padding": 16,
-        },
-        undefined,
-      ]
-    }
-  >
-    'code-block': {
-      backgroundColor: '#cecece',
-      fontFamily: 'Courier New',
-      padding: 16,
-    },
-  </Text>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "black",
+              "borderRadius": 5,
+              "height": 5,
+              "marginRight": 8,
+              "width": 5,
+            },
+            undefined,
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Fusce ac felis sit amet ligula pharetra condimentum
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "black",
+              "borderRadius": 5,
+              "height": 5,
+              "marginRight": 8,
+              "width": 5,
+            },
+            undefined,
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          Suspendisse 
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "textDecorationLine": "underline",
+              },
+              undefined,
+            ]
+          }
+        >
+          faucibus
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={undefined}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderLeftColor": "#eee",
+            "borderLeftWidth": 4,
+            "borderStyle": "solid",
+            "marginBottom": 22,
+            "marginTop": 22,
+            "paddingLeft": 12,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={undefined}
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontStyle": "italic",
+              "fontWeight": "normal",
+              "marginLeft": 16,
+            },
+            undefined,
+          ]
+        }
+      >
+        Suspendisse potenti. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Morbi vestibulum volutpat enim. Phasellus nec sem in justo pellentesque facilisis.
+      </Text>
+      <View
+        style={undefined}
+      />
+    </View>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#cecece",
+            "fontFamily": "Courier New",
+            "padding": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      'code-block': {
+        backgroundColor: '#cecece',
+        fontFamily: 'Courier New',
+        padding: 16,
+      },
+    </Text>
+  </View>
 </View>
 `;
 
@@ -574,47 +610,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     }
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 32,
-          "fontWeight": "bold",
-          "marginBottom": 22,
-          "marginTop": 22,
-        },
-        undefined,
-      ]
-    }
-  >
-    Maecenas nec odio
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 14,
-          "fontWeight": "normal",
-        },
-        Object {
-          "fontSize": 18,
-        },
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      Etiam ultricies nisi vel 
-    </Text>
+  <View>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -622,237 +618,19 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       style={
         Array [
           Object {
+            "fontSize": 32,
             "fontWeight": "bold",
+            "marginBottom": 22,
+            "marginTop": 22,
           },
           undefined,
         ]
       }
     >
-      augue
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      . Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Cras dapibus. Sed 
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontStyle": "italic",
-          },
-          Object {
-            "fontSize": 20,
-          },
-        ]
-      }
-    >
-      mollis
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-      , eros et ultrices tempus, mauris ipsum aliquam libero, non 
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontWeight": "bold",
-          },
-          undefined,
-        ]
-      }
-    >
-      adipiscing
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-    >
-       dolor urna a orci.
-    </Text>
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 24,
-          "fontWeight": "bold",
-          "marginBottom": 20,
-          "marginTop": 20,
-        },
-        undefined,
-      ]
-    }
-  >
-    Aenean leo ligula porttitor
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 19,
-          "fontWeight": "bold",
-          "marginBottom": 19,
-          "marginTop": 19,
-        },
-        undefined,
-      ]
-    }
-  >
-    Morbi vestibulum volutpat
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 15,
-          "fontWeight": "bold",
-          "marginBottom": 21,
-          "marginTop": 21,
-        },
-        undefined,
-      ]
-    }
-  >
-    Class aptent taciti sociosqu
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 13,
-          "fontWeight": "bold",
-          "marginBottom": 22,
-          "marginTop": 22,
-        },
-        undefined,
-      ]
-    }
-  >
-    Phasellus leo dolor
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "fontSize": 11,
-          "fontWeight": "bold",
-          "marginBottom": 25,
-          "marginTop": 25,
-        },
-        undefined,
-      ]
-    }
-  >
-    Donec vitae orci sed
-  </Text>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "marginRight": 8,
-          },
-          undefined,
-        ]
-      }
-    >
-      1
-      .
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-      Proin magna. Donec posuere vulputate arcu
+      Maecenas nec odio
     </Text>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "marginRight": 8,
-          },
-          undefined,
-        ]
-      }
-    >
-      2
-      .
-    </Text>
+  <View>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -863,187 +641,9 @@ exports[`renders correctly with contentState and customStyle 1`] = `
             "fontSize": 14,
             "fontWeight": "normal",
           },
-          undefined,
-        ]
-      }
-    >
-      Etiam feugiat lorem non metus
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
           Object {
-            "alignSelf": "center",
-            "fontSize": 12,
-            "fontWeight": "bold",
-            "marginRight": 8,
+            "fontSize": 18,
           },
-          undefined,
-        ]
-      }
-    >
-      3
-      .
-    </Text>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-       Curabitur at lacus ac velit ornare lobortis
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "black",
-            "borderRadius": 5,
-            "height": 5,
-            "marginRight": 8,
-            "width": 5,
-          },
-          undefined,
-        ]
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-      Phasellus a est.
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "black",
-            "borderRadius": 5,
-            "height": 5,
-            "marginRight": 8,
-            "width": 5,
-          },
-          undefined,
-        ]
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
-        ]
-      }
-    >
-      Fusce ac felis sit amet ligula pharetra condimentum
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "center",
-          "flex": 1,
-          "flexDirection": "row",
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignSelf": "center",
-            "backgroundColor": "black",
-            "borderRadius": 5,
-            "height": 5,
-            "marginRight": 8,
-            "width": 5,
-          },
-          undefined,
-        ]
-      }
-    />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "fontSize": 14,
-            "fontWeight": "normal",
-          },
-          undefined,
         ]
       }
     >
@@ -1052,44 +652,79 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         allowFontScaling={true}
         ellipsizeMode="tail"
       >
-        Suspendisse 
+        Etiam ultricies nisi vel 
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        onPress={[Function]}
         style={
           Array [
             Object {
-              "textDecorationLine": "underline",
+              "fontWeight": "bold",
             },
             undefined,
           ]
         }
       >
-        faucibus
+        augue
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        . Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Cras dapibus. Sed 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+            },
+            Object {
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        mollis
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        , eros et ultrices tempus, mauris ipsum aliquam libero, non 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+            },
+            undefined,
+          ]
+        }
+      >
+        adipiscing
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         dolor urna a orci.
       </Text>
     </Text>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "borderLeftColor": "#eee",
-          "borderLeftWidth": 4,
-          "borderStyle": "solid",
-          "marginBottom": 22,
-          "marginTop": 22,
-          "paddingLeft": 12,
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={undefined}
-    />
+  <View>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -1097,41 +732,478 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       style={
         Array [
           Object {
-            "fontSize": 14,
-            "fontStyle": "italic",
-            "fontWeight": "normal",
-            "marginLeft": 16,
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "marginBottom": 20,
+            "marginTop": 20,
           },
           undefined,
         ]
       }
     >
-      Suspendisse potenti. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Morbi vestibulum volutpat enim. Phasellus nec sem in justo pellentesque facilisis.
+      Aenean leo ligula porttitor
     </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 19,
+            "fontWeight": "bold",
+            "marginBottom": 19,
+            "marginTop": 19,
+          },
+          undefined,
+        ]
+      }
+    >
+      Morbi vestibulum volutpat
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 15,
+            "fontWeight": "bold",
+            "marginBottom": 21,
+            "marginTop": 21,
+          },
+          undefined,
+        ]
+      }
+    >
+      Class aptent taciti sociosqu
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 13,
+            "fontWeight": "bold",
+            "marginBottom": 22,
+            "marginTop": 22,
+          },
+          undefined,
+        ]
+      }
+    >
+      Phasellus leo dolor
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontSize": 11,
+            "fontWeight": "bold",
+            "marginBottom": 25,
+            "marginTop": 25,
+          },
+          undefined,
+        ]
+      }
+    >
+      Donec vitae orci sed
+    </Text>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "marginRight": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        1
+        .
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Proin magna. Donec posuere vulputate arcu
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "marginRight": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        2
+        .
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Etiam feugiat lorem non metus
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "fontSize": 12,
+              "fontWeight": "bold",
+              "marginRight": 8,
+            },
+            undefined,
+          ]
+        }
+      >
+        3
+        .
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+         Curabitur at lacus ac velit ornare lobortis
+      </Text>
+    </View>
+  </View>
+  <View>
     <View
       style={undefined}
     />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "black",
+              "borderRadius": 5,
+              "height": 5,
+              "marginRight": 8,
+              "width": 5,
+            },
+            undefined,
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Phasellus a est.
+      </Text>
+    </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#cecece",
-          "fontFamily": "Courier New",
-          "padding": 16,
-        },
-        undefined,
-      ]
-    }
-  >
-    'code-block': {
-      backgroundColor: '#cecece',
-      fontFamily: 'Courier New',
-      padding: 16,
-    },
-  </Text>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "black",
+              "borderRadius": 5,
+              "height": 5,
+              "marginRight": 8,
+              "width": 5,
+            },
+            undefined,
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        Fusce ac felis sit amet ligula pharetra condimentum
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "black",
+              "borderRadius": 5,
+              "height": 5,
+              "marginRight": 8,
+              "width": 5,
+            },
+            undefined,
+          ]
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontWeight": "normal",
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          Suspendisse 
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "textDecorationLine": "underline",
+              },
+              undefined,
+            ]
+          }
+        >
+          faucibus
+        </Text>
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={undefined}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderLeftColor": "#eee",
+            "borderLeftWidth": 4,
+            "borderStyle": "solid",
+            "marginBottom": 22,
+            "marginTop": 22,
+            "paddingLeft": 12,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={undefined}
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontSize": 14,
+              "fontStyle": "italic",
+              "fontWeight": "normal",
+              "marginLeft": 16,
+            },
+            undefined,
+          ]
+        }
+      >
+        Suspendisse potenti. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Morbi vestibulum volutpat enim. Phasellus nec sem in justo pellentesque facilisis.
+      </Text>
+      <View
+        style={undefined}
+      />
+    </View>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#cecece",
+            "fontFamily": "Courier New",
+            "padding": 16,
+          },
+          undefined,
+        ]
+      }
+    >
+      'code-block': {
+        backgroundColor: '#cecece',
+        fontFamily: 'Courier New',
+        padding: 16,
+      },
+    </Text>
+  </View>
 </View>
 `;
