@@ -1,7 +1,7 @@
 {
   "name": "react-native-draftjs-render",
   "description": "React Native render for draft.js model",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "test": "jest",
     "test-reset": "npm test -- --updateSnapshot",
