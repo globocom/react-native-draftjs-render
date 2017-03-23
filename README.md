@@ -32,7 +32,7 @@ const MyApp = () => (
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
 
-See our [`example`](https://github.com/globoi/react-native-draftjs-render/tree/master/example) folder for more details.
+See our [`sample`](https://github.com/globocom/react-native-draftjs-render/tree/master/sample) folder for more details.
 
 ## Developing
 
