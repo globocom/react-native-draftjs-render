@@ -61,10 +61,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/globoi/react-native-draftjs-render.git"
+    "url": "git+https://github.com/globocom/react-native-draftjs-render.git"
   },
   "bugs": {
-    "url": "https://github.com/globoi/react-native-draftjs-render/issues"
+    "url": "https://github.com/globocom/react-native-draftjs-render/issues"
   },
-  "homepage": "https://github.com/globoi/react-native-draftjs-render#readme"
+  "homepage": "https://github.com/globocom/react-native-draftjs-render#readme"
 }
