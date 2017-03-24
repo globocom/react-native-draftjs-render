@@ -16,7 +16,6 @@ Just import and insert your Draft.js model on RNDraftJSRender.
 ```js
 import React from 'react';
 import {
-  View,
   AppRegistry,
 } from 'react-native';
 
