@@ -1,4 +1,7 @@
 # React Native Draft.js Render
+
+[![Build Status](https://travis-ci.org/globocom/react-native-draftjs-render.svg?branch=master)](https://travis-ci.org/globocom/react-native-draftjs-render)
+
 A React Native render for [Draft.js](http://draftjs.org/) model.
 
 ## Getting Started
