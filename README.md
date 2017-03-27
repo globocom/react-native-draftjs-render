@@ -35,6 +35,40 @@ const MyApp = () => (
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
 
+### Adding custom styles
+RNDraftJSRender comes with default styles, but you can use your own:
+
+```js
+import React from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+} from 'react-native';
+
+import RNDraftJSRender from 'react-native-draftjs-render';
+import contentState from 'DraftJs/contentState';
+
+const styles = StyleSheet.create({
+  paragraph: {
+    color: 'pink',
+    fontSize: 18,
+  },
+  link: {
+    color: 'blue',
+    fontWeight: 'bold',
+  },
+});
+
+const MyApp = () => (
+  <RNDraftJSRender
+    contentState={contentState}
+    customStyles={styles}
+  />
+);
+
+AppRegistry.registerComponent('MyApp', () => MyApp);
+```
+
 See our [`sample`](https://github.com/globocom/react-native-draftjs-render/tree/master/sample) folder for more details.
 
 ## Developing
