@@ -29,7 +29,6 @@ setup:
 
 ## Setup with yarn
 setup-yarn:
-	@yarn config set registry http://artifactory.globoi.com/artifactory/api/npm/npm-repos/fake
 	@cd sample && yarn
 
 ## Reset npm environment
