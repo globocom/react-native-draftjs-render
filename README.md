@@ -98,7 +98,7 @@ To run sample app in iOS:
 make ios
 ```
 
-To run sample app in iOS:
+To run sample app in Android:
 
 ```
 make android
