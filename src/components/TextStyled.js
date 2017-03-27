@@ -3,6 +3,7 @@
 import React from 'react';
 import {
   Text,
+  StyleSheet,
 } from 'react-native';
 
 type TextStyledPropsType = {
@@ -12,7 +13,7 @@ type TextStyledPropsType = {
  onPress?: Function,
 };
 
-const styles = {
+const styles = StyleSheet.create({
   bold: {
     fontWeight: 'bold',
   },
@@ -28,7 +29,7 @@ const styles = {
   strikethrough: {
     textDecorationLine: 'line-through',
   },
-};
+});
 
 const getStyles = (itemType: any, customStyles: Object): any => {
   if (typeof itemType === 'string') return [styles[itemType], customStyles[itemType]];
