@@ -3,9 +3,9 @@
   "description": "React Native render for draft.js model",
   "version": "0.2.1",
   "scripts": {
-    "test": "jest",
+    "test": "npm run linter && npm run flow && npm run coverage",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test-reset": "npm test -- --updateSnapshot",
-    "coverage": "npm test -- --coverage",
     "linter": "eslint .",
     "flow": "flow",
     "flow-stop": "flow stop"
@@ -23,7 +23,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
+    "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
+    "coveralls": "^2.12.0",
     "eslint": "^3.17.1",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-flow-vars": "^0.5.0",
@@ -33,7 +35,6 @@
     "eslint-plugin-react": "^6.10.0",
     "eslint-plugin-react-native": "^2.3.1",
     "flow-bin": "^0.41.0",
-    "babel-jest": "19.0.0",
     "jest": "19.0.2",
     "react": "^15.4.2",
     "react-native": "^0.41.2",
