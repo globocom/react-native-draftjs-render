@@ -88,7 +88,7 @@ make setup
 To run tests:
 
 ```
-make tests
+make test
 ```
 
 To watch lib changes to appear on Sample App:
