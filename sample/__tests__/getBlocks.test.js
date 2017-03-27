@@ -1,4 +1,11 @@
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
 /* eslint-env jest */
+
 import getBlocks from '../../src/getBlocks';
 
 jest.mock('../../src/components/DraftJsText', () => 'DraftJsText');

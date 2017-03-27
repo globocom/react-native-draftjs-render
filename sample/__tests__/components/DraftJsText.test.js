@@ -1,3 +1,11 @@
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
+/* eslint-env jest */
+
 import 'react-native';
 
 import React from 'react';

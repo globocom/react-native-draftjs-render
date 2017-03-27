@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2017, Globo.com (https://github.com/globocom)
+ *
+ * License: MIT
+ */
+
 export default function generateKey(): Number {
   function s4() {
     return Math.floor((1 + Math.random()) * 0x10000)
