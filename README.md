@@ -81,7 +81,7 @@ See our [`sample`](https://github.com/globocom/react-native-draftjs-render/tree/
 To develope using example react-native project:
 
 ```
-git clone git@github.com:globoi/react-native-draftjs-render.git
+git clone git@github.com:globocom/react-native-draftjs-render.git
 cd react-native-draftjs-render/
 make setup
 ```
