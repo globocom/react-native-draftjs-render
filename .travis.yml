@@ -2,4 +2,4 @@ language: node_js
 node_js:
   - "node"
 before_script:
-  - "cd sample && npm install && npm run sync-lib"
+  - "cd sample && npm install && npm run sync-lib && cd ../"
