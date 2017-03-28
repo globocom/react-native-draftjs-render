@@ -92,7 +92,7 @@ To run tests:
 make test
 ```
 
-To watch lib changes to appear on Sample App:
+To watch lib changes appearing on Sample App:
 
 ```
 make watch
