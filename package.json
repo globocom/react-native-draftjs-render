@@ -4,7 +4,8 @@
   "version": "0.2.1",
   "scripts": {
     "test": "npm run linter && npm run flow && npm run coverage",
-    "coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test-coveralls": "npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "coverage": "jest --coverage",
     "test-reset": "npm test -- --updateSnapshot",
     "linter": "eslint .",
     "flow": "flow",

@@ -3,3 +3,4 @@ node_js:
   - "node"
 before_script:
   - "cd sample && npm install && npm run sync-lib && cd ../"
+script: npm run test-coveralls
