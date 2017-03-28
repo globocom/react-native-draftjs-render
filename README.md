@@ -20,7 +20,7 @@ yarn add react-native-draftjs-render
 ```
 
 ### Using
-Just import and insert your Draft.js model on RNDraftJSRender.
+Just import and insert your Draft.js model on RNDraftJSRender:
 
 ```js
 import React from 'react';
@@ -78,13 +78,14 @@ See our [`sample`](https://github.com/globocom/react-native-draftjs-render/tree/
 
 ## Developing
 
-To develope using example react-native project:
+To develop using example react-native project:
 
 ```
 git clone git@github.com:globocom/react-native-draftjs-render.git
 cd react-native-draftjs-render/
 make setup
 ```
+
 To run tests:
 
 ```
