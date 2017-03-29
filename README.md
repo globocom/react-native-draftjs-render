@@ -40,6 +40,8 @@ const MyApp = () => (
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
 
+See our [`sample`](https://github.com/globocom/react-native-draftjs-render/tree/master/sample) folder for more details.
+
 ### Adding custom styles
 RNDraftJSRender comes with default styles, but you can use your own:
 
@@ -74,7 +76,7 @@ const MyApp = () => (
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
 
-See our [`sample`](https://github.com/globocom/react-native-draftjs-render/tree/master/sample) folder for more details.
+See more at **[Custom Styles](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/CustomStyles.md)** documentation.
 
 ## Developing
 
