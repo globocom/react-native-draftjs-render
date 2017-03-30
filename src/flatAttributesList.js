@@ -6,41 +6,75 @@
 
 // @flow
 
-const getNewStyle = (prev: any, current: string): Array<string> => {
-  if (Array.isArray(prev)) {
-    prev.push(current);
-    return prev;
-  }
-  return [prev, current];
+const sortInteger = (a: number, b: number): number => a - b;
+
+const convertStylesIntoNumbers = (styles: Array<Object>): Array<number> => {
+  const numbers = [];
+  styles.forEach((style: Object) => {
+    numbers.push(style.offset);
+    numbers.push(style.offset + style.length);
+  });
+  return numbers;
 };
 
-const combineItems = (previous: Object, current: Object): Object => {
-  let newStyle;
-  let newItem = previous;
-
-  if (previous.style && current.style) {
-    newStyle = getNewStyle(previous.style, current.style);
-  } else {
-    newStyle = getNewStyle(previous.style, 'link');
-    newItem = Object.assign(previous, current);
+const createArrayWithSegments = (numbersList: Array<number>): Array<Array<number>> => {
+  const segmentList = [];
+  const numbersListLength = numbersList.length;
+  for (let i = 0; i < numbersListLength - 1; i += 1) {
+    segmentList.push([numbersList[i], numbersList[i + 1] - numbersList[i]]);
   }
+  return segmentList;
+};
 
-  newItem.style = newStyle;
-  return newItem;
+const addTypeToSegments = (
+  segments: Array<Array<number>>,
+  originalStyles: Array<Object>): Array<Object> => {
+  const objectList = [];
+  segments.forEach((segment: Array<number>) => {
+    const types = [];
+    originalStyles.forEach((style: Object) => {
+      const length = segment[0] + segment[1];
+      if (length > style.offset && length <= style.offset + style.length) {
+        if (Object.prototype.hasOwnProperty.call(style, 'key')) {
+          types.push('link');
+          segment.push(style.key);
+        } else {
+          types.push(style.style);
+        }
+      }
+    });
+    // console.log(types);
+    if (types.length) {
+      const attr = Object.assign({}, { offset: segment[0], length: segment[1] });
+      const t = types.length === 1 ? types[0] : types;
+      Object.assign(attr, { style: t });
+      if (segment.length === 3) Object.assign(attr, { key: segment[2] });
+      objectList.push(attr);
+    }
+  });
+  return objectList;
+};
+
+const isOverlap = (styles: Array<Object>): any => {
+  let found;
+  for (let i = 0; i < styles.length - 1; i += 1) {
+    found = styles.find(item =>
+      item.offset >= styles[i].offset && item.offset <= styles[i].offset + styles[i].length);
+    if (found) break;
+  }
+  return found;
 };
 
 const flatAttributesList = (attrsList: Array<Object>): Array<Object> => {
-  const newAttrsList = [attrsList[0]];
-  attrsList.reduce((previous: Object, current: Object): Object => {
-    if (previous.offset === current.offset) {
-      const newItem = combineItems(previous, current);
-      newAttrsList[newAttrsList.length - 1] = newItem;
-      return previous;
-    }
-    newAttrsList.push(current);
-    return current;
-  });
-  return newAttrsList;
+  if (attrsList.length === 1 || !isOverlap(attrsList)) {
+    return attrsList;
+  }
+  const numbersList = convertStylesIntoNumbers(attrsList);
+  const sortedNumbersList = numbersList.sort(sortInteger);
+  const uniqueSortedNumbersList = Array.from(new Set(sortedNumbersList));
+  const segments = createArrayWithSegments(uniqueSortedNumbersList);
+  const finalObject = addTypeToSegments(segments, attrsList);
+  return finalObject;
 };
 
 export default flatAttributesList;

@@ -126,6 +126,68 @@ exports[`renders correctly with contentState 1`] = `
       style={
         Array [
           Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Etiam u
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+              "fontWeight": "bold",
+            },
+            Object {},
+          ]
+        }
+      >
+        ltricies 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+            },
+            undefined,
+          ]
+        }
+      >
+        n
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        isi vel augue.
+      </Text>
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
             "fontSize": 24,
             "fontWeight": "bold",
             "marginBottom": 20,
@@ -510,7 +572,22 @@ exports[`renders correctly with contentState 1`] = `
           allowFontScaling={true}
           ellipsizeMode="tail"
         >
-          Suspendisse 
+          Suspe
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "textDecorationLine": "line-through",
+              },
+              undefined,
+            ]
+          }
+        >
+          ndisse 
         </Text>
         <Text
           accessible={true}
@@ -522,11 +599,101 @@ exports[`renders correctly with contentState 1`] = `
               Object {
                 "textDecorationLine": "underline",
               },
+              Object {},
+            ]
+          }
+        >
+          f
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "fontStyle": "italic",
+                "textDecorationLine": "underline",
+              },
+              Object {},
+            ]
+          }
+        >
+          auc
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "textDecorationLine": "underline",
+              },
+              Object {},
+            ]
+          }
+        >
+          ibu
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "fontWeight": "bold",
+                "textDecorationLine": "underline",
+              },
+              Object {},
+            ]
+          }
+        >
+          s
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "bold",
+                "textDecorationLine": "line-through",
+              },
+              Object {},
+            ]
+          }
+        >
+           a qu
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "textDecorationLine": "line-through",
+              },
               undefined,
             ]
           }
         >
-          faucibus
+          am loremip
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          sum ligum purus
         </Text>
       </Text>
     </View>
@@ -732,6 +899,74 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       style={
         Array [
           Object {
+            "fontSize": 14,
+            "fontWeight": "normal",
+          },
+          Object {
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Etiam u
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+              "fontWeight": "bold",
+            },
+            Object {
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        ltricies 
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontStyle": "italic",
+            },
+            Object {
+              "fontSize": 20,
+            },
+          ]
+        }
+      >
+        n
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        isi vel augue.
+      </Text>
+    </Text>
+  </View>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
             "fontSize": 24,
             "fontWeight": "bold",
             "marginBottom": 20,
@@ -1116,7 +1351,22 @@ exports[`renders correctly with contentState and customStyle 1`] = `
           allowFontScaling={true}
           ellipsizeMode="tail"
         >
-          Suspendisse 
+          Suspe
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "textDecorationLine": "line-through",
+              },
+              undefined,
+            ]
+          }
+        >
+          ndisse 
         </Text>
         <Text
           accessible={true}
@@ -1128,11 +1378,105 @@ exports[`renders correctly with contentState and customStyle 1`] = `
               Object {
                 "textDecorationLine": "underline",
               },
+              Object {},
+            ]
+          }
+        >
+          f
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "fontStyle": "italic",
+                "textDecorationLine": "underline",
+              },
+              Object {
+                "fontSize": 20,
+              },
+            ]
+          }
+        >
+          auc
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "fontStyle": "italic",
+                "fontWeight": "bold",
+                "textDecorationLine": "underline",
+              },
+              Object {
+                "fontSize": 20,
+              },
+            ]
+          }
+        >
+          ibu
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          onPress={[Function]}
+          style={
+            Array [
+              Object {
+                "fontWeight": "bold",
+                "textDecorationLine": "underline",
+              },
+              Object {},
+            ]
+          }
+        >
+          s
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontWeight": "bold",
+                "textDecorationLine": "line-through",
+              },
+              Object {},
+            ]
+          }
+        >
+           a qu
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "textDecorationLine": "line-through",
+              },
               undefined,
             ]
           }
         >
-          faucibus
+          am loremip
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          sum ligum purus
         </Text>
       </Text>
     </View>

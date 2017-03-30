@@ -35,6 +35,26 @@
       "data": {}
     },
     {
+      "key": "5r8641",
+      "text": "Etiam ultricies nisi vel augue.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "offset": 7,
+          "length": 9,
+          "style": "BOLD"
+        },
+        {
+          "offset": 7,
+          "length": 10,
+          "style": "ITALIC"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
       "key": "3tvln",
       "text": "",
       "type": "atomic",
@@ -155,10 +175,26 @@
     },
     {
       "key": "cniqr",
-      "text": "Suspendisse faucibus",
+      "text": "Suspendisse faucibus a quam loremipsum ligum purus",
       "type": "unordered-list-item",
       "depth": 0,
-      "inlineStyleRanges": [],
+      "inlineStyleRanges": [
+        {
+          "offset": 13,
+          "length": 6,
+          "style": "ITALIC"
+        },
+        {
+          "offset": 5,
+          "length": 30,
+          "style": "STRIKETHROUGH"
+        },
+        {
+          "offset": 16,
+          "length": 9,
+          "style": "BOLD"
+        }
+      ],
       "entityRanges": [
         {
           "offset": 12,

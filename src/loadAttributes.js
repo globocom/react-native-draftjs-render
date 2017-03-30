@@ -17,15 +17,10 @@ import generateKey from './utils/generateKey';
 import flatAttributesList from './flatAttributesList';
 
 const getItemType = (item: Object): string => {
-  if (item.style) {
-    if (Array.isArray(item.style)) {
-      return item.style.map((i: string): string => i.toLowerCase());
-    }
-    return item.style.toLowerCase();
+  if (Array.isArray(item.style)) {
+    return item.style.map((i: string): string => i.toLowerCase());
   }
-
-  if (item.key !== undefined) return 'link';
-  return '';
+  return item.style.toLowerCase();
 };
 
 const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => {

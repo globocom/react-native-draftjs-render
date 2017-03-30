@@ -19,7 +19,7 @@ type TextStyledPropsType = {
  onPress?: Function,
 };
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.flatten({
   bold: {
     fontWeight: 'bold',
   },
