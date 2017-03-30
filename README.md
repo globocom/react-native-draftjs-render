@@ -1,7 +1,7 @@
 # React Native Draft.js Render
 
 [![Build Status](https://travis-ci.org/globocom/react-native-draftjs-render.svg?branch=master)](https://travis-ci.org/globocom/react-native-draftjs-render)
-[![Coverage Status](https://coveralls.io/repos/github/globocom/react-native-draftjs-render/badge.svg?branch=feature%2Fcoveralls)](https://coveralls.io/github/globocom/react-native-draftjs-render?branch=feature%2Fcoveralls)
+[![Coverage Status](https://coveralls.io/repos/github/globocom/react-native-draftjs-render/badge.svg)](https://coveralls.io/github/globocom/react-native-draftjs-render)
 [![npm version](https://badge.fury.io/js/react-native-draftjs-render.svg)](https://www.npmjs.com/package/react-native-draftjs-render)
 
 A React Native render for [Draft.js](http://draftjs.org/) model.
