@@ -49,7 +49,8 @@ test:
 
 ## Update jest snapshots
 test-reset:
-	@npm run test-reset
+	@cd sample && npm run test-reset
+	npm test
 
 ## Run code coverage
 test-coverage:

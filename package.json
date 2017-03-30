@@ -6,7 +6,7 @@
     "test": "npm run linter && npm run flow && npm run coverage",
     "test-coveralls": "npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "coverage": "jest --coverage",
-    "test-reset": "npm test -- --updateSnapshot",
+    "test-reset": "jest --updateSnapshot",
     "linter": "eslint .",
     "flow": "flow",
     "flow-stop": "flow stop"
