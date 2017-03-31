@@ -21,8 +21,7 @@ import data from './resourceMock.json';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginLeft: 16,
-    marginRight: 16,
+    paddingHorizontal: 16,
     backgroundColor: '#F5FCFF',
   },
 });
@@ -93,12 +92,12 @@ const customStyles = {
 
 const atomicHandler = (item: Object): any => {
   switch (item.data.type) {
-    case 'backstage-photo':
+    case 'image':
       return (
         <View key={item.key} style={{ flex: 1 }}>
           <Image
             style={{ width: 288, height: 161 }}
-            source={{ uri: item.data.file.url }}
+            source={{ uri: item.data.url }}
           />
         </View>
       );

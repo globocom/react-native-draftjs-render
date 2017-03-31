@@ -62,25 +62,8 @@
       "inlineStyleRanges": [],
       "entityRanges": [],
       "data": {
-        "type": "backstage-photo",
-        "rightsHolder": "globoesporte 5",
-        "caption": "globoesporte 5",
-        "file": {
-          "url": "https://s2.glbimg.com/epsYZ-ixGirZCmCp31JjSMWmgYU=/640x350/smart/http://s.glbimg.com/en/ho/static/thumbor/why-thumbor-4.jpg",
-          "width": 3000,
-          "type": "image/jpeg",
-          "height": 2000,
-          "thumborUrl": "https://s2.glbimg.com/epsYZ-ixGirZCmCp31JjSMWmgYU=/640x350/smart/http://s.glbimg.com/en/ho/static/thumbor/why-thumbor-4.jpg",
-          "crop": {
-            "top": 0,
-            "left": 0,
-            "bottom": 2000,
-            "right": 3000,
-            "height": 2000,
-            "width": 3000
-          }
-        },
-        "display": "normal"
+        "type": "image",
+        "url": "https://lorempixel.com/400/200/"
       }
     },
     {
