@@ -43,7 +43,6 @@ const addTypeToSegments = (
         }
       }
     });
-    // console.log(types);
     if (types.length) {
       const attr = Object.assign({}, { offset: segment[0], length: segment[1] });
       const t = types.length === 1 ? types[0] : types;
