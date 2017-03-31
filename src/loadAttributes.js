@@ -15,13 +15,7 @@ import {
 import TextStyled from './components/TextStyled';
 import generateKey from './utils/generateKey';
 import flatAttributesList from './flatAttributesList';
-
-const getItemType = (item: Object): string => {
-  if (Array.isArray(item.style)) {
-    return item.style.map((i: string): string => i.toLowerCase());
-  }
-  return item.style.toLowerCase();
-};
+import getItemType from './helpers/getItemType';
 
 const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => {
   if (item.key !== undefined) {
