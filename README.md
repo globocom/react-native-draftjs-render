@@ -55,7 +55,7 @@ import {
 import RNDraftJSRender from 'react-native-draftjs-render';
 import contentState from 'DraftJs/contentState';
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.flatten({
   paragraph: {
     color: 'pink',
     fontSize: 18,

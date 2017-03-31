@@ -11,7 +11,7 @@ import {
 import RNDraftJSRender from 'react-native-draftjs-render';
 import contentState from 'DraftJs/contentState';
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.flatten({ // Use .flatten over .create
   'header-one': {
     fontSize: 20,
   },

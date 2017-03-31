@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const customStyles = {
+const customStyles = StyleSheet.flatten({
   unstyled: {
     fontSize: 18,
     fontWeight: 'normal',
@@ -88,7 +88,7 @@ const customStyles = {
   viewAfterList: {
     marginBottom: 32,
   },
-};
+});
 
 const atomicHandler = (item: Object): any => {
   switch (item.data.type) {
