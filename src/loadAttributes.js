@@ -31,14 +31,8 @@ const loadAttributes = (
   entityRanges: Array<Object>,
   entityMap: Object,
   navigate?: Function): any => {
-  let navigateFunction;
-  if (navigate) {
-    navigateFunction = navigate;
-  } else {
-    navigateFunction = (url: string) => {
-      Linking.openURL(url);
-    };
-  }
+  const defaultNavigationFn = (url: string) => { Linking.openURL(url); };
+  const navigateFunction = navigate || defaultNavigationFn;
   const elementList = [];
   let attributes = inlineStyles ? inlineStyles.concat(entityRanges) : entityRanges;
   attributes = attributes.sort((a: Object, b: Object): number => a.offset - b.offset);
