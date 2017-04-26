@@ -11,7 +11,7 @@ A React Native render for [Draft.js](http://draftjs.org/) model.
 Join the [#react-native-render](https://draftjs.slack.com/messages/react_native_render) channel on DraftJS Slack team.
 
 ## Getting Started
-Install **React Native Draft.js Render** on your Reat Native project, using NPM or Yarn:
+Install **React Native Draft.js Render** on your React Native project, using NPM or Yarn:
 
 ```sh
 npm i -S react-native-draftjs-render
