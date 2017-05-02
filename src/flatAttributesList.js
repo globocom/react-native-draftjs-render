@@ -7,6 +7,7 @@
 // @flow
 
 const sortInteger = (a: number, b: number): number => a - b;
+const isLink = (element: Object): boolean => Object.prototype.hasOwnProperty.call(element, 'key');
 
 const convertStylesIntoNumbers = (styles: Array<Object>): Array<number> => {
   const numbers = [];
@@ -35,7 +36,7 @@ const addTypeToSegments = (
     originalStyles.forEach((style: Object) => {
       const length = segment[0] + segment[1];
       if (length > style.offset && length <= style.offset + style.length) {
-        if (Object.prototype.hasOwnProperty.call(style, 'key')) {
+        if (isLink(style)) {
           types.push('link');
           segment.push(style.key);
         } else {
@@ -64,8 +65,15 @@ const isOverlap = (styles: Array<Object>): any => {
   return found;
 };
 
+const checkSingleLinkElement = (item: Object) => {
+  if (isLink(item)) {
+    Object.assign(item, { style: 'link' });
+  }
+};
+
 const flatAttributesList = (attrsList: Array<Object>): Array<Object> => {
   if (attrsList.length === 1 || !isOverlap(attrsList)) {
+    checkSingleLinkElement(attrsList[0]);
     return attrsList;
   }
   const numbersList = convertStylesIntoNumbers(attrsList);

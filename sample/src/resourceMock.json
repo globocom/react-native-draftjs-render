@@ -35,6 +35,36 @@
       "data": {}
     },
     {
+      "key": "5r864123",
+      "text": "Etiam ultricies nisi vel augue.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 0,
+          "length": 5,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "5r8641253",
+      "text": "Etiam ultricies nisi vel augue.",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [
+        {
+          "offset": 0,
+          "length": 5,
+          "style": "BOLD"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
       "key": "5r8641",
       "text": "Etiam ultricies nisi vel augue.",
       "type": "unstyled",

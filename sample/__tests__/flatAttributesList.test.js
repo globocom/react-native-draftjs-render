@@ -56,6 +56,21 @@ describe('only inlineStyleRanges', () => {
 });
 
 describe('only entityRanges', () => {
+  it('with one link renders correctly', () => {
+    const mock = [{
+      key: 0,
+      offset: 0,
+      length: 15,
+    }];
+    const expected = [{
+      key: 0,
+      offset: 0,
+      length: 15,
+      style: 'link',
+    }];
+    const result = flatAttributesList(mock);
+    expect(result).toEqual(expected);
+  });
   it('links doesnt change offset but receive link style', () => {
     const mock = [{
       key: 0,
