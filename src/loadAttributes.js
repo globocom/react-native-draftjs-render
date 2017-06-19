@@ -19,7 +19,7 @@ import getItemType from './helpers/getItemType';
 
 const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => {
   if (item.key !== undefined) {
-    return () => { navigate(entityMap[item.key].data.url); };
+    return () => { navigate(entityMap[item.key].data.linkUrl); };
   }
   return undefined;
 };
