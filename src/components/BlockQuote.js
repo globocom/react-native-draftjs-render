@@ -14,6 +14,8 @@ import {
 
 import DraftJsText from '../components/DraftJsText';
 
+import type { BlockQuotePropsType } from './defaultProps';
+
 const styles = StyleSheet.create({
   blockquoteContainer: {
     borderLeftColor: '#eee',
@@ -25,7 +27,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const BlockQuote = (props: Object): any => {
+const BlockQuote = (props: BlockQuotePropsType): any => {
   const blockquoteCustomStyleContainer = props.customStyles ?
     props.customStyles.blockquoteContainer :
     undefined;
@@ -44,12 +46,6 @@ const BlockQuote = (props: Object): any => {
       />
       <View style={blockquoteCustomStyleIconAfter} />
     </View>);
-};
-
-BlockQuote.propTypes = {
-  text: React.PropTypes.string.isRequired,
-  customStyles: React.PropTypes.any,
-  type: React.PropTypes.string.isRequired,
 };
 
 BlockQuote.defaultProps = {

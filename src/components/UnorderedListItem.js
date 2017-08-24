@@ -14,6 +14,8 @@ import {
 
 import DraftJsText from '../components/DraftJsText';
 
+import type { UnorderedListItemPropsType } from './defaultProps';
+
 const styles = StyleSheet.create({
   unorderedListItemContainer: {
     flex: 1,
@@ -30,7 +32,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const UnorderedListItem = (props: Object): any => {
+const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
   const unorderedListItemCustomStyleContainer = props.customStyles ?
     props.customStyles.unorderedListItemContainer :
     undefined;
@@ -46,10 +48,6 @@ const UnorderedListItem = (props: Object): any => {
         {...props}
       />
     </View>);
-};
-
-UnorderedListItem.propTypes = {
-  customStyles: React.PropTypes.any,
 };
 
 UnorderedListItem.defaultProps = {

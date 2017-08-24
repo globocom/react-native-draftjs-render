@@ -15,6 +15,8 @@ import {
 
 import DraftJsText from '../components/DraftJsText';
 
+import type { OrderedListItemPropsType } from './defaultProps';
+
 const styles = StyleSheet.create({
   orderedListItemContainer: {
     flex: 1,
@@ -29,7 +31,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const OrderedListItem = (props: Object): any => {
+const OrderedListItem = (props: OrderedListItemPropsType): any => {
   const number = props.counter;
   const separator = props.separator;
   const orderedListItemCustomStyleContainer = props.customStyles ?
@@ -51,12 +53,6 @@ const OrderedListItem = (props: Object): any => {
         {...props}
       />
     </View>);
-};
-
-OrderedListItem.propTypes = {
-  counter: React.PropTypes.number,
-  customStyles: React.PropTypes.any,
-  separator: React.PropTypes.string,
 };
 
 OrderedListItem.defaultProps = {

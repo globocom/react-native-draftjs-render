@@ -6,7 +6,7 @@
 
 // @flow
 
-import React from 'react';  // eslint-disable-line no-unused-vars
+import React from 'react'; // eslint-disable-line no-unused-vars
 import {
   AppRegistry,
 } from 'react-native';

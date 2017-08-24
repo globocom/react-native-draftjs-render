@@ -12,12 +12,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-type TextStyledPropsType = {
- text: string,
- type: any,
- customStyles: any,
- onPress?: Function,
-};
+import type { TextStyledPropsType } from './defaultProps';
 
 const styles = StyleSheet.flatten({
   bold: {
@@ -37,14 +32,15 @@ const styles = StyleSheet.flatten({
   },
 });
 
-const getStyles = (itemType: any, customStyles: Object): any => {
+const getStyles = (itemType: any, customStyles?: Object): any => {
+  if (!customStyles) return [styles[itemType]];
   if (typeof itemType === 'string') return [styles[itemType], customStyles[itemType]];
 
   const defaultTextStyles = {};
   const customTextStyles = {};
   itemType.forEach((i: string) => {
     Object.assign(defaultTextStyles, styles[i]);
-    Object.assign(customTextStyles, customStyles[i]);
+    if (customStyles) Object.assign(customTextStyles, customStyles[i]);
   });
   const newStyles = [defaultTextStyles, customTextStyles];
   return newStyles;
@@ -57,11 +53,6 @@ const TextStyled = (props: TextStyledPropsType): any => {
     return <Text style={textStyle} onPress={props.onPress}>{props.text}</Text>;
   }
   return <Text style={textStyle}>{props.text}</Text>;
-};
-
-TextStyled.propTypes = {
-  text: React.PropTypes.string,
-  type: React.PropTypes.any.isRequired,
 };
 
 TextStyled.defaultProps = {

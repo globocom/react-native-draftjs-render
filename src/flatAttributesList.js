@@ -58,7 +58,7 @@ const addTypeToSegments = (
 const isOverlap = (styles: Array<Object>): any => {
   let found;
   for (let i = 0; i < styles.length - 1; i += 1) {
-    found = styles.find(item =>
+    found = styles.find((item: Object): boolean =>
       item.offset >= styles[i].offset && item.offset <= styles[i].offset + styles[i].length);
     if (found) break;
   }

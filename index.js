@@ -4,11 +4,9 @@
  * License: MIT
  */
 
- // @flow
+// @flow
 
-import React, {
-  PropTypes,
-} from 'react';
+import React from 'react';
 import {
   View,
 } from 'react-native';
@@ -26,7 +24,7 @@ type RnDraftJsRenderPropsType = {
  customStyles?: Object,
  atomicHandler: Function,
  navigate?: Function,
- orderedListSeparator?: String,
+ orderedListSeparator?: string,
 };
 
 const RNDraftJSRender = (props: RnDraftJsRenderPropsType): any => {
@@ -39,14 +37,6 @@ const RNDraftJSRender = (props: RnDraftJsRenderPropsType): any => {
       { blocks }
     </View>
   );
-};
-
-RNDraftJSRender.propTypes = {
-  contentState: PropTypes.object.isRequired,
-  customStyles: PropTypes.object,
-  atomicHandler: PropTypes.func,
-  navigate: PropTypes.func,
-  orderedListSeparator: PropTypes.string,
 };
 
 RNDraftJSRender.defaultProps = {

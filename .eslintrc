@@ -27,8 +27,8 @@
       }
     ],
     "import/imports-first": 2,
-    "flow-vars/define-flow-type": 1,
-    "flow-vars/use-flow-type": 1,
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1,
     "flowtype/require-parameter-type": 1,
     "flowtype/require-return-type": [
       1,
@@ -76,7 +76,6 @@
   "plugins": [
     "react",
     "react-native",
-    "flow-vars",
     "flowtype"
   ]
 }

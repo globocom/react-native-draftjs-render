@@ -22,7 +22,7 @@ const getBlocks = (
   customStyles: Object = {},
   atomicHandler: Function,
   navigate?: Function,
-  orderedListSeparator?: String): any => {
+  orderedListSeparator?: string): any => {
   if (!bodyData.blocks) {
     return null;
   }
