@@ -12,6 +12,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -32,6 +33,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -46,6 +48,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         Etiam ultricies nisi vel 
@@ -53,6 +56,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -68,6 +72,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         . Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Cras dapibus. Sed 
@@ -75,6 +80,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -90,6 +96,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         , eros et ultrices tempus, mauris ipsum aliquam libero, non 
@@ -97,6 +104,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -112,6 +120,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
          dolor urna a orci.
@@ -122,6 +131,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -136,6 +146,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         onPress={[Function]}
         style={
@@ -152,6 +163,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
          ultricies nisi vel augue.
@@ -162,6 +174,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -176,6 +189,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -191,6 +205,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
          ultricies nisi vel augue.
@@ -201,6 +216,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -215,6 +231,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         Etiam u
@@ -222,6 +239,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -238,6 +256,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -253,6 +272,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         isi vel augue.
@@ -263,6 +283,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -283,6 +304,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -303,6 +325,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -323,6 +346,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -343,6 +367,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -375,6 +400,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -394,6 +420,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -425,6 +452,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -444,6 +472,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -475,6 +504,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -494,6 +524,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -543,6 +574,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -589,6 +621,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -635,6 +668,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -649,6 +683,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
         >
           Suspe
@@ -656,6 +691,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -671,6 +707,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -687,6 +724,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -704,6 +742,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -722,6 +761,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -739,6 +779,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -755,6 +796,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -770,6 +812,7 @@ exports[`renders correctly with contentState 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
         >
           sum ligum purus
@@ -802,6 +845,7 @@ exports[`renders correctly with contentState 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -826,6 +870,7 @@ exports[`renders correctly with contentState 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -860,6 +905,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -880,6 +926,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -896,6 +943,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         Etiam ultricies nisi vel 
@@ -903,6 +951,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -918,6 +967,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         . Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Cras dapibus. Sed 
@@ -925,6 +975,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -942,6 +993,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         , eros et ultrices tempus, mauris ipsum aliquam libero, non 
@@ -949,6 +1001,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -964,6 +1017,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
          dolor urna a orci.
@@ -974,6 +1028,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -990,6 +1045,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         onPress={[Function]}
         style={
@@ -1006,6 +1062,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
          ultricies nisi vel augue.
@@ -1016,6 +1073,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -1032,6 +1090,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1047,6 +1106,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
          ultricies nisi vel augue.
@@ -1057,6 +1117,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -1073,6 +1134,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         Etiam u
@@ -1080,6 +1142,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1098,6 +1161,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1115,6 +1179,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
       >
         isi vel augue.
@@ -1125,6 +1190,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -1145,6 +1211,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -1165,6 +1232,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -1185,6 +1253,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -1205,6 +1274,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
@@ -1237,6 +1307,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1256,6 +1327,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1287,6 +1359,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1306,6 +1379,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1337,6 +1411,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1356,6 +1431,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1405,6 +1481,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1451,6 +1528,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1497,6 +1575,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1511,6 +1590,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
         >
           Suspe
@@ -1518,6 +1598,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -1533,6 +1614,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -1549,6 +1631,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -1568,6 +1651,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -1588,6 +1672,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           onPress={[Function]}
           style={
@@ -1605,6 +1690,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -1621,6 +1707,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -1636,6 +1723,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
         >
           sum ligum purus
@@ -1668,6 +1756,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Array [
@@ -1692,6 +1781,7 @@ exports[`renders correctly with contentState and customStyle 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      disabled={false}
       ellipsizeMode="tail"
       style={
         Array [
