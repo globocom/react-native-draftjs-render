@@ -17,14 +17,29 @@ import UnorderedListItem from './components/UnorderedListItem';
 import OrderedListItem from './components/OrderedListItem';
 import generateKey from './utils/generateKey';
 
-const getBlocks = (
-  bodyData: Object = {},
-  customStyles: Object = {},
+type ParamsType = {
+  contentState: Object,
+  customStyles: Object,
   atomicHandler: Function,
   navigate?: Function,
-  orderedListSeparator?: string): any => {
-  if (!bodyData.blocks) {
+  orderedListSeparator?: string,
+};
+
+const getBlocks = (params: ParamsType): ?Array<*> => {
+  const {
+    contentState,
+    customStyles,
+    navigate,
+    orderedListSeparator,
+  } = params;
+  let { atomicHandler } = params;
+
+  if (!contentState.blocks) {
     return null;
+  }
+
+  if (typeof atomicHandler === 'undefined') {
+    atomicHandler = (item: Object): any => item;
   }
 
   const counters = {
@@ -45,6 +60,8 @@ const getBlocks = (
   function checkCounter(counter: Object): any {
     const myCounter = counter;
 
+
+    // list types
     if (myCounter.count >= 0) {
       if (myCounter.count > 0) {
         myCounter.count = 0;
@@ -53,6 +70,7 @@ const getBlocks = (
       return null;
     }
 
+    // non list types
     if (myCounter['unordered-list-item'].count > 0 || myCounter['ordered-list-item'].count > 0) {
       myCounter['unordered-list-item'].count = 0;
       myCounter['ordered-list-item'].count = 0;
@@ -62,7 +80,7 @@ const getBlocks = (
     return null;
   }
 
-  return bodyData.blocks
+  return contentState.blocks
     .map((item: Object): any => {
       const itemData = {
         key: item.key,
@@ -88,7 +106,7 @@ const getBlocks = (
               {viewBefore}
               <DraftJsText
                 {...itemData}
-                entityMap={bodyData.entityMap}
+                entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
               />
@@ -110,7 +128,7 @@ const getBlocks = (
               {viewBefore}
               <BlockQuote
                 {...itemData}
-                entityMap={bodyData.entityMap}
+                entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
               />
@@ -126,7 +144,7 @@ const getBlocks = (
               {viewBefore}
               <UnorderedListItem
                 {...itemData}
-                entityMap={bodyData.entityMap}
+                entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
               />
@@ -144,7 +162,7 @@ const getBlocks = (
                 {...itemData}
                 separator={orderedListSeparator}
                 counter={counters[item.type].count}
-                entityMap={bodyData.entityMap}
+                entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
               />
