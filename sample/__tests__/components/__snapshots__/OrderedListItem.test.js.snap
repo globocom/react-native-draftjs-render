@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`extends a style with a customStyle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginRight": 8,
+        },
+        undefined,
+      ]
+    }
+  >
+    1
+    .
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+          "fontWeight": "normal",
+          "letterSpacing": -0.75,
+          "lineHeight": 32,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with a ordered-list-item 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginRight": 8,
+        },
+        undefined,
+      ]
+    }
+  >
+    1
+    .
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`renders null without a ordered-list-item 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginRight": 8,
+        },
+        undefined,
+      ]
+    }
+  >
+    1
+    .
+  </Text>
+</View>
+`;
