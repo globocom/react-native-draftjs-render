@@ -22,14 +22,14 @@ it('renders correctly with a blockquote', () => {
       inlineStyles={[]}
       entityRanges={[]}
       entityMap={{}}
-    />
+    />,
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
 it('renders null without a blockquote', () => {
   const tree = renderer.create(
-    <BlockQuote />
+    <BlockQuote />,
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -53,7 +53,7 @@ it('extends a style with a customStyle', () => {
       entityRanges={[]}
       entityMap={{}}
       navigate={() => null}
-    />
+    />,
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });

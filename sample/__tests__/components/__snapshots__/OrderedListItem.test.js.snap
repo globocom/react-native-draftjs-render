@@ -9,7 +9,9 @@ exports[`extends a style with a customStyle 1`] = `
         "flex": 1,
         "flexDirection": "row",
       },
-      undefined,
+      Object {
+        "flex": 2,
+      },
     ]
   }
 >
@@ -26,7 +28,9 @@ exports[`extends a style with a customStyle 1`] = `
           "fontWeight": "bold",
           "marginRight": 8,
         },
-        undefined,
+        Object {
+          "fontSize": 14,
+        },
       ]
     }
   >

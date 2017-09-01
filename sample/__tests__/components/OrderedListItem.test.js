@@ -22,14 +22,14 @@ it('renders correctly with a ordered-list-item', () => {
       inlineStyles={[]}
       entityRanges={[]}
       entityMap={{}}
-    />
+    />,
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
 it('renders null without a ordered-list-item', () => {
   const tree = renderer.create(
-    <OrderedListItem />
+    <OrderedListItem />,
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
@@ -43,6 +43,12 @@ it('extends a style with a customStyle', () => {
       letterSpacing: -0.75,
       lineHeight: 32,
     },
+    orderedListItemContainer: {
+      flex: 2,
+    },
+    orderedListItemNumber: {
+      fontSize: 14,
+    },
   };
   const tree = renderer.create(
     <OrderedListItem
@@ -53,7 +59,7 @@ it('extends a style with a customStyle', () => {
       entityRanges={[]}
       entityMap={{}}
       navigate={() => null}
-    />
+    />,
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
