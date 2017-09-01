@@ -65,7 +65,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     if (myCounter.count >= 0) {
       if (myCounter.count > 0) {
         myCounter.count = 0;
-        return <ViewAfterList />;
+        return <ViewAfterList key={generateKey()} />;
       }
       return null;
     }
@@ -74,7 +74,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     if (myCounter['unordered-list-item'].count > 0 || myCounter['ordered-list-item'].count > 0) {
       myCounter['unordered-list-item'].count = 0;
       myCounter['ordered-list-item'].count = 0;
-      return <ViewAfterList />;
+      return <ViewAfterList key={generateKey()} />;
     }
 
     return null;
@@ -115,10 +115,14 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         }
 
         case 'atomic': {
-          const atomicView = [];
-          atomicView.push(checkCounter(counters));
-          atomicView.push(atomicHandler(item));
-          return atomicView;
+          const separator = checkCounter(counters);
+          if (separator) {
+            const atomicView = [];
+            atomicView.push(separator);
+            atomicView.push(atomicHandler(item));
+            return atomicView;
+          }
+          return atomicHandler(item);
         }
 
         case 'blockquote': {

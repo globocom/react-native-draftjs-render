@@ -59,7 +59,16 @@ describe('return specific component based on type', () => {
     const bodyData = { blocks: [{ type: 'atomic' }] };
     const atomicHandler = item => item;
     const result = getBlocks({ contentState: bodyData, atomicHandler });
-    expect(result[0][1].type).toBe('atomic');
+    expect(result[0].type).toBe('atomic');
+  });
+
+  it('atomicHandler function when type atomic between lists', () => {
+    const bodyData = { blocks: [
+      { type: 'ordered-list-item' }, { type: 'atomic' }, { type: 'ordered-list-item' },
+    ] };
+    const atomicHandler = item => item;
+    const result = getBlocks({ contentState: bodyData, atomicHandler });
+    expect(result[1][1].type).toBe('atomic');
   });
 
   it('array of null when type is invalid', () => {
