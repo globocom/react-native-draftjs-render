@@ -20,7 +20,7 @@ yarn add react-native-draftjs-render
 ```
 
 ### Using
-Just import and insert your Draft.js model on RNDraftJSRender:
+Just import and insert your Draft.js model on getRNDraftJSBlocks:
 
 ```js
 import React from 'react';
@@ -28,14 +28,15 @@ import {
   AppRegistry,
 } from 'react-native';
 
-import RNDraftJSRender from 'react-native-draftjs-render';
+import getRNDraftJSBlocks from 'react-native-draftjs-render';
 import contentState from 'DraftJs/contentState';
 
-const MyApp = () => (
-  <RNDraftJSRender
-    contentState={contentState}
-  />
-);
+const MyApp = () => {
+  const blocks = getRNDraftJSBlocks({ contentState });
+  return (
+    <View style={{ flex: 1 }}>{blocks}</View>
+  );
+};
 
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
@@ -52,7 +53,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import RNDraftJSRender from 'react-native-draftjs-render';
+import getRNDraftJSBlocks from 'react-native-draftjs-render';
 import contentState from 'DraftJs/contentState';
 
 const styles = StyleSheet.flatten({
@@ -66,19 +67,19 @@ const styles = StyleSheet.flatten({
   },
 });
 
-const MyApp = () => (
-  <RNDraftJSRender
-    contentState={contentState}
-    customStyles={styles}
-  />
-);
+const MyApp = () => {
+  const blocks = getRNDraftJSBlocks({ contentState, customStyles: styles });
+  return (
+    <View style={{ flex: 1 }}>{blocks}</View>
+  );
+};
 
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
 
 See more at **[Custom Styles](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/CustomStyles.md)** documentation.
 
-## Developing
+## Contributing
 
 To develop using example react-native project:
 

@@ -8,7 +8,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import RNDraftJSRender from 'react-native-draftjs-render';
+import getRNDraftJSBlocks from 'react-native-draftjs-render';
 import contentState from 'DraftJs/contentState';
 
 const styles = StyleSheet.flatten({ // Use .flatten over .create
@@ -25,12 +25,12 @@ const styles = StyleSheet.flatten({ // Use .flatten over .create
   },
 });
 
-const MyApp = () => (
-  <RNDraftJSRender
-    contentState={contentState}
-    customStyles={styles}
-  />
-);
+const MyApp = () => {
+  const blocks = getRNDraftJSBlocks({ contentState, customStyles: styles });
+  return (
+    <View style={{ flex: 1 }}>{blocks}</View>
+  );
+};
 
 AppRegistry.registerComponent('MyApp', () => MyApp);
 ```
