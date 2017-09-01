@@ -20,14 +20,14 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
   let textElements = props.text;
 
   if (textElements) {
-    textElements = loadAttributes(
-      props.text,
-      props.customStyles,
-      props.inlineStyles,
-      props.entityRanges,
-      props.entityMap,
-      props.navigate,
-    );
+    textElements = loadAttributes({
+      text: props.text,
+      customStyles: props.customStyles,
+      inlineStyles: props.inlineStyles,
+      entityRanges: props.entityRanges,
+      entityMap: props.entityMap,
+      navigate: props.navigate,
+    });
 
     const customStyle = props.customStyles ? props.customStyles[props.type] : undefined;
 

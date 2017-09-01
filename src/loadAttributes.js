@@ -24,13 +24,24 @@ const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => 
   return undefined;
 };
 
-const loadAttributes = (
+type ParamsType = {
   text: string,
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
   entityMap: Object,
-  navigate?: Function): any => {
+  navigate?: Function,
+};
+
+const loadAttributes = (params: ParamsType): any => {
+  const {
+    text,
+    customStyles,
+    inlineStyles,
+    entityRanges,
+    entityMap,
+    navigate,
+  } = params;
   const defaultNavigationFn = (url: string) => { Linking.openURL(url); };
   const navigateFunction = navigate || defaultNavigationFn;
   const elementList = [];
