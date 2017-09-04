@@ -1,7 +1,7 @@
 {
   "name": "react-native-draftjs-render",
   "description": "React Native render for draft.js model",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "scripts": {
     "test": "npm run linter && npm run flow && npm run coverage",
     "test-coveralls": "npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
