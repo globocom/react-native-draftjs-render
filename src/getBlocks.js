@@ -178,18 +178,11 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
 
         default: {
           const viewBefore = checkCounter(counters);
-          let component;
-          if (customBlockHandler) {
-            component = customBlockHandler(item, params);
-          }
-          if (!component) {
-            component = (
-              <View key={generateKey()}>
-                {viewBefore}
-              </View>
-            );
-          }
-          return component;
+          return customBlockHandler ? customBlockHandler(item, params) : (
+            <View key={generateKey()}>
+              {viewBefore}
+            </View>
+          );
         }
       }
     });
