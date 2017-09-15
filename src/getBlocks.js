@@ -23,6 +23,7 @@ type ParamsType = {
   atomicHandler: Function,
   navigate?: Function,
   orderedListSeparator?: string,
+  customBlockHandler?: (Object, ParamsType) => any
 };
 
 const getBlocks = (params: ParamsType): ?Array<*> => {
@@ -31,6 +32,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     customStyles,
     navigate,
     orderedListSeparator,
+    customBlockHandler,
   } = params;
   let { atomicHandler } = params;
 
@@ -176,11 +178,18 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
 
         default: {
           const viewBefore = checkCounter(counters);
-          return (
-            <View key={generateKey()}>
-              {viewBefore}
-            </View>
-          );
+          let component;
+          if (customBlockHandler) {
+            component = customBlockHandler(item, params);
+          }
+          if (!component) {
+            component = (
+              <View key={generateKey()}>
+                {viewBefore}
+              </View>
+            );
+          }
+          return component;
         }
       }
     });
