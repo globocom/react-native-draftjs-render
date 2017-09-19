@@ -51,7 +51,7 @@ it('have correct length with inlineStyles and text width astral symbols', () => 
     entityRanges: [],
   };
   const result = loadAttributes(params);
-  expect(result).toHaveLength(2);
+  expect(result).toHaveLength(3);
 });
 
 it('have correct length with multiple inlineStyles and text', () => {
