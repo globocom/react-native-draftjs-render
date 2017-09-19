@@ -6,6 +6,7 @@
 
 // @flow
 
+import { substring, length } from 'stringz';
 import React from 'react';
 import {
   Text,
@@ -42,6 +43,7 @@ const loadAttributes = (params: ParamsType): any => {
     entityMap,
     navigate,
   } = params;
+
   const defaultNavigationFn = (url: string) => { Linking.openURL(url); };
   const navigateFunction = navigate || defaultNavigationFn;
   const elementList = [];
@@ -52,14 +54,15 @@ const loadAttributes = (params: ParamsType): any => {
     const attrs = flatAttributesList(attributes);
 
     if (attrs[0].offset > 0) {
-      elementList.push(<Text key={generateKey()}>{text.substring(0, attrs[0].offset)}</Text>);
+      elementList.push(
+        <Text key={generateKey()}>{substring(text, 0, attrs[0].offset)}</Text>);
     }
 
     attrs.forEach((item: Object, index: number) => {
       if (index > 0) {
         const previousItem = attrs[index - 1];
         const offset = previousItem.offset + previousItem.length;
-        const subText = text.substring(offset, item.offset);
+        const subText = substring(text, offset, item.offset);
 
         if (subText.length) {
           elementList.push(<Text key={generateKey()}>{subText}</Text>);
@@ -70,7 +73,7 @@ const loadAttributes = (params: ParamsType): any => {
       const itemData = Object.assign({}, {
         key: generateKey(),
         type: itemType,
-        text: text.substring(item.offset, item.offset + item.length),
+        text: substring(text, item.offset, item.offset + item.length),
         customStyles,
       });
 
@@ -84,7 +87,7 @@ const loadAttributes = (params: ParamsType): any => {
 
     const lastItem = attrs[attrs.length - 1];
     const offset = lastItem.offset + lastItem.length;
-    const subText = text.substring(offset, text.length);
+    const subText = substring(text, offset, length(text));
 
     if (subText.length) {
       elementList.push(<Text key={generateKey()}>{subText}</Text>);

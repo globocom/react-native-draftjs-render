@@ -37,6 +37,23 @@ it('have correct length with inlineStyles and text', () => {
   expect(result).toHaveLength(3);
 });
 
+it('have correct length with inlineStyles and text width astral symbols', () => {
+  const params = {
+    text: 'Iñtërnâtiônàlizætiøn☃💩 Etiama nisi augue ultricie qa magna',
+    inlineStyles: [
+      {
+        offset: 4,
+        length: 35,
+        style: 'BOLD',
+      },
+    ],
+    entityMap: {},
+    entityRanges: [],
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+});
+
 it('have correct length with multiple inlineStyles and text', () => {
   const params = {
     text: 'Hello World Hello World Hello World',

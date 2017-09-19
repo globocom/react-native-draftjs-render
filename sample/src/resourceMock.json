@@ -35,6 +35,36 @@
       "data": {}
     },
     {
+      "key": "3lkq2",
+      "text": "Ma 🎤Iñtërnâtiônàlizætiøn☃💩 Etiama nia",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 2,
+          "length": 35,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "7noje",
+      "text": "🎤 Etiama augue 'ultricie ultric'",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [
+        {
+          "offset": 1,
+          "length": 31,
+          "key": 0
+        }
+      ],
+      "data": {}
+    },
+    {
       "key": "5r864123",
       "text": "Etiam ultricies nisi vel augue.",
       "type": "unstyled",
