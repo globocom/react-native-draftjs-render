@@ -82,4 +82,16 @@ describe('return specific component based on type', () => {
     const result = getBlocks({ contentState: bodyData });
     expect(result).toBe(null);
   });
+
+  it('should use the optional customBlockHandler when handling custom block types', () => {
+    const bodyData = { blocks: [{ type: 'my-own-type' }] };
+    const myCustomComponent = jest.fn();
+    const customBlockHandler = jest.fn((item, params) => myCustomComponent);
+    const result = getBlocks({ contentState: bodyData, customBlockHandler });
+    expect(customBlockHandler.mock.calls.length).toBe(1);
+    expect(customBlockHandler.mock.calls[0][0].type).toBe('my-own-type');
+    expect(customBlockHandler.mock.calls[0][1].contentState).toBe(bodyData);
+    expect(customBlockHandler.mock.calls[0][1].customBlockHandler).toBe(customBlockHandler);
+    expect(result[0]).toBe(myCustomComponent);
+  });
 });

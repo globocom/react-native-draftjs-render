@@ -42,3 +42,7 @@ jspm_packages
 .node_repl_history
 
 sample/react-native-draftjs-render/*
+
+# VSCode
+jsconfig.json
+
