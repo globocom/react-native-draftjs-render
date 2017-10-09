@@ -12,6 +12,7 @@
     "no-duplicate-imports": 0,
     "no-underscore-dangle": 0,
     "react/forbid-prop-types": 0,
+    "react/default-props-match-prop-types": 0,
     "import/no-unresolved": 0,
     "import/export": 2,
     "import/no-extraneous-dependencies": [

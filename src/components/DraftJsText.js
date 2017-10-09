@@ -31,9 +31,11 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
 
     const customStyle = props.customStyles ? props.customStyles[props.type] : undefined;
 
-    return (<Text
-      style={[defaultStyles[props.type], customStyle]}
-    >{textElements}</Text>);
+    return (
+      <Text
+        style={[defaultStyles[props.type], customStyle]}
+      >{textElements}
+      </Text>);
   }
   return null;
 };

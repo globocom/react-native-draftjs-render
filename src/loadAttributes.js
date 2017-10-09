@@ -54,8 +54,7 @@ const loadAttributes = (params: ParamsType): any => {
     const attrs = flatAttributesList(attributes);
 
     if (attrs[0].offset > 0) {
-      elementList.push(
-        <Text key={generateKey()}>{substring(text, 0, attrs[0].offset)}</Text>);
+      elementList.push(<Text key={generateKey()}>{substring(text, 0, attrs[0].offset)}</Text>);
     }
 
     attrs.forEach((item: Object, index: number) => {

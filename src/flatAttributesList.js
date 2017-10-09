@@ -29,7 +29,8 @@ const createArrayWithSegments = (numbersList: Array<number>): Array<Array<number
 
 const addTypeToSegments = (
   segments: Array<Array<number>>,
-  originalStyles: Array<Object>): Array<Object> => {
+  originalStyles: Array<Object>,
+): Array<Object> => {
   const objectList = [];
   segments.forEach((segment: Array<number>) => {
     const types = [];

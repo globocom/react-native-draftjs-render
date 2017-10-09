@@ -32,8 +32,11 @@ const styles = StyleSheet.create({
 });
 
 const OrderedListItem = (props: OrderedListItemPropsType): any => {
-  const number = props.counter;
-  const separator = props.separator;
+  const {
+    counter,
+    separator,
+  } = props;
+
   const orderedListItemCustomStyleContainer = props.customStyles ?
     props.customStyles.orderedListItemContainer :
     undefined;
@@ -47,7 +50,7 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
       <Text
         style={[styles.orderedListItemNumber, orderedListItemCustomStyleNumber]}
       >
-        {number}{separator}
+        {counter}{separator}
       </Text>
       <DraftJsText
         {...props}
