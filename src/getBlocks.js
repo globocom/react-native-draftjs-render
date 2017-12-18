@@ -199,4 +199,4 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     });
 };
 
-module.exports = getBlocks;
+export default getBlocks;
