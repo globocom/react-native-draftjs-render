@@ -25,6 +25,9 @@ exports[`extends a style with a customStyle 1`] = `
           "width": 5,
         },
         undefined,
+        Object {
+          "marginLeft": 0,
+        },
       ]
     }
   />
@@ -44,6 +47,7 @@ exports[`extends a style with a customStyle 1`] = `
           "fontWeight": "normal",
           "letterSpacing": -0.75,
           "lineHeight": 32,
+          "marginLeft": 10,
         },
       ]
     }
@@ -78,6 +82,9 @@ exports[`renders correctly with a unordered-list-item 1`] = `
           "width": 5,
         },
         undefined,
+        Object {
+          "marginLeft": 0,
+        },
       ]
     }
   />
@@ -126,6 +133,9 @@ exports[`renders null without a unordered-list-item 1`] = `
           "width": 5,
         },
         undefined,
+        Object {
+          "marginLeft": 0,
+        },
       ]
     }
   />

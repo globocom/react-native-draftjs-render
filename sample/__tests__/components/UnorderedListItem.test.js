@@ -42,6 +42,7 @@ it('extends a style with a customStyle', () => {
       fontWeight: 'normal',
       letterSpacing: -0.75,
       lineHeight: 32,
+      marginLeft: 10
     },
   };
   const tree = renderer.create(

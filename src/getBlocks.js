@@ -90,6 +90,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         type: item.type,
         inlineStyles: item.inlineStyleRanges,
         entityRanges: item.entityRanges,
+        depth: item.depth,
       };
 
       switch (item.type) {
