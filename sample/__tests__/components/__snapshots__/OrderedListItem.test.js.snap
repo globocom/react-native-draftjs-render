@@ -31,6 +31,9 @@ exports[`extends a style with a customStyle 1`] = `
         Object {
           "fontSize": 14,
         },
+        Object {
+          "marginLeft": 0,
+        },
       ]
     }
   >
@@ -53,6 +56,7 @@ exports[`extends a style with a customStyle 1`] = `
           "fontWeight": "normal",
           "letterSpacing": -0.75,
           "lineHeight": 32,
+          "marginLeft": 10,
         },
       ]
     }
@@ -89,6 +93,9 @@ exports[`renders correctly with a ordered-list-item 1`] = `
           "marginRight": 8,
         },
         undefined,
+        Object {
+          "marginLeft": 0,
+        },
       ]
     }
   >
@@ -142,6 +149,9 @@ exports[`renders null without a ordered-list-item 1`] = `
           "marginRight": 8,
         },
         undefined,
+        Object {
+          "marginLeft": 0,
+        },
       ]
     }
   >
