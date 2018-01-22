@@ -118,12 +118,15 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         }
 
         case 'atomic': {
-          const separator = checkCounter(counters);
-          if (separator) {
-            const atomicView = [];
-            atomicView.push(separator);
-            atomicView.push(atomicHandler(item));
-            return atomicView;
+          const viewBefore = checkCounter(counters);
+          const atomic = atomicHandler(item);
+          if (viewBefore) {
+            return (
+              <View key={generateKey()}>
+                {viewBefore}
+                {atomic}
+              </View>
+            );
           }
           return atomicHandler(item);
         }

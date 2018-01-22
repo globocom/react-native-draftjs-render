@@ -68,7 +68,7 @@ describe('return specific component based on type', () => {
     ] };
     const atomicHandler = item => item;
     const result = getBlocks({ contentState: bodyData, atomicHandler });
-    expect(result[1][1].type).toBe('atomic');
+    expect(result[1].props.children[1].type).toBe('atomic');
   });
 
   it('array of null when type is invalid', () => {
