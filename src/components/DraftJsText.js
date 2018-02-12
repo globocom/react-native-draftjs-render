@@ -30,10 +30,12 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
     });
 
     const customStyle = props.customStyles ? props.customStyles[props.type] : undefined;
+    const textAlign = props.data['text-align'];
+    const textAlignStyle = textAlign ? { textAlign } : {}
 
     return (
       <Text
-        style={[defaultStyles[props.type], customStyle]}
+        style={[defaultStyles[props.type], customStyle, textAlignStyle]}
       >{textElements}
       </Text>);
   }
