@@ -18,6 +18,7 @@ export type BlockQuotePropsType = {
 export type DraftJsTextPropsType = {
   type: string,
   text: string,
+  data: Object,
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
