@@ -60,7 +60,6 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
 
 OrderedListItem.defaultProps = {
   counter: 1,
-  customStyles: {},
   separator: '.',
 };
 

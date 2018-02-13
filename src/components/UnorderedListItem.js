@@ -51,7 +51,6 @@ const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
 };
 
 UnorderedListItem.defaultProps = {
-  customStyles: {},
 };
 
 export default UnorderedListItem;
