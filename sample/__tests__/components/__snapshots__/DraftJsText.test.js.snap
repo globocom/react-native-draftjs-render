@@ -17,6 +17,7 @@ exports[`extends a style with a customStyle 1`] = `
         "letterSpacing": -0.75,
         "lineHeight": 32,
       },
+      Object {},
     ]
   }
 >
@@ -36,6 +37,7 @@ exports[`extends a style with a customStyle from another type 1`] = `
         "fontWeight": "normal",
       },
       undefined,
+      Object {},
     ]
   }
 >
@@ -55,6 +57,7 @@ exports[`renders correctly with a text 1`] = `
         "fontWeight": "normal",
       },
       undefined,
+      Object {},
     ]
   }
 >

@@ -52,6 +52,7 @@ exports[`extends a style with a customStyle 1`] = `
           "letterSpacing": -0.75,
           "lineHeight": 32,
         },
+        Object {},
       ]
     }
   >
@@ -103,6 +104,7 @@ exports[`renders correctly with a ordered-list-item 1`] = `
           "fontWeight": "normal",
         },
         undefined,
+        Object {},
       ]
     }
   >

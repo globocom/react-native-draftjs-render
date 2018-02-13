@@ -9,6 +9,7 @@
 export type BlockQuotePropsType = {
   type: string,
   text: string,
+  data: Object,
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
@@ -29,6 +30,7 @@ export type DraftJsTextPropsType = {
 export type OrderedListItemPropsType = {
   type: string,
   text: string,
+  data: Object,
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
@@ -40,6 +42,7 @@ export type OrderedListItemPropsType = {
 export type UnorderedListItemPropsType = {
   type: string,
   text: string,
+  data: Object,
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,

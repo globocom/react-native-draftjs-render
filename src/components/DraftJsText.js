@@ -44,6 +44,7 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
 
 DraftJsText.defaultProps = {
   text: '',
+  data: {},
   customStyles: {},
   inlineStyles: [],
   navigate: undefined,
