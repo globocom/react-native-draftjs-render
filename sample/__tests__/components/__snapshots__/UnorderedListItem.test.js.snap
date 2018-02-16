@@ -34,6 +34,7 @@ exports[`extends a style with a customStyle 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    disabled={false}
     ellipsizeMode="tail"
     style={
       Array [
@@ -90,6 +91,109 @@ exports[`renders correctly with a unordered-list-item 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with a unordered-list-item when depth 1 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "black",
+          "borderRadius": 5,
+          "height": 5,
+          "marginRight": 8,
+          "width": 5,
+        },
+        undefined,
+        Object {
+          "marginLeft": 7,
+        },
+      ]
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`renders correctly with a unordered-list-item when depth is undefined 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "black",
+          "borderRadius": 5,
+          "height": 5,
+          "marginRight": 8,
+          "width": 5,
+        },
+        undefined,
+        Object {
+          "marginLeft": 0,
+        },
+      ]
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
     ellipsizeMode="tail"
     style={
       Array [

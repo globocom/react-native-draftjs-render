@@ -6,36 +6,66 @@
 
 /* eslint-env jest */
 
-import 'react-native';
+import 'react-native'
 
-import React from 'react';
-import renderer from 'react-test-renderer';
+import React from 'react'
+import renderer from 'react-test-renderer'
 
-import UnorderedListItem from '../../../src/components/UnorderedListItem';
+import UnorderedListItem from '../../../src/components/UnorderedListItem'
 
 it('renders correctly with a unordered-list-item', () => {
-  const text = 'Hello World';
+  const text = 'Hello World'
   const tree = renderer.create(
     <UnorderedListItem
-      type="unordered-list-item"
+      type='unordered-list-item'
       text={text}
       inlineStyles={[]}
       entityRanges={[]}
       entityMap={{}}
-    />,
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
+    />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
+
+it('renders correctly with a unordered-list-item when depth is undefined', () => {
+  const text = 'Hello World'
+  const tree = renderer.create(
+    <UnorderedListItem
+      type='unordered-list-item'
+      text={text}
+      depth={undefined}
+      inlineStyles={[]}
+      entityRanges={[]}
+      entityMap={{}}
+    />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
+
+it('renders correctly with a unordered-list-item when depth 1', () => {
+  const text = 'Hello World'
+  const tree = renderer.create(
+    <UnorderedListItem
+      type='unordered-list-item'
+      text={text}
+      depth={1}
+      inlineStyles={[]}
+      entityRanges={[]}
+      entityMap={{}}
+    />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
 
 it('renders null without a unordered-list-item', () => {
   const tree = renderer.create(
-    <UnorderedListItem />,
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
+    <UnorderedListItem />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
 
 it('extends a style with a customStyle', () => {
-  const text = 'Hello World';
+  const text = 'Hello World'
   const customStyles = {
     'unordered-list-item': {
       fontSize: 18,
@@ -43,18 +73,18 @@ it('extends a style with a customStyle', () => {
       letterSpacing: -0.75,
       lineHeight: 32,
       marginLeft: 10
-    },
-  };
+    }
+  }
   const tree = renderer.create(
     <UnorderedListItem
-      type="unordered-list-item"
+      type='unordered-list-item'
       text={text}
       customStyles={customStyles}
       inlineStyles={[]}
       entityRanges={[]}
       entityMap={{}}
       navigate={() => null}
-    />,
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
-});
+    />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
