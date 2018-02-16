@@ -4,7 +4,6 @@ exports[`renders correctly with customStyles and multiple types 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  disabled={false}
   ellipsizeMode="tail"
   style={
     Array [
@@ -27,7 +26,6 @@ exports[`renders correctly with customStyles and single type 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  disabled={false}
   ellipsizeMode="tail"
   style={
     Array [
@@ -48,7 +46,6 @@ exports[`renders correctly with onPress 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  disabled={false}
   ellipsizeMode="tail"
   onPress={[Function]}
   style={
@@ -65,7 +62,6 @@ exports[`renders correctly without onPress 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  disabled={false}
   ellipsizeMode="tail"
   style={
     Array [

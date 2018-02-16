@@ -34,7 +34,6 @@ exports[`extends a style with a customStyle 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    disabled={false}
     ellipsizeMode="tail"
     style={
       Array [
@@ -91,7 +90,6 @@ exports[`renders correctly with a unordered-list-item 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    disabled={false}
     ellipsizeMode="tail"
     style={
       Array [
@@ -142,7 +140,6 @@ exports[`renders correctly with a unordered-list-item when depth 1 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    disabled={false}
     ellipsizeMode="tail"
     style={
       Array [
@@ -193,7 +190,6 @@ exports[`renders correctly with a unordered-list-item when depth is undefined 1`
   <Text
     accessible={true}
     allowFontScaling={true}
-    disabled={false}
     ellipsizeMode="tail"
     style={
       Array [
