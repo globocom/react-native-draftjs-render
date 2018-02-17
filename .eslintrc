@@ -11,6 +11,7 @@
     "import/extensions": [2, "never", { "json": "always" }],
     "no-duplicate-imports": 0,
     "no-underscore-dangle": 0,
+    "linebreak-style": 0,
     "react/forbid-prop-types": 0,
     "react/default-props-match-prop-types": 0,
     "import/no-unresolved": 0,
@@ -53,13 +54,13 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/sort-comp": [
       2, {
-         order: [
-          'static-methods',
-          '/props/',
-          '/state/',
-          'lifecycle',
-          'everything-else',
-          'render'
+         "order": [
+          "static-methods",
+          "/props/",
+          "/state/",
+          "lifecycle",
+          "everything-else",
+          "render"
          ]
       }
     ]

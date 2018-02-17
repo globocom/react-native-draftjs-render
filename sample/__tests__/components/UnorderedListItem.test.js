@@ -55,8 +55,7 @@ it('renders null without a unordered-list-item', () => {
   const tree = renderer.create(<UnorderedListItem />).toJSON();
   expect(tree).toMatchSnapshot();
 });
-
-it('extends a style with a customStyle', () => {
+it('extends a style with customStyles', () => {
   const text = 'Hello World';
   const customStyles = {
     'unordered-list-item': {
@@ -65,6 +64,59 @@ it('extends a style with a customStyle', () => {
       letterSpacing: -0.75,
       lineHeight: 32,
       marginLeft: 10,
+    },
+  };
+
+  const tree = renderer.create(<UnorderedListItem
+    type="unordered-list-item"
+    text={text}
+    customStyles={customStyles}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+    navigate={() => null}
+  />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('extends a style with a customStyle.unorderedListItemContainer', () => {
+  const text = 'Hello World';
+  const customStyles = {
+    'unordered-list-item': {
+      fontSize: 18,
+      fontWeight: 'normal',
+      letterSpacing: -0.75,
+      lineHeight: 32,
+      marginLeft: 10,
+    },
+    unorderedListItemContainer: {
+      flex: 2,
+    },
+  };
+  const tree = renderer.create(<UnorderedListItem
+    type="ordered-list-item"
+    text={text}
+    customStyles={customStyles}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+    navigate={() => null}
+  />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('renders correctly when unorderedListItemBullet.marginLeft is set', () => {
+  const text = 'Hello World';
+  const customStyles = {
+    'unordered-list-item': {
+      fontSize: 18,
+      fontWeight: 'normal',
+      letterSpacing: -0.75,
+      lineHeight: 32,
+      marginLeft: 10,
+    },
+    unorderedListItemBullet: {
+      marginLeft: 14,
     },
   };
   const tree = renderer.create(<UnorderedListItem

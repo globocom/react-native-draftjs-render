@@ -41,14 +41,11 @@ const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
     props.customStyles.unorderedListItemBullet :
     undefined;
 
-
   let marginLeft = 0;
-  if (props.depth !== undefined) {
-    marginLeft =
+  marginLeft =
       unorderedListItemCustomStyleBullet && unorderedListItemCustomStyleBullet.marginLeft ?
         props.depth * unorderedListItemCustomStyleBullet.marginLeft :
         props.depth * props.defaultMarginLeft;
-  }
 
   return (
     <View style={[styles.unorderedListItemContainer, unorderedListItemCustomStyleContainer]}>
@@ -62,8 +59,8 @@ const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
 };
 
 UnorderedListItem.defaultProps = {
-  customStyles: {},
   defaultMarginLeft: 7,
+  depth: 0,
 };
 
 export default UnorderedListItem;

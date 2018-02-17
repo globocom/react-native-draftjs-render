@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`extends a style with a customStyle 1`] = `
+exports[`extends a style with a customStyle.orderedListItemContainer 1`] = `
 <View
   style={
     Array [
@@ -27,8 +27,244 @@ exports[`extends a style with a customStyle 1`] = `
           "fontWeight": "bold",
           "marginRight": 8,
         },
+        undefined,
+        Object {
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    1
+    .
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
         Object {
           "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+          "fontWeight": "normal",
+          "letterSpacing": -0.75,
+          "lineHeight": 32,
+          "marginLeft": 10,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`extends a style with a customStyle.orderedListItemNumber 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginRight": 8,
+        },
+        Object {
+          "fontSize": 14,
+        },
+        Object {
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    1
+    .
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+          "fontWeight": "normal",
+          "letterSpacing": -0.75,
+          "lineHeight": 32,
+          "marginLeft": 10,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`extends a style with customStyles 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginRight": 8,
+        },
+        undefined,
+        Object {
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    1
+    .
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        Object {
+          "fontSize": 18,
+          "fontWeight": "normal",
+          "letterSpacing": -0.75,
+          "lineHeight": 32,
+          "marginLeft": 10,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`renders correctly when customStyles is undefined 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginRight": 8,
+        },
+        undefined,
+        Object {
+          "marginLeft": 0,
+        },
+      ]
+    }
+  >
+    1
+    .
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontSize": 14,
+          "fontWeight": "normal",
+        },
+        undefined,
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`renders correctly when orderedListItemNumber.marginLeft is set 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontSize": 12,
+          "fontWeight": "bold",
+          "marginRight": 8,
+        },
+        Object {
+          "marginLeft": 14,
         },
         Object {
           "marginLeft": 0,

@@ -37,6 +37,7 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
     separator,
   } = props;
 
+
   const orderedListItemCustomStyleContainer = props.customStyles ?
     props.customStyles.orderedListItemContainer :
     undefined;
@@ -46,12 +47,10 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
     undefined;
 
   let marginLeft = 0;
-  if (props.depth !== undefined) {
-    marginLeft =
+  marginLeft =
       orderedListItemCustomStyleNumber && orderedListItemCustomStyleNumber.marginLeft ?
         props.depth * orderedListItemCustomStyleNumber.marginLeft :
         props.depth * props.defaultMarginLeft;
-  }
 
   return (
     <View style={[styles.orderedListItemContainer, orderedListItemCustomStyleContainer]}>
@@ -69,7 +68,7 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
 
 OrderedListItem.defaultProps = {
   counter: 1,
-  customStyles: {},
+  depth: 0,
   separator: '.',
   defaultMarginLeft: 7,
 };
