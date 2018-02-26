@@ -91,6 +91,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         data: item.data,
         inlineStyles: item.inlineStyleRanges,
         entityRanges: item.entityRanges,
+        depth: item.depth,
       };
 
       switch (item.type) {
@@ -163,7 +164,26 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         }
 
         case 'ordered-list-item': {
-          counters[item.type].count += 1;
+          const { type } = item;
+          const parentIndex = counters[type].count;
+          let number = 0;
+
+          // when new ordered list reset childCounters
+          if (parentIndex === 0) {
+            counters[type].childCounters = [];
+          }
+
+          if (itemData.depth !== undefined && itemData.depth >= 1) {
+            if (counters[type].childCounters[parentIndex] === undefined) {
+              counters[type].childCounters[parentIndex] = 0;
+            }
+            counters[type].childCounters[parentIndex] += 1;
+            number = counters[type].childCounters[parentIndex];
+          } else {
+            counters[type].count += 1;
+            number = counters[type].count;
+          }
+
           const viewBefore = checkCounter(counters['unordered-list-item']);
           return (
             <View key={generateKey()}>
@@ -171,7 +191,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
               <OrderedListItem
                 {...itemData}
                 separator={orderedListSeparator}
-                counter={counters[item.type].count}
+                counter={number}
                 entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}

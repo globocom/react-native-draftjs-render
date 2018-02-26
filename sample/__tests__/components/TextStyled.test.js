@@ -14,21 +14,17 @@ import renderer from 'react-test-renderer';
 import TextStyled from '../../../src/components/TextStyled';
 
 it('renders correctly without onPress', () => {
-  const tree = renderer.create(
-    <TextStyled
-      type="paragraph"
-    />,
-  ).toJSON();
+  const tree = renderer.create(<TextStyled
+    type="paragraph"
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
 it('renders correctly with onPress', () => {
-  const tree = renderer.create(
-    <TextStyled
-      type="paragraph"
-      onPress={() => null}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<TextStyled
+    type="paragraph"
+    onPress={() => null}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
@@ -51,12 +47,10 @@ it('renders correctly with customStyles and multiple types', () => {
     },
   };
   const typeArray = ['bold', 'italic'];
-  const tree = renderer.create(
-    <TextStyled
-      type={typeArray}
-      customStyles={customStyles}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<TextStyled
+    type={typeArray}
+    customStyles={customStyles}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
@@ -67,11 +61,9 @@ it('renders correctly with customStyles and single type', () => {
     },
   };
   const type = 'bold';
-  const tree = renderer.create(
-    <TextStyled
-      type={type}
-      customStyles={customStyles}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<TextStyled
+    type={type}
+    customStyles={customStyles}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });

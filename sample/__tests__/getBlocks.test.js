@@ -38,19 +38,155 @@ describe('return specific component based on type', () => {
     expect(result[0].props.children[1].type).toBe('OrderedListItem');
   });
 
+  it('OrderedListItem when depth is undefined', () => {
+    const bodyData = { blocks: [{ type: 'ordered-list-item' }] };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].props.children[1].props.counter).toBe(1);
+  });
+
+  it('OrderedListItem when depth is one', () => {
+    const bodyData = { blocks: [{ type: 'ordered-list-item', depth: 1 }] };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].props.children[1].props.counter).toBe(1);
+  });
+
+  it('OrderedListItem when depth is two', () => {
+    const bodyData = { blocks: [{ type: 'ordered-list-item', depth: 2 }] };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].props.children[1].props.counter).toBe(1);
+  });
+
+  it('OrderedListItem when is second item', () => {
+    const bodyData = {
+      blocks: [
+        {
+          text: 'first',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+        {
+          text: 'second',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+      ],
+    };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].props.children[1].props.counter).toBe(1);
+    expect(result[1].props.children[1].props.counter).toBe(2);
+  });
+
+  it('OrderedListItem when is first item has two children', () => {
+    const bodyData = {
+      blocks: [
+        {
+          text: 'mother',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+        {
+          text: 'first',
+          type: 'ordered-list-item',
+          depth: 1,
+        },
+        {
+          text: 'second',
+          type: 'ordered-list-item',
+          depth: 1,
+        },
+      ],
+    };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].props.children[1].props.counter).toBe(1);
+    expect(result[1].props.children[1].props.counter).toBe(1);
+    expect(result[2].props.children[1].props.counter).toBe(2);
+  });
+
+  it('OrderedListItem when is second item has two children', () => {
+    const bodyData = {
+      blocks: [
+        {
+          text: 'first',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+        {
+          text: 'mother',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+        {
+          text: 'first',
+          type: 'ordered-list-item',
+          depth: 1,
+        },
+        {
+          text: 'second',
+          type: 'ordered-list-item',
+          depth: 1,
+        },
+      ],
+    };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].props.children[1].props.counter).toBe(1);
+    expect(result[1].props.children[1].props.counter).toBe(2);
+    expect(result[2].props.children[1].props.counter).toBe(1);
+    expect(result[3].props.children[1].props.counter).toBe(2);
+  });
+
+  it('OrderedListItem when there are multiple OrderedLists', () => {
+    const bodyData = {
+      blocks: [
+        {
+          text: 'mother',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+        {
+          text: 'first',
+          type: 'ordered-list-item',
+          depth: 1,
+        },
+        {
+          text: '',
+          type: 'unstyled',
+        },
+        {
+          text: 'new first',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+        {
+          text: 'new second',
+          type: 'ordered-list-item',
+          depth: 0,
+        },
+      ],
+    };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].props.children[1].props.counter).toBe(1);
+    expect(result[1].props.children[1].props.counter).toBe(1);
+    expect(result[3].props.children[1].props.counter).toBe(1);
+    expect(result[4].props.children[1].props.counter).toBe(2);
+  });
+
   it('getBlocks when multiple list types', () => {
-    const bodyData = { blocks: [
-      { type: 'ordered-list-item' }, { type: 'unordered-list-item' },
-      { type: 'ordered-list-item' }, { type: 'unordered-list-item' },
-    ] };
+    const bodyData = {
+      blocks: [
+        { type: 'ordered-list-item' }, { type: 'unordered-list-item' },
+        { type: 'ordered-list-item' }, { type: 'unordered-list-item' },
+      ],
+    };
     const result = getBlocks({ contentState: bodyData });
     expect(result[3].props.children[1].type).toBe('UnorderedListItem');
   });
 
   it('getBlocks with mixed types one being a list', () => {
-    const bodyData = { blocks: [
-      { type: 'ordered-list-item' }, { type: 'blockquote' },
-    ] };
+    const bodyData = {
+      blocks: [
+        { type: 'ordered-list-item' }, { type: 'blockquote' },
+      ],
+    };
     const result = getBlocks({ contentState: bodyData });
     expect(result[1].props.children[1].type).toBe('BlockQuote');
   });
@@ -63,9 +199,11 @@ describe('return specific component based on type', () => {
   });
 
   it('atomicHandler function when type atomic between lists', () => {
-    const bodyData = { blocks: [
-      { type: 'ordered-list-item' }, { type: 'atomic' }, { type: 'ordered-list-item' },
-    ] };
+    const bodyData = {
+      blocks: [
+        { type: 'ordered-list-item' }, { type: 'atomic' }, { type: 'ordered-list-item' },
+      ],
+    };
     const atomicHandler = item => item;
     const result = getBlocks({ contentState: bodyData, atomicHandler });
     expect(result[1].props.children[1].type).toBe('atomic');
@@ -86,7 +224,7 @@ describe('return specific component based on type', () => {
   it('should use the optional customBlockHandler when handling custom block types', () => {
     const bodyData = { blocks: [{ type: 'my-own-type' }] };
     const myCustomComponent = jest.fn();
-    const customBlockHandler = jest.fn((item, params) => myCustomComponent);
+    const customBlockHandler = jest.fn(() => myCustomComponent);
     const result = getBlocks({ contentState: bodyData, customBlockHandler });
     expect(customBlockHandler.mock.calls.length).toBe(1);
     expect(customBlockHandler.mock.calls[0][0].type).toBe('my-own-type');

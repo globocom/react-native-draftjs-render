@@ -15,22 +15,18 @@ import DraftJsText from '../../../src/components/DraftJsText';
 
 it('renders correctly with a text', () => {
   const text = 'Hello World';
-  const tree = renderer.create(
-    <DraftJsText
-      type="paragraph"
-      text={text}
-      inlineStyles={[]}
-      entityRanges={[]}
-      entityMap={{}}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<DraftJsText
+    type="paragraph"
+    text={text}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
 it('renders null without a text', () => {
-  const tree = renderer.create(
-    <DraftJsText />,
-  ).toJSON();
+  const tree = renderer.create(<DraftJsText />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
@@ -44,17 +40,15 @@ it('extends a style with a customStyle', () => {
       lineHeight: 32,
     },
   };
-  const tree = renderer.create(
-    <DraftJsText
-      type="paragraph"
-      text={text}
-      customStyles={customStyles}
-      inlineStyles={[]}
-      entityRanges={[]}
-      entityMap={{}}
-      navigate={() => null}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<DraftJsText
+    type="paragraph"
+    text={text}
+    customStyles={customStyles}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+    navigate={() => null}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
@@ -68,17 +62,15 @@ it('extends a style with a customStyle from another type', () => {
       lineHeight: 32,
     },
   };
-  const tree = renderer.create(
-    <DraftJsText
-      type="paragraph"
-      text={text}
-      customStyles={customStyles}
-      inlineStyles={[]}
-      entityRanges={[]}
-      entityMap={{}}
-      navigate={() => null}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<DraftJsText
+    type="paragraph"
+    text={text}
+    customStyles={customStyles}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+    navigate={() => null}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 

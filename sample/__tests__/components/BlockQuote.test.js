@@ -15,22 +15,18 @@ import BlockQuote from '../../../src/components/BlockQuote';
 
 it('renders correctly with a blockquote', () => {
   const text = 'Hello World';
-  const tree = renderer.create(
-    <BlockQuote
-      type="blockquote"
-      text={text}
-      inlineStyles={[]}
-      entityRanges={[]}
-      entityMap={{}}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<BlockQuote
+    type="blockquote"
+    text={text}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
 it('renders null without a blockquote', () => {
-  const tree = renderer.create(
-    <BlockQuote />,
-  ).toJSON();
+  const tree = renderer.create(<BlockQuote />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
@@ -44,16 +40,14 @@ it('extends a style with a customStyle', () => {
       lineHeight: 32,
     },
   };
-  const tree = renderer.create(
-    <BlockQuote
-      type="blockquote"
-      text={text}
-      customStyles={customStyles}
-      inlineStyles={[]}
-      entityRanges={[]}
-      entityMap={{}}
-      navigate={() => null}
-    />,
-  ).toJSON();
+  const tree = renderer.create(<BlockQuote
+    type="blockquote"
+    text={text}
+    customStyles={customStyles}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+    navigate={() => null}
+  />).toJSON();
   expect(tree).toMatchSnapshot();
 });

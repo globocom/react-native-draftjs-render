@@ -37,6 +37,8 @@ export type OrderedListItemPropsType = {
   entityMap: Object,
   counter: number,
   separator?: string,
+  depth: number,
+  defaultMarginLeft: number
 };
 
 export type UnorderedListItemPropsType = {
@@ -47,6 +49,8 @@ export type UnorderedListItemPropsType = {
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
   entityMap: Object,
+  depth: number,
+  defaultMarginLeft: number
 };
 
 export type TextStyledPropsType = {
