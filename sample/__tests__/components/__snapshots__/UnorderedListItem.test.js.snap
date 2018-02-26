@@ -158,6 +158,9 @@ exports[`renders correctly when unorderedListItemBullet.marginLeft is set 1`] = 
           "lineHeight": 32,
           "marginLeft": 10,
         },
+        Object {
+          "textAlign": undefined,
+        },
       ]
     }
   >
@@ -308,6 +311,9 @@ exports[`renders correctly with a unordered-list-item when depth is undefined 1`
           "fontWeight": "normal",
         },
         undefined,
+        Object {
+          "textAlign": undefined,
+        },
       ]
     }
   >

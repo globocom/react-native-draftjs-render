@@ -292,6 +292,9 @@ exports[`renders correctly when orderedListItemNumber.marginLeft is set 1`] = `
           "lineHeight": 32,
           "marginLeft": 10,
         },
+        Object {
+          "textAlign": undefined,
+        },
       ]
     }
   >
@@ -454,6 +457,9 @@ exports[`renders correctly with a ordered-list-item when depth is undefined 1`] 
           "fontWeight": "normal",
         },
         undefined,
+        Object {
+          "textAlign": undefined,
+        },
       ]
     }
   >
