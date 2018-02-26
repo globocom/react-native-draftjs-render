@@ -44,6 +44,9 @@ exports[`extends a style with a customStyle 1`] = `
           "letterSpacing": -0.75,
           "lineHeight": 32,
         },
+        Object {
+          "textAlign": undefined,
+        },
       ]
     }
   >
@@ -91,6 +94,9 @@ exports[`renders correctly with a unordered-list-item 1`] = `
           "fontWeight": "normal",
         },
         undefined,
+        Object {
+          "textAlign": undefined,
+        },
       ]
     }
   >

@@ -20,6 +20,17 @@ it('returns only text if other objects are empty', () => {
   expect(result).toEqual(mock);
 });
 
+it('still works with no inlineStyles object', () => {
+  const params = {
+    text: 'Hello World',
+    entityMap: {},
+    entityRanges: [],
+  };
+  const mock = ['Hello World'];
+  const result = loadAttributes(params);
+  expect(result).toEqual(mock);
+});
+
 it('have correct length with inlineStyles and text', () => {
   const params = {
     text: 'Hello World',

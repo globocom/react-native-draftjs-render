@@ -17,6 +17,9 @@ exports[`extends a style with a customStyle 1`] = `
         "letterSpacing": -0.75,
         "lineHeight": 32,
       },
+      Object {
+        "textAlign": undefined,
+      },
     ]
   }
 >
@@ -36,6 +39,9 @@ exports[`extends a style with a customStyle from another type 1`] = `
         "fontWeight": "normal",
       },
       undefined,
+      Object {
+        "textAlign": undefined,
+      },
     ]
   }
 >
@@ -55,6 +61,9 @@ exports[`renders correctly with a text 1`] = `
         "fontWeight": "normal",
       },
       undefined,
+      Object {
+        "textAlign": undefined,
+      },
     ]
   }
 >
@@ -63,3 +72,69 @@ exports[`renders correctly with a text 1`] = `
 `;
 
 exports[`renders null without a text 1`] = `null`;
+
+exports[`renders text-align: center 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
+      undefined,
+      Object {
+        "textAlign": "center",
+      },
+    ]
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`renders text-align: left 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
+      undefined,
+      Object {
+        "textAlign": "left",
+      },
+    ]
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`renders text-align: right 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
+      undefined,
+      Object {
+        "textAlign": "right",
+      },
+    ]
+  }
+>
+  Hello World
+</Text>
+`;

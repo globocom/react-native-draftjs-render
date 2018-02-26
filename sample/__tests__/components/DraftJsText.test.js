@@ -81,3 +81,51 @@ it('extends a style with a customStyle from another type', () => {
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+it('renders text-align: left', () => {
+  const text = 'Hello World';
+  const data = { 'text-align': 'left' };
+  const tree = renderer.create(
+    <DraftJsText
+      type="paragraph"
+      text={text}
+      data={data}
+      inlineStyles={[]}
+      entityRanges={[]}
+      entityMap={{}}
+    />,
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('renders text-align: right', () => {
+  const text = 'Hello World';
+  const data = { 'text-align': 'right' };
+  const tree = renderer.create(
+    <DraftJsText
+      type="paragraph"
+      text={text}
+      data={data}
+      inlineStyles={[]}
+      entityRanges={[]}
+      entityMap={{}}
+    />,
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
+it('renders text-align: center', () => {
+  const text = 'Hello World';
+  const data = { 'text-align': 'center' };
+  const tree = renderer.create(
+    <DraftJsText
+      type="paragraph"
+      text={text}
+      data={data}
+      inlineStyles={[]}
+      entityRanges={[]}
+      entityMap={{}}
+    />,
+  ).toJSON();
+  expect(tree).toMatchSnapshot();
+});

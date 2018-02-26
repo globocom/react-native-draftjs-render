@@ -88,6 +88,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         key: item.key,
         text: item.text,
         type: item.type,
+        data: item.data,
         inlineStyles: item.inlineStyleRanges,
         entityRanges: item.entityRanges,
       };
