@@ -7,9 +7,7 @@
 // @flow
 
 import React from 'react';
-import {
-  View,
-} from 'react-native';
+import { View } from 'react-native';
 
 import BlockQuote from './components/BlockQuote';
 import DraftJsText from './components/DraftJsText';
@@ -23,8 +21,13 @@ type ParamsType = {
   atomicHandler: Function,
   navigate?: Function,
   orderedListSeparator?: string,
-  customBlockHandler?: (Object, ParamsType) => any
+  customBlockHandler?: (Object, ParamsType) => any,
+  depthMargin?: number,
 };
+
+export const ViewAfterList = (props: Object): React$Element<*> => (
+  <View {...props} />
+);
 
 const getBlocks = (params: ParamsType): ?Array<*> => {
   const {
@@ -33,6 +36,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     navigate,
     orderedListSeparator,
     customBlockHandler,
+    depthMargin,
   } = params;
   let { atomicHandler } = params;
 
@@ -55,19 +59,19 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     },
   };
 
-  function ViewAfterList(): any {
-    return <View style={customStyles.viewAfterList} />;
-  }
-
-  function checkCounter(counter: Object): any {
+  const checkCounter = (counter: Object): any => {
     const myCounter = counter;
-
 
     // list types
     if (myCounter.count >= 0) {
       if (myCounter.count > 0) {
         myCounter.count = 0;
-        return <ViewAfterList key={generateKey()} />;
+        return (
+          <ViewAfterList
+            style={customStyles && customStyles.viewAfterList}
+            key={generateKey()}
+          />
+        );
       }
       return null;
     }
@@ -76,11 +80,16 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     if (myCounter['unordered-list-item'].count > 0 || myCounter['ordered-list-item'].count > 0) {
       myCounter['unordered-list-item'].count = 0;
       myCounter['ordered-list-item'].count = 0;
-      return <ViewAfterList key={generateKey()} />;
+      return (
+        <ViewAfterList
+          style={customStyles && customStyles.viewAfterList}
+          key={generateKey()}
+        />
+      );
     }
 
     return null;
-  }
+  };
 
   return contentState.blocks
     .map((item: Object): any => {
@@ -158,6 +167,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
                 entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
+                defaultMarginLeft={depthMargin}
               />
             </View>
           );
@@ -195,6 +205,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
                 entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
+                defaultMarginLeft={depthMargin}
               />
             </View>
           );
@@ -212,4 +223,4 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     });
 };
 
-module.exports = getBlocks;
+export default getBlocks;

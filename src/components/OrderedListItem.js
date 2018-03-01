@@ -70,7 +70,7 @@ OrderedListItem.defaultProps = {
   counter: 1,
   depth: 0,
   separator: '.',
-  defaultMarginLeft: 7,
+  defaultMarginLeft: 8,
 };
 
 export default OrderedListItem;

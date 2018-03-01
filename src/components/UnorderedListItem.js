@@ -59,7 +59,7 @@ const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
 };
 
 UnorderedListItem.defaultProps = {
-  defaultMarginLeft: 7,
+  defaultMarginLeft: 8,
   depth: 0,
 };
 
