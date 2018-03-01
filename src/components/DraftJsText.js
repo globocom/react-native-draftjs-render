@@ -7,9 +7,7 @@
 // @flow
 
 import React from 'react';
-import {
-  Text,
-} from 'react-native';
+import { Text } from 'react-native';
 
 import loadAttributes from '../loadAttributes';
 
@@ -34,7 +32,7 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
 
     return (
       <Text
-        style={[defaultStyles[props.type], customStyle, textAlignStyle]}
+        style={[defaultStyles[props.type], textAlignStyle, customStyle]}
       >{textElements}
       </Text>);
   }
