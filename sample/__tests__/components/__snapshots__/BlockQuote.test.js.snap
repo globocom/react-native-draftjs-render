@@ -32,13 +32,13 @@ exports[`extends a style with a customStyle 1`] = `
           "marginLeft": 16,
         },
         Object {
+          "textAlign": undefined,
+        },
+        Object {
           "fontSize": 18,
           "fontWeight": "normal",
           "letterSpacing": -0.75,
           "lineHeight": 32,
-        },
-        Object {
-          "textAlign": undefined,
         },
       ]
     }
@@ -82,10 +82,10 @@ exports[`renders correctly with a blockquote 1`] = `
           "fontWeight": "normal",
           "marginLeft": 16,
         },
-        undefined,
         Object {
           "textAlign": undefined,
         },
+        undefined,
       ]
     }
   >

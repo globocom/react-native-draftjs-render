@@ -6,7 +6,10 @@
 
 /* eslint-env jest */
 
-import getBlocks from '../../src/getBlocks';
+import React from 'react';
+import renderer from 'react-test-renderer';
+
+import getBlocks, { ViewAfterList } from '../../src/getBlocks';
 
 jest.mock('../../src/components/DraftJsText', () => 'DraftJsText');
 jest.mock('../../src/components/BlockQuote', () => 'BlockQuote');
@@ -231,5 +234,12 @@ describe('return specific component based on type', () => {
     expect(customBlockHandler.mock.calls[0][1].contentState).toBe(bodyData);
     expect(customBlockHandler.mock.calls[0][1].customBlockHandler).toBe(customBlockHandler);
     expect(result[0]).toBe(myCustomComponent);
+  });
+});
+
+describe('ViewAfterList', () => {
+  it('should pass props', () => {
+    const tree = renderer.create(<ViewAfterList style={{ flex: 1 }} />).toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });

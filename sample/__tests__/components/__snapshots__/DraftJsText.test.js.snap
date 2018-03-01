@@ -12,13 +12,13 @@ exports[`extends a style with a customStyle 1`] = `
         "fontWeight": "normal",
       },
       Object {
+        "textAlign": undefined,
+      },
+      Object {
         "fontSize": 18,
         "fontWeight": "normal",
         "letterSpacing": -0.75,
         "lineHeight": 32,
-      },
-      Object {
-        "textAlign": undefined,
       },
     ]
   }
@@ -38,10 +38,10 @@ exports[`extends a style with a customStyle from another type 1`] = `
         "fontSize": 14,
         "fontWeight": "normal",
       },
-      undefined,
       Object {
         "textAlign": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -60,10 +60,10 @@ exports[`renders correctly with a text 1`] = `
         "fontSize": 14,
         "fontWeight": "normal",
       },
-      undefined,
       Object {
         "textAlign": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -84,10 +84,10 @@ exports[`renders text-align: center 1`] = `
         "fontSize": 14,
         "fontWeight": "normal",
       },
-      undefined,
       Object {
         "textAlign": "center",
       },
+      undefined,
     ]
   }
 >
@@ -106,10 +106,10 @@ exports[`renders text-align: left 1`] = `
         "fontSize": 14,
         "fontWeight": "normal",
       },
-      undefined,
       Object {
         "textAlign": "left",
       },
+      undefined,
     ]
   }
 >
@@ -128,10 +128,10 @@ exports[`renders text-align: right 1`] = `
         "fontSize": 14,
         "fontWeight": "normal",
       },
-      undefined,
       Object {
         "textAlign": "right",
       },
+      undefined,
     ]
   }
 >

@@ -27,22 +27,22 @@
     "stringz": "0.4.0"
   },
   "devDependencies": {
-    "babel-eslint": "8.2.1",
-    "babel-jest": "22.1.0",
+    "babel-eslint": "8.2.2",
+    "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
     "coveralls": "3.0.0",
-    "eslint": "4.16.0",
+    "eslint": "4.18.1",
     "eslint-config-airbnb": "16.1.0",
-    "eslint-plugin-flowtype": "2.41.0",
-    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-flowtype": "2.46.1",
+    "eslint-plugin-import": "2.9.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.5.1",
+    "eslint-plugin-react": "7.7.0",
     "eslint-plugin-react-native": "3.2.1",
-    "flow-bin": "0.63.1",
-    "jest": "22.1.4",
+    "flow-bin": "0.66.0",
+    "jest": "22.4.2",
     "react": "16.2.0",
     "react-dom": "16.2.0",
-    "react-native": "0.52.1",
+    "react-native": "0.53.3",
     "react-test-renderer": "16.2.0"
   },
   "jest": {
@@ -62,7 +62,7 @@
       "/coverage/"
     ],
     "collectCoverageFrom": [
-      "**/*.{js,jsx}"
+      "src/**/*.{js,jsx}"
     ]
   },
   "repository": {

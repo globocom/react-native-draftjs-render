@@ -43,6 +43,9 @@ exports[`extends a style with a customStyle.unorderedListItemContainer 1`] = `
           "fontSize": 14,
           "fontWeight": "normal",
         },
+        Object {
+          "textAlign": undefined,
+        },
         undefined,
       ]
     }
@@ -92,6 +95,9 @@ exports[`extends a style with customStyles 1`] = `
         Object {
           "fontSize": 14,
           "fontWeight": "normal",
+        },
+        Object {
+          "textAlign": undefined,
         },
         Object {
           "fontSize": 18,
@@ -152,14 +158,14 @@ exports[`renders correctly when unorderedListItemBullet.marginLeft is set 1`] = 
           "fontWeight": "normal",
         },
         Object {
+          "textAlign": undefined,
+        },
+        Object {
           "fontSize": 18,
           "fontWeight": "normal",
           "letterSpacing": -0.75,
           "lineHeight": 32,
           "marginLeft": 10,
-        },
-        Object {
-          "textAlign": undefined,
         },
       ]
     }
@@ -210,6 +216,9 @@ exports[`renders correctly with a unordered-list-item 1`] = `
           "fontSize": 14,
           "fontWeight": "normal",
         },
+        Object {
+          "textAlign": undefined,
+        },
         undefined,
       ]
     }
@@ -245,7 +254,7 @@ exports[`renders correctly with a unordered-list-item when depth 1 1`] = `
         },
         undefined,
         Object {
-          "marginLeft": 7,
+          "marginLeft": 8,
         },
       ]
     }
@@ -259,6 +268,9 @@ exports[`renders correctly with a unordered-list-item when depth 1 1`] = `
         Object {
           "fontSize": 14,
           "fontWeight": "normal",
+        },
+        Object {
+          "textAlign": undefined,
         },
         undefined,
       ]
@@ -310,10 +322,10 @@ exports[`renders correctly with a unordered-list-item when depth is undefined 1`
           "fontSize": 14,
           "fontWeight": "normal",
         },
-        undefined,
         Object {
           "textAlign": undefined,
         },
+        undefined,
       ]
     }
   >
