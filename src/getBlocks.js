@@ -103,6 +103,17 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         depth: item.depth,
       };
 
+      const customView = customBlockHandler ? customBlockHandler(item, params) : undefined;
+      if (customView) {
+        const viewBefore = checkCounter(counters);
+        return (
+          <View key={generateKey()}>
+            {viewBefore}
+            {customView}
+          </View>
+        );
+      }
+
       switch (item.type) {
         case 'unstyled':
         case 'paragraph':
@@ -213,7 +224,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
 
         default: {
           const viewBefore = checkCounter(counters);
-          return customBlockHandler ? customBlockHandler(item, params) : (
+          return (
             <View key={generateKey()}>
               {viewBefore}
             </View>

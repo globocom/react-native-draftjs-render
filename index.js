@@ -7,5 +7,7 @@
 // @flow
 
 import getRNDraftJSBlocks from './src/getBlocks';
+import DraftJsText from './src/components/DraftJsText';
 
-module.exports = getRNDraftJSBlocks;
+export default getRNDraftJSBlocks;
+export { DraftJsText };
