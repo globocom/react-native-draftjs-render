@@ -6,7 +6,24 @@
 
 /* eslint-env jest */
 
-import loadAttributes from '../../src/loadAttributes';
+import loadAttributes, { getItemOnPress } from '../../src/loadAttributes';
+
+describe('getItemOnPress()', () => {
+  test('returns the right function', () => {
+    const navigate = jest.fn();
+    const resultFn = getItemOnPress(
+      { key: 'test' },
+      { test: { data: { url: 'http://ok' } } },
+      navigate,
+    );
+    resultFn();
+    expect(navigate.mock.calls.length).toBe(1);
+  });
+
+  test('returns the right function', () => {
+    expect(getItemOnPress({})).toBe();
+  });
+});
 
 it('returns only text if other objects are empty', () => {
   const params = {
@@ -128,10 +145,40 @@ it('have correct length with multiple inlineStyles and text with substring witho
         length: 3,
         style: 'ITALIC',
       },
+      {
+        offset: 7,
+        length: 3,
+        style: 'LINK',
+      },
     ],
-    entityMap: {},
+    entityMap: {
+      0: {
+        type: 'LINK',
+        mutability: 'MUTABLE',
+        data: {
+          url: 'https://github.com/globocom/react-native-draftjs-render',
+        },
+      },
+    },
     entityRanges: [],
   };
   const result = loadAttributes(params);
   expect(result).toHaveLength(5);
+  expect(result[4].props.children).toBe('d Hello World Hello World');
+});
+
+it('have correct length with multiple inlineStyles and text with substring without style', () => {
+  const params = {
+    text: 'Hello World Hello World Hello World',
+    inlineStyles: [{
+      offset: 300,
+      length: 2,
+      style: 'BOLD',
+    }],
+    entityMap: {},
+    entityRanges: [],
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+  expect(result[0].props.children).toBe(params.text);
 });
