@@ -19,8 +19,8 @@ Join the [#react-native-render](https://draftjs.slack.com/messages/react_native_
 ## Documentation
 
 * [Get Started](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/GetStarted.md)
-* [Custom Styles](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/CustomStyles.md)
-* Atomic Types (to do).
+* [Add Custom Styles](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/CustomStyles.md)
+* [Handle Atomic Types](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/AtomicTypes.md)
 
 ## Getting Started
 Install **React Native Draft.js Render** on your React Native project, using NPM or Yarn:
