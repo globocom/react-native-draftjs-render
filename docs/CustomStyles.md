@@ -4,6 +4,7 @@ RNDraftJSRender comes with default styles, but you can use your own with the `cu
 ```js
 import React from 'react';
 import {
+  ScrollView,
   AppRegistry,
   StyleSheet,
 } from 'react-native';
@@ -28,7 +29,7 @@ const styles = StyleSheet.flatten({ // Use .flatten over .create
 const MyApp = () => {
   const blocks = getRNDraftJSBlocks({ contentState, customStyles: styles });
   return (
-    <View style={{ flex: 1 }}>{blocks}</View>
+    <ScrollView style={{ flex: 1 }}>{blocks}</ScrollView>
   );
 };
 

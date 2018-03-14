@@ -16,13 +16,19 @@ A React Native render for [Draft.js](http://draftjs.org/) model.
 
 Join the [#react-native-render](https://draftjs.slack.com/messages/react_native_render) channel on DraftJS Slack team.
 
+## Documentation
+
+* [Get Started](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/GetStarted.md)
+* [Custom Styles](https://github.com/globocom/react-native-draftjs-render/blob/master/docs/CustomStyles.md)
+* Atomic Types (to do).
+
 ## Getting Started
 Install **React Native Draft.js Render** on your React Native project, using NPM or Yarn:
 
 ```sh
-npm i -S react-native-draftjs-render
-# or...
 yarn add react-native-draftjs-render
+# or...
+npm i -S react-native-draftjs-render
 ```
 
 ### Using
@@ -31,6 +37,7 @@ Just import and insert your Draft.js model on getRNDraftJSBlocks:
 ```js
 import React from 'react';
 import {
+  ScrollView,
   AppRegistry,
 } from 'react-native';
 
@@ -40,7 +47,7 @@ import contentState from 'DraftJs/contentState';
 const MyApp = () => {
   const blocks = getRNDraftJSBlocks({ contentState });
   return (
-    <View style={{ flex: 1 }}>{blocks}</View>
+    <ScrollView style={{ flex: 1 }}>{blocks}</ScrollView>
   );
 };
 
