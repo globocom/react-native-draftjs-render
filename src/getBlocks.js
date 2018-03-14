@@ -16,7 +16,10 @@ import OrderedListItem from './components/OrderedListItem';
 import generateKey from './utils/generateKey';
 
 type ParamsType = {
-  contentState: Object,
+  contentState: {
+    blocks: ?Array<*>,
+    entityMap: Object,
+  },
   customStyles: Object,
   atomicHandler: Function,
   navigate?: Function,
@@ -29,7 +32,7 @@ export const ViewAfterList = (props: Object): React$Element<*> => (
   <View {...props} />
 );
 
-const getBlocks = (params: ParamsType): ?Array<*> => {
+const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
   const {
     contentState,
     customStyles,
@@ -37,15 +40,11 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     orderedListSeparator,
     customBlockHandler,
     depthMargin,
+    atomicHandler,
   } = params;
-  let { atomicHandler } = params;
 
   if (!contentState.blocks) {
     return null;
-  }
-
-  if (typeof atomicHandler === 'undefined') {
-    atomicHandler = (item: Object): any => item;
   }
 
   const counters = {
@@ -59,7 +58,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
     },
   };
 
-  const checkCounter = (counter: Object): any => {
+  const checkCounter = (counter: Object): ?React$Element<*> => {
     const myCounter = counter;
 
     // list types
@@ -92,7 +91,7 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
   };
 
   return contentState.blocks
-    .map((item: Object): any => {
+    .map((item: Object): React$Element<*> => {
       const itemData = {
         key: item.key,
         text: item.text,
@@ -128,17 +127,20 @@ const getBlocks = (params: ParamsType): ?Array<*> => {
         }
 
         case 'atomic': {
-          const viewBefore = checkCounter(counters);
-          const atomic = atomicHandler(item);
-          if (viewBefore) {
-            return (
-              <View key={generateKey()}>
-                {viewBefore}
-                {atomic}
-              </View>
-            );
+          if (atomicHandler) {
+            const viewBefore = checkCounter(counters);
+            const atomic = atomicHandler(item, contentState.entityMap);
+            if (viewBefore) {
+              return (
+                <View key={generateKey()}>
+                  {viewBefore}
+                  {atomic}
+                </View>
+              );
+            }
+            return atomic;
           }
-          return atomicHandler(item);
+          return item;
         }
 
         case 'blockquote': {

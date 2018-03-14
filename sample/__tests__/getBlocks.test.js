@@ -201,6 +201,19 @@ describe('return specific component based on type', () => {
     expect(result[0].type).toBe('atomic');
   });
 
+  it('calls atomicHandler with correctly params', () => {
+    const bodyData = { blocks: [{ type: 'atomic' }], entityMap: {} };
+    const atomicHandler = jest.fn();
+    getBlocks({ contentState: bodyData, atomicHandler });
+    expect(atomicHandler.mock.calls[0].length).toBe(2);
+  });
+
+  it('returns the item if do not have a atomicHandler', () => {
+    const bodyData = { blocks: [{ type: 'atomic', test: 'ok' }], entityMap: {} };
+    const result = getBlocks({ contentState: bodyData });
+    expect(result[0].test).toBe('ok');
+  });
+
   it('atomicHandler function when type atomic between lists', () => {
     const bodyData = {
       blocks: [
