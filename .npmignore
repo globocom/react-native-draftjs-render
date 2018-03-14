@@ -3,4 +3,6 @@ README.md
 Makefile
 .*
 flow-workaround
+flow-typed
 coverage
+docs
