@@ -14,7 +14,7 @@ import {
 
 import DraftJsText from '../components/DraftJsText';
 
-import type { UnorderedListItemPropsType } from './defaultProps';
+import type { UnorderedListItemPropsType } from './types';
 
 const styles = StyleSheet.create({
   unorderedListItemContainer: {

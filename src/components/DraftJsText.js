@@ -12,7 +12,7 @@ import { Text } from 'react-native';
 import loadAttributes from '../loadAttributes';
 
 import defaultStyles from './defaultStyles';
-import type { DraftJsTextPropsType } from './defaultProps';
+import type { DraftJsTextPropsType } from './types';
 
 const DraftJsText = (props: DraftJsTextPropsType): any => {
   let textElements = props.text;
@@ -25,6 +25,7 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
       entityRanges: props.entityRanges,
       entityMap: props.entityMap,
       navigate: props.navigate,
+      textProps: props.textProps,
     });
 
     const customStyle = props.customStyles ? props.customStyles[props.type] : undefined;
@@ -33,6 +34,7 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
     return (
       <Text
         style={[defaultStyles[props.type], textAlignStyle, customStyle]}
+        {...props.textProps}
       >{textElements}
       </Text>);
   }
