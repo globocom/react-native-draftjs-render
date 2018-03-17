@@ -248,6 +248,18 @@ describe('return specific component based on type', () => {
     expect(customBlockHandler.mock.calls[0][1].customBlockHandler).toBe(customBlockHandler);
     expect(result[0]).toBe(myCustomComponent);
   });
+
+  test('pass text props to <Text />', () => {
+    const contentState = {
+      blocks: [
+        { type: 'blockquote', text: 'My text' },
+        { type: 'unstyled', text: 'My text' },
+      ],
+    };
+    const result = getBlocks({ contentState, textProps: { selectable: true } });
+    expect(result[0].props.children[1].props.textProps.selectable).toBe(true);
+    expect(result[1].props.children[1].props.textProps.selectable).toBe(true);
+  });
 });
 
 describe('ViewAfterList', () => {
