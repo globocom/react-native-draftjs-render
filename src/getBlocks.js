@@ -26,6 +26,7 @@ type ParamsType = {
   orderedListSeparator?: string,
   customBlockHandler?: (Object, ParamsType) => any,
   depthMargin?: number,
+  textProps: ?Object,
 };
 
 export const ViewAfterList = (props: Object): React$Element<*> => (
@@ -42,6 +43,8 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
     depthMargin,
     atomicHandler,
   } = params;
+
+  const textProps = params.textProps || {};
 
   if (!contentState.blocks) {
     return null;
@@ -121,6 +124,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
+                textProps={textProps}
               />
             </View>
           );
@@ -153,6 +157,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
+                textProps={textProps}
               />
             </View>
           );
@@ -170,6 +175,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 customStyles={customStyles}
                 navigate={navigate}
                 defaultMarginLeft={depthMargin}
+                textProps={textProps}
               />
             </View>
           );
@@ -208,6 +214,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 customStyles={customStyles}
                 navigate={navigate}
                 defaultMarginLeft={depthMargin}
+                textProps={textProps}
               />
             </View>
           );

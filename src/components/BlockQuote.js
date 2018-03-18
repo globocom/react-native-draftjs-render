@@ -14,7 +14,7 @@ import {
 
 import DraftJsText from '../components/DraftJsText';
 
-import type { BlockQuotePropsType } from './defaultProps';
+import type { BlockQuotePropsType } from './types';
 
 const styles = StyleSheet.create({
   blockquoteContainer: {

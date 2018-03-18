@@ -32,6 +32,7 @@ type ParamsType = {
   entityRanges: Array<Object>,
   entityMap: Object,
   navigate?: Function,
+  textProps: ?Object,
 };
 
 const loadAttributes = (params: ParamsType): any => {
@@ -42,6 +43,7 @@ const loadAttributes = (params: ParamsType): any => {
     entityRanges,
     entityMap,
     navigate,
+    textProps,
   } = params;
 
   const defaultNavigationFn = (url: string) => { Linking.openURL(url); };
@@ -54,7 +56,12 @@ const loadAttributes = (params: ParamsType): any => {
     const attrs = flatAttributesList(attributes);
 
     if (attrs[0].offset > 0) {
-      elementList.push(<Text key={generateKey()}>{substring(text, 0, attrs[0].offset)}</Text>);
+      const element = (
+        <Text key={generateKey()} {...textProps}>
+          {substring(text, 0, attrs[0].offset)}
+        </Text>
+      );
+      elementList.push(element);
     }
 
     attrs.forEach((item: Object, index: number) => {
@@ -64,7 +71,7 @@ const loadAttributes = (params: ParamsType): any => {
         const subText = substring(text, offset, item.offset);
 
         if (subText.length) {
-          elementList.push(<Text key={generateKey()}>{subText}</Text>);
+          elementList.push(<Text key={generateKey()} {...textProps}>{subText}</Text>);
         }
       }
 
@@ -74,6 +81,7 @@ const loadAttributes = (params: ParamsType): any => {
         type: itemType,
         text: substring(text, item.offset, item.offset + item.length),
         customStyles,
+        textProps,
       });
 
       const itemOnPress = getItemOnPress(item, entityMap, navigateFunction);
@@ -89,7 +97,7 @@ const loadAttributes = (params: ParamsType): any => {
     const subText = substring(text, offset, length(text));
 
     if (subText.length) {
-      elementList.push(<Text key={generateKey()}>{subText}</Text>);
+      elementList.push(<Text key={generateKey()} {...textProps}>{subText}</Text>);
     }
   } else {
     elementList.push(text);

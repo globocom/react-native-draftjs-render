@@ -15,7 +15,7 @@ import {
 
 import DraftJsText from '../components/DraftJsText';
 
-import type { OrderedListItemPropsType } from './defaultProps';
+import type { OrderedListItemPropsType } from './types';
 
 const styles = StyleSheet.create({
   orderedListItemContainer: {

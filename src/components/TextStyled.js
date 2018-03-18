@@ -12,7 +12,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import type { TextStyledPropsType } from './defaultProps';
+import type { TextStyledPropsType } from './types';
 
 const styles = StyleSheet.flatten({
   bold: {
