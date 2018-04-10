@@ -62,4 +62,5 @@ export type TextStyledPropsType = {
   text: string,
   customStyles?: Object,
   onPress?: Function,
+  lineHeight: Object,
 };

@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 
 import TextStyled from './components/TextStyled';
+import defaultStyles from './components/defaultStyles';
 import generateKey from './utils/generateKey';
 import flatAttributesList from './flatAttributesList';
 import getItemType from './helpers/getItemType';
@@ -27,6 +28,7 @@ export const getItemOnPress = (item: Object, entityMap: Object, navigate: Functi
 
 type ParamsType = {
   text: string,
+  type: string,
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
@@ -44,6 +46,7 @@ const loadAttributes = (params: ParamsType): any => {
     entityMap,
     navigate,
     textProps,
+    type,
   } = params;
 
   const defaultNavigationFn = (url: string) => { Linking.openURL(url); };
@@ -55,9 +58,13 @@ const loadAttributes = (params: ParamsType): any => {
   if (attributes.length) {
     const attrs = flatAttributesList(attributes);
 
+    const defaultLineHeight = defaultStyles[type] && defaultStyles[type].lineHeight;
+    const customLineHeight = customStyles && customStyles[type] && customStyles[type].lineHeight;
+    const lineHeight = { lineHeight: customLineHeight || defaultLineHeight };
+
     if (attrs[0].offset > 0) {
       const element = (
-        <Text key={generateKey()} {...textProps}>
+        <Text style={lineHeight} key={generateKey()} {...textProps}>
           {substring(text, 0, attrs[0].offset)}
         </Text>
       );
@@ -82,6 +89,7 @@ const loadAttributes = (params: ParamsType): any => {
         text: substring(text, item.offset, item.offset + item.length),
         customStyles,
         textProps,
+        lineHeight,
       });
 
       const itemOnPress = getItemOnPress(item, entityMap, navigateFunction);
