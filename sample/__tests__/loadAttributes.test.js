@@ -182,3 +182,87 @@ it('have correct length with multiple inlineStyles and text with substring witho
   expect(result).toHaveLength(2);
   expect(result[0].props.children).toBe(params.text);
 });
+
+it('have inlineStyles with substring and type is given', () => {
+  const params = {
+    text: 'Hello World Hello World Hello World',
+    inlineStyles: [{
+      offset: 300,
+      length: 2,
+      style: 'BOLD',
+    }],
+    entityMap: {},
+    entityRanges: [],
+    type: 'unstyled',
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+  expect(result[0].props.children).toBe(params.text);
+});
+
+
+it('have inlineStyles with substring and type is given with proper customStyles to that type', () => {
+  const params = {
+    text: 'Hello World Hello World Hello World',
+    inlineStyles: [{
+      offset: 300,
+      length: 2,
+      style: 'BOLD',
+    }],
+    entityMap: {},
+    entityRanges: [],
+    type: 'unstyled',
+    customStyles: {
+      unstyled: {
+        lineHeight: 30,
+      },
+    },
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+  expect(result[0].props.children).toBe(params.text);
+});
+
+it('have inlineStyles with substring and type is given without proper customStyles to that type', () => {
+  const params = {
+    text: 'Hello World Hello World Hello World',
+    inlineStyles: [{
+      offset: 300,
+      length: 2,
+      style: 'BOLD',
+    }],
+    entityMap: {},
+    entityRanges: [],
+    type: 'unstyled',
+    customStyles: {
+      other: {
+        lineHeight: 30,
+      },
+    },
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+  expect(result[0].props.children).toBe(params.text);
+});
+
+it('have inlineStyles with substring and type is given without lineHeight customStyles to that type', () => {
+  const params = {
+    text: 'Hello World Hello World Hello World',
+    inlineStyles: [{
+      offset: 300,
+      length: 2,
+      style: 'BOLD',
+    }],
+    entityMap: {},
+    entityRanges: [],
+    type: 'unstyled',
+    customStyles: {
+      unstyled: {
+        fontSize: 30,
+      },
+    },
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+  expect(result[0].props.children).toBe(params.text);
+});
