@@ -7,14 +7,17 @@ exports[`renders correctly with customStyles and multiple types 1`] = `
   ellipsizeMode="tail"
   style={
     Array [
-      Object {
-        "fontStyle": "italic",
-        "fontWeight": "bold",
-      },
-      Object {
-        "fontStyle": "italic",
-        "fontWeight": "bold",
-      },
+      Array [
+        Object {
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+        },
+        Object {
+          "fontStyle": "italic",
+          "fontWeight": "bold",
+        },
+      ],
+      undefined,
     ]
   }
 >
@@ -29,12 +32,15 @@ exports[`renders correctly with customStyles and single type 1`] = `
   ellipsizeMode="tail"
   style={
     Array [
-      Object {
-        "fontWeight": "bold",
-      },
-      Object {
-        "fontWeight": "bold",
-      },
+      Array [
+        Object {
+          "fontWeight": "bold",
+        },
+        Object {
+          "fontWeight": "bold",
+        },
+      ],
+      undefined,
     ]
   }
 >
@@ -50,6 +56,9 @@ exports[`renders correctly with onPress 1`] = `
   onPress={[Function]}
   style={
     Array [
+      Array [
+        undefined,
+      ],
       undefined,
     ]
   }
@@ -65,6 +74,9 @@ exports[`renders correctly without onPress 1`] = `
   ellipsizeMode="tail"
   style={
     Array [
+      Array [
+        undefined,
+      ],
       undefined,
     ]
   }

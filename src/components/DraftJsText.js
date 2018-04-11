@@ -26,6 +26,7 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
       entityMap: props.entityMap,
       navigate: props.navigate,
       textProps: props.textProps,
+      type: props.type,
     });
 
     const customStyle = props.customStyles ? props.customStyles[props.type] : undefined;
@@ -36,7 +37,8 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
         style={[defaultStyles[props.type], textAlignStyle, customStyle]}
         {...props.textProps}
       >{textElements}
-      </Text>);
+      </Text>
+    );
   }
   return null;
 };

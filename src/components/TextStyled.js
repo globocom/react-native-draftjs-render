@@ -50,9 +50,9 @@ const TextStyled = (props: TextStyledPropsType): any => {
   const textStyle = getStyles(props.type, props.customStyles);
 
   if (props.onPress) {
-    return <Text style={textStyle} onPress={props.onPress}>{props.text}</Text>;
+    return <Text style={[textStyle, props.lineHeight]} onPress={props.onPress}>{props.text}</Text>;
   }
-  return <Text style={textStyle}>{props.text}</Text>;
+  return <Text style={[textStyle, props.lineHeight]}>{props.text}</Text>;
 };
 
 TextStyled.defaultProps = {
