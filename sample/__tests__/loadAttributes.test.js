@@ -129,6 +129,8 @@ it('have correct length with inlineStyles, entityMap and text', () => {
   };
   const result = loadAttributes(params);
   expect(result).toHaveLength(4);
+  const typeOfFunc = typeof result[0].props.onPress;
+  expect(typeOfFunc).toBe('function');
 });
 
 it('have correct length with multiple inlineStyles and text with substring without style', () => {
@@ -265,4 +267,42 @@ it('have inlineStyles with substring and type is given without lineHeight custom
   const result = loadAttributes(params);
   expect(result).toHaveLength(2);
   expect(result[0].props.children).toBe(params.text);
+});
+
+it('have entityRanges but undefined entityMap', () => {
+  const params = {
+    text: 'Hello World',
+    inlineStyles: [],
+    entityMap: undefined,
+    entityRanges: [{
+      offset: 0,
+      length: 5,
+      key: 0,
+    }],
+    type: 'unstyled',
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+
+  const typeOfFunc = typeof result[0].props.onPress;
+  expect(typeOfFunc).toBe('undefined');
+});
+
+it('have entityRanges but empty object entityMap', () => {
+  const params = {
+    text: 'Hello World',
+    inlineStyles: [],
+    entityMap: {},
+    entityRanges: [{
+      offset: 0,
+      length: 5,
+      key: 0,
+    }],
+    type: 'unstyled',
+  };
+  const result = loadAttributes(params);
+  expect(result).toHaveLength(2);
+
+  const typeOfFunc = typeof result[0].props.onPress;
+  expect(typeOfFunc).toBe('undefined');
 });

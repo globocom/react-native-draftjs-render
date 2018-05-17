@@ -321,12 +321,5 @@
      }
   ],
   "entityMap": {
-    "0": {
-      "type": "LINK",
-      "mutability": "MUTABLE",
-      "data": {
-        "url": "https://github.com/globocom/react-native-draftjs-render"
-      }
-    }
   }
 }

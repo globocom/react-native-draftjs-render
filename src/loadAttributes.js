@@ -18,9 +18,11 @@ import defaultStyles from './components/defaultStyles';
 import generateKey from './utils/generateKey';
 import flatAttributesList from './flatAttributesList';
 import getItemType from './helpers/getItemType';
+import isEmptyObject from './helpers/isEmptyObject';
 
-export const getItemOnPress = (item: Object, entityMap: Object, navigate: Function) => {
-  if (item.key !== undefined) {
+export const getItemOnPress = (item: Object, entityMap: ?Object, navigate: Function) => {
+  if (item.key !== undefined && entityMap && !isEmptyObject(entityMap)) {
+    // $$FlowFixMe entityMap is valid here
     return () => { navigate(entityMap[item.key].data.url); };
   }
   return undefined;
@@ -32,7 +34,7 @@ type ParamsType = {
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
-  entityMap: Object,
+  entityMap: ?Object,
   navigate?: Function,
   textProps: ?Object,
 };

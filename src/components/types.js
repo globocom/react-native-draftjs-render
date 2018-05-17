@@ -13,7 +13,7 @@ export type BlockQuotePropsType = {
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
-  entityMap: Object,
+  entityMap: ?Object,
   textProps: ?Object,
 };
 
@@ -24,7 +24,7 @@ export type DraftJsTextPropsType = {
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
-  entityMap: Object,
+  entityMap: ?Object,
   navigate?: Function,
   textProps: ?Object,
 };
@@ -36,7 +36,7 @@ export type OrderedListItemPropsType = {
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
-  entityMap: Object,
+  entityMap: ?Object,
   counter: number,
   separator?: string,
   depth: number,
@@ -51,7 +51,7 @@ export type UnorderedListItemPropsType = {
   customStyles?: Object,
   inlineStyles: Array<Object>,
   entityRanges: Array<Object>,
-  entityMap: Object,
+  entityMap: ?Object,
   depth: number,
   defaultMarginLeft: number,
   textProps: ?Object,
