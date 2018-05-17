@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - "node"
+  - "8"
 before_script:
   - "cd sample && npm install && npm run sync-lib && cd ../"
 script: npm run test-coveralls
