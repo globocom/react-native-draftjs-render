@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
   orderedListItemNumber: {
     fontSize: 12,
     fontWeight: 'bold',
-    marginRight: 8,
     alignSelf: 'center',
   },
 });
@@ -35,28 +34,24 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
   const {
     counter,
     separator,
+    customStyles,
+    depth,
+    defaultMarginLeft,
   } = props;
 
+  const orderedListItemCustomStyleContainer = customStyles && customStyles.orderedListItemContainer;
+  const orderedListItemCustomStyleNumber = customStyles && customStyles.orderedListItemNumber;
 
-  const orderedListItemCustomStyleContainer = props.customStyles ?
-    props.customStyles.orderedListItemContainer :
-    undefined;
-
-  const orderedListItemCustomStyleNumber = props.customStyles ?
-    props.customStyles.orderedListItemNumber :
-    undefined;
-
-  let marginLeft = 0;
-  marginLeft =
+  const marginLeftWithDepth =
       orderedListItemCustomStyleNumber && orderedListItemCustomStyleNumber.marginLeft ?
-        props.depth * orderedListItemCustomStyleNumber.marginLeft :
-        props.depth * props.defaultMarginLeft;
+        depth * orderedListItemCustomStyleNumber.marginLeft : depth * defaultMarginLeft;
+  const marginLeftWithoutDepth = 24;
+  const marginLeft = depth > 0 ? marginLeftWithDepth : marginLeftWithoutDepth;
 
   return (
     <View style={[styles.orderedListItemContainer, orderedListItemCustomStyleContainer]}>
       <Text
-        style={[styles.orderedListItemNumber, orderedListItemCustomStyleNumber,
-          { marginLeft }]}
+        style={[styles.orderedListItemNumber, orderedListItemCustomStyleNumber, { marginLeft }]}
       >
         {counter}{separator}
       </Text>

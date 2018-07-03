@@ -25,11 +25,10 @@ exports[`extends a style with a customStyle.orderedListItemContainer 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         undefined,
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
@@ -88,13 +87,12 @@ exports[`extends a style with a customStyle.orderedListItemNumber 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         Object {
           "fontSize": 14,
         },
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
@@ -153,11 +151,10 @@ exports[`extends a style with customStyles 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         undefined,
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
@@ -216,11 +213,10 @@ exports[`renders correctly when customStyles is undefined 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         undefined,
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
@@ -273,13 +269,12 @@ exports[`renders correctly when orderedListItemNumber.marginLeft is set 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         Object {
           "marginLeft": 14,
         },
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
@@ -338,11 +333,10 @@ exports[`renders correctly with a ordered-list-item 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         undefined,
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
@@ -395,7 +389,6 @@ exports[`renders correctly with a ordered-list-item when depth 1 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         undefined,
         Object {
@@ -452,11 +445,10 @@ exports[`renders correctly with a ordered-list-item when depth is undefined 1`] 
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         undefined,
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
@@ -509,11 +501,10 @@ exports[`renders null without a ordered-list-item 1`] = `
           "alignSelf": "center",
           "fontSize": 12,
           "fontWeight": "bold",
-          "marginRight": 8,
         },
         undefined,
         Object {
-          "marginLeft": 0,
+          "marginLeft": 24,
         },
       ]
     }
