@@ -5,10 +5,6 @@
 [![npm version](https://badge.fury.io/js/react-native-draftjs-render.svg)](https://www.npmjs.com/package/react-native-draftjs-render)
 [![license](https://img.shields.io/npm/l/react-native-draftjs-render.svg)](https://github.com/globocom/react-native-draftjs-render/blob/master/LICENSE)
 
-[![bitHound Overall Score](https://www.bithound.io/github/globocom/react-native-draftjs-render/badges/score.svg)](https://www.bithound.io/github/globocom/react-native-draftjs-render)
-[![bitHound Dependencies](https://www.bithound.io/github/globocom/react-native-draftjs-render/badges/dependencies.svg)](https://www.bithound.io/github/globocom/react-native-draftjs-render/master/dependencies/npm)
-[![bitHound Code](https://www.bithound.io/github/globocom/react-native-draftjs-render/badges/code.svg)](https://www.bithound.io/github/globocom/react-native-draftjs-render)
-
 
 A React Native render for [Draft.js](http://draftjs.org/) model.
 
