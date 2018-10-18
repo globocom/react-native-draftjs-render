@@ -76,7 +76,7 @@ it('extends a style with a customStyle from another type', () => {
 
 it('renders text-align: left', () => {
   const text = 'Hello World';
-  const data = { 'text-align': 'left' };
+  const data = { textAlignment: 'left' };
   const tree = renderer.create(<DraftJsText
     type="paragraph"
     text={text}
@@ -90,7 +90,7 @@ it('renders text-align: left', () => {
 
 it('renders text-align: right', () => {
   const text = 'Hello World';
-  const data = { 'text-align': 'right' };
+  const data = { textAlignment: 'right' };
   const tree = renderer.create(<DraftJsText
     type="paragraph"
     text={text}
@@ -104,7 +104,7 @@ it('renders text-align: right', () => {
 
 it('renders text-align: center', () => {
   const text = 'Hello World';
-  const data = { 'text-align': 'center' };
+  const data = { textAlignment: 'center' };
   const tree = renderer.create(<DraftJsText
     type="paragraph"
     text={text}
