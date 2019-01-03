@@ -12,8 +12,7 @@ import {
   View,
 } from 'react-native';
 
-import DraftJsText from '../components/DraftJsText';
-
+import DraftJsText from './DraftJsText';
 import type { BlockQuotePropsType } from './types';
 
 const styles = StyleSheet.create({
@@ -28,15 +27,16 @@ const styles = StyleSheet.create({
 });
 
 const BlockQuote = (props: BlockQuotePropsType): any => {
-  const blockquoteCustomStyleContainer = props.customStyles ?
-    props.customStyles.blockquoteContainer :
-    undefined;
-  const blockquoteCustomStyleIconBefore = props.customStyles ?
-    props.customStyles.blockquoteIconBefore :
-    undefined;
-  const blockquoteCustomStyleIconAfter = props.customStyles ?
-    props.customStyles.blockquoteIconAfter :
-    undefined;
+  const { customStyles } = props;
+  const blockquoteCustomStyleContainer = customStyles
+    ? customStyles.blockquoteContainer
+    : undefined;
+  const blockquoteCustomStyleIconBefore = customStyles
+    ? customStyles.blockquoteIconBefore
+    : undefined;
+  const blockquoteCustomStyleIconAfter = customStyles
+    ? customStyles.blockquoteIconAfter
+    : undefined;
 
   return (
     <View style={[styles.blockquoteContainer, blockquoteCustomStyleContainer]}>
@@ -45,7 +45,8 @@ const BlockQuote = (props: BlockQuotePropsType): any => {
         {...props}
       />
       <View style={blockquoteCustomStyleIconAfter} />
-    </View>);
+    </View>
+  );
 };
 
 BlockQuote.defaultProps = {

@@ -47,12 +47,19 @@ const getStyles = (itemType: any, customStyles?: Object): any => {
 };
 
 const TextStyled = (props: TextStyledPropsType): any => {
-  const textStyle = getStyles(props.type, props.customStyles);
+  const {
+    type,
+    customStyles,
+    onPress,
+    lineHeight,
+    text,
+  } = props;
+  const textStyle = getStyles(type, customStyles);
 
-  if (props.onPress) {
-    return <Text style={[textStyle, props.lineHeight]} onPress={props.onPress}>{props.text}</Text>;
+  if (onPress) {
+    return <Text style={[textStyle, lineHeight]} onPress={onPress}>{text}</Text>;
   }
-  return <Text style={[textStyle, props.lineHeight]}>{props.text}</Text>;
+  return <Text style={[textStyle, lineHeight]}>{text}</Text>;
 };
 
 TextStyled.defaultProps = {

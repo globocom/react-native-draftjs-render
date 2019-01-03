@@ -20,30 +20,32 @@
   "author": "globo.com",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.2.0",
-    "react-native": ">=0.49.3"
+    "react": "^16.6.3",
+    "react-native": ">=0.57.8"
   },
   "dependencies": {
     "stringz": "1.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "8.2.2",
-    "babel-jest": "22.4.3",
-    "babel-preset-react-native": "4.0.0",
-    "coveralls": "3.0.0",
-    "eslint": "4.19.1",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-plugin-flowtype": "2.46.1",
-    "eslint-plugin-import": "2.10.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.7.0",
-    "eslint-plugin-react-native": "3.2.1",
-    "flow-bin": "0.69.0",
-    "jest": "22.4.3",
-    "react": "16.3.1",
-    "react-dom": "16.3.1",
-    "react-native": "0.55.2",
-    "react-test-renderer": "16.3.1"
+    "@babel/core": "7.2.2",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "23.6.0",
+    "coveralls": "3.0.2",
+    "eslint": "5.11.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-flowtype": "3.2.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.12.2",
+    "eslint-plugin-react-native": "3.5.0",
+    "flow-bin": "0.89.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-native": "0.57.8",
+    "react-test-renderer": "16.6.3"
   },
   "jest": {
     "preset": "react-native",

@@ -12,8 +12,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import DraftJsText from '../components/DraftJsText';
-
+import DraftJsText from './DraftJsText';
 import type { UnorderedListItemPropsType } from './types';
 
 const styles = StyleSheet.create({
@@ -33,19 +32,19 @@ const styles = StyleSheet.create({
 });
 
 const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
-  const unorderedListItemCustomStyleContainer = props.customStyles ?
-    props.customStyles.unorderedListItemContainer :
-    undefined;
+  const { customStyles, depth, defaultMarginLeft } = props;
+  const unorderedListItemCustomStyleContainer = customStyles
+    ? customStyles.unorderedListItemContainer
+    : undefined;
 
-  const unorderedListItemCustomStyleBullet = props.customStyles ?
-    props.customStyles.unorderedListItemBullet :
-    undefined;
+  const unorderedListItemCustomStyleBullet = customStyles
+    ? customStyles.unorderedListItemBullet
+    : undefined;
 
   let marginLeft = 0;
-  marginLeft =
-      unorderedListItemCustomStyleBullet && unorderedListItemCustomStyleBullet.marginLeft ?
-        props.depth * unorderedListItemCustomStyleBullet.marginLeft :
-        props.depth * props.defaultMarginLeft;
+  marginLeft = unorderedListItemCustomStyleBullet && unorderedListItemCustomStyleBullet.marginLeft
+    ? depth * unorderedListItemCustomStyleBullet.marginLeft
+    : depth * defaultMarginLeft;
 
   return (
     <View style={[styles.unorderedListItemContainer, unorderedListItemCustomStyleContainer]}>
@@ -55,7 +54,8 @@ const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
       <DraftJsText
         {...props}
       />
-    </View>);
+    </View>
+  );
 };
 
 UnorderedListItem.defaultProps = {

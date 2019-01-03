@@ -54,10 +54,12 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
     'unordered-list-item': {
       count: 0,
       type: 'unordered-list-item',
+      childCounters: [],
     },
     'ordered-list-item': {
       count: 0,
       type: 'ordered-list-item',
+      childCounters: [],
     },
   };
 

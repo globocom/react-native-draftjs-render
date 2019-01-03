@@ -13,8 +13,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-import DraftJsText from '../components/DraftJsText';
-
+import DraftJsText from './DraftJsText';
 import type { OrderedListItemPropsType } from './types';
 
 const styles = StyleSheet.create({
@@ -42,9 +41,10 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
   const orderedListItemCustomStyleContainer = customStyles && customStyles.orderedListItemContainer;
   const orderedListItemCustomStyleNumber = customStyles && customStyles.orderedListItemNumber;
 
-  const marginLeftWithDepth =
-      orderedListItemCustomStyleNumber && orderedListItemCustomStyleNumber.marginLeft ?
-        depth * orderedListItemCustomStyleNumber.marginLeft : depth * defaultMarginLeft;
+  const marginLeftWithDepth = (
+    orderedListItemCustomStyleNumber && orderedListItemCustomStyleNumber.marginLeft)
+    ? depth * orderedListItemCustomStyleNumber.marginLeft : depth * defaultMarginLeft;
+
   const marginLeftWithoutDepth = 24;
   const marginLeft = depth > 0 ? marginLeftWithDepth : marginLeftWithoutDepth;
 
@@ -53,12 +53,14 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
       <Text
         style={[styles.orderedListItemNumber, orderedListItemCustomStyleNumber, { marginLeft }]}
       >
-        {counter}{separator}
+        {counter}
+        {separator}
       </Text>
       <DraftJsText
         {...props}
       />
-    </View>);
+    </View>
+  );
 };
 
 OrderedListItem.defaultProps = {
