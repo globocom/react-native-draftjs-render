@@ -15,7 +15,8 @@ import defaultStyles from './defaultStyles';
 import type { DraftJsTextPropsType } from './types';
 
 const DraftJsText = (props: DraftJsTextPropsType): any => {
-  let textElements = props.text;
+  const { text } = props;
+  let textElements = text;
 
   if (textElements) {
     textElements = loadAttributes({
@@ -36,7 +37,8 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
       <Text
         style={[defaultStyles[props.type], textAlignStyle, customStyle]}
         {...props.textProps}
-      >{textElements}
+      >
+        {textElements}
       </Text>
     );
   }

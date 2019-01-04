@@ -34,9 +34,6 @@ exports[`extends a style with a customStyle.unorderedListItemContainer 1`] = `
     }
   />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -87,9 +84,6 @@ exports[`extends a style with customStyles 1`] = `
     }
   />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -148,9 +142,6 @@ exports[`renders correctly when unorderedListItemBullet.marginLeft is set 1`] = 
     }
   />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -207,9 +198,6 @@ exports[`renders correctly with a unordered-list-item 1`] = `
     }
   />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -260,9 +248,6 @@ exports[`renders correctly with a unordered-list-item when depth 1 1`] = `
     }
   />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -313,9 +298,6 @@ exports[`renders correctly with a unordered-list-item when depth is undefined 1`
     }
   />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {

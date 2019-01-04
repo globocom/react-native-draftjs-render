@@ -16,13 +16,8 @@ exports[`extends a style with a customStyle 1`] = `
     ]
   }
 >
-  <View
-    style={undefined}
-  />
+  <View />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -45,9 +40,7 @@ exports[`extends a style with a customStyle 1`] = `
   >
     Hello World
   </Text>
-  <View
-    style={undefined}
-  />
+  <View />
 </View>
 `;
 
@@ -67,13 +60,8 @@ exports[`renders correctly with a blockquote 1`] = `
     ]
   }
 >
-  <View
-    style={undefined}
-  />
+  <View />
   <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -91,9 +79,7 @@ exports[`renders correctly with a blockquote 1`] = `
   >
     Hello World
   </Text>
-  <View
-    style={undefined}
-  />
+  <View />
 </View>
 `;
 
@@ -113,11 +99,7 @@ exports[`renders null without a blockquote 1`] = `
     ]
   }
 >
-  <View
-    style={undefined}
-  />
-  <View
-    style={undefined}
-  />
+  <View />
+  <View />
 </View>
 `;
