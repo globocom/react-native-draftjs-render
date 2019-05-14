@@ -15,6 +15,7 @@ export type BlockQuotePropsType = {
   entityRanges: Array<Object>,
   entityMap: ?Object,
   textProps: ?Object,
+  renderEmptyBlocks: boolean,
 };
 
 export type DraftJsTextPropsType = {
@@ -27,6 +28,7 @@ export type DraftJsTextPropsType = {
   entityMap: ?Object,
   navigate?: Function,
   textProps: ?Object,
+  renderEmptyBlocks: boolean,
 };
 
 export type OrderedListItemPropsType = {
@@ -42,6 +44,7 @@ export type OrderedListItemPropsType = {
   depth: number,
   defaultMarginLeft: number,
   textProps: ?Object,
+  renderEmptyBlocks: boolean,
 };
 
 export type UnorderedListItemPropsType = {
@@ -55,6 +58,7 @@ export type UnorderedListItemPropsType = {
   depth: number,
   defaultMarginLeft: number,
   textProps: ?Object,
+  renderEmptyBlocks: boolean,
 };
 
 export type TextStyledPropsType = {

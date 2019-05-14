@@ -15,10 +15,10 @@ import defaultStyles from './defaultStyles';
 import type { DraftJsTextPropsType } from './types';
 
 const DraftJsText = (props: DraftJsTextPropsType): any => {
-  const { text } = props;
+  const { text, renderEmptyBlocks } = props;
   let textElements = text;
 
-  if (textElements) {
+  if (textElements || renderEmptyBlocks) {
     textElements = loadAttributes({
       text: props.text,
       customStyles: props.customStyles,
