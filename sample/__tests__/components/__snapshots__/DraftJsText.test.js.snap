@@ -62,6 +62,25 @@ exports[`renders correctly with a text 1`] = `
 </Text>
 `;
 
+exports[`renders empty blocks 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "fontSize": 14,
+        "fontWeight": "normal",
+      },
+      Object {
+        "textAlign": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  
+</Text>
+`;
+
 exports[`renders null without a text 1`] = `null`;
 
 exports[`renders text-align: center 1`] = `

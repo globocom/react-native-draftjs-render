@@ -115,3 +115,16 @@ it('renders text-align: center', () => {
   />).toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+it('renders empty blocks', () => {
+  const text = '';
+  const tree = renderer.create(<DraftJsText
+    type="paragraph"
+    text={text}
+    inlineStyles={[]}
+    entityRanges={[]}
+    entityMap={{}}
+    renderEmptyBlocks
+  />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
