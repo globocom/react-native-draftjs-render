@@ -20,6 +20,7 @@ type ParamsType = {
     blocks: ?Array<*>,
     entityMap: Object,
   },
+  renderEmptyBlocks: boolean,
   customStyles: Object,
   atomicHandler: Function,
   navigate?: Function,
@@ -36,6 +37,7 @@ export const ViewAfterList = (props: Object): React$Element<*> => (
 const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
   const {
     contentState,
+    renderEmptyBlocks,
     customStyles,
     navigate,
     orderedListSeparator,
@@ -123,6 +125,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
               {viewBefore}
               <DraftJsText
                 {...itemData}
+                renderEmptyBlocks={renderEmptyBlocks}
                 entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
@@ -160,6 +163,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 customStyles={customStyles}
                 navigate={navigate}
                 textProps={textProps}
+                renderEmptyBlocks={renderEmptyBlocks}
               />
             </View>
           );
@@ -178,6 +182,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 navigate={navigate}
                 defaultMarginLeft={depthMargin}
                 textProps={textProps}
+                renderEmptyBlocks={renderEmptyBlocks}
               />
             </View>
           );
@@ -217,6 +222,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 navigate={navigate}
                 defaultMarginLeft={depthMargin}
                 textProps={textProps}
+                renderEmptyBlocks={renderEmptyBlocks}
               />
             </View>
           );
