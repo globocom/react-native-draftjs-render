@@ -45,7 +45,7 @@ const OrderedListItem = (props: OrderedListItemPropsType): any => {
     orderedListItemCustomStyleNumber && orderedListItemCustomStyleNumber.marginLeft)
     ? depth * orderedListItemCustomStyleNumber.marginLeft : depth * defaultMarginLeft;
 
-  const marginLeftWithoutDepth = 24;
+  const marginLeftWithoutDepth = 0;
   const marginLeft = depth > 0 ? marginLeftWithDepth : marginLeftWithoutDepth;
 
   return (
