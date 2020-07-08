@@ -24,8 +24,7 @@ const styles = StyleSheet.create({
   },
   orderedListItemNumber: {
     fontSize: 12,
-    fontWeight: 'bold',
-    alignSelf: 'center',
+    alignSelf: 'flex-start',
   },
 });
 

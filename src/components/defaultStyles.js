@@ -57,10 +57,12 @@ const defaultStyles = (PlatformOS: string): Object => StyleSheet.create({
     marginBottom: 25,
   },
   'unordered-list-item': {
+    flex: 1,
     fontSize: 14,
     fontWeight: 'normal',
   },
   'ordered-list-item': {
+    flex: 1,
     fontSize: 14,
     fontWeight: 'normal',
   },
