@@ -61,6 +61,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
       count: 0,
       type: 'ordered-list-item',
       childCounters: [],
+      previousDepth: 0,
     },
   };
 
@@ -194,6 +195,10 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
             counters[type].childCounters = [];
           }
 
+          if (counters[type].previousDepth > itemData.depth) {
+            counters[type].childCounters[counters[type].previousDepth] = 0;
+          }
+
           if (itemData.depth !== undefined && itemData.depth >= 1) {
             if (counters[type].childCounters[itemData.depth] === undefined) {
               counters[type].childCounters[itemData.depth] = 0;
@@ -204,6 +209,8 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
             counters[type].count += 1;
             number = counters[type].count;
           }
+
+          counters[type].previousDepth = itemData.depth || 0;
 
           const viewBefore = checkCounter(counters['unordered-list-item']);
           return (
