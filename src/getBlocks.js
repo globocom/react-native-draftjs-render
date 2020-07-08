@@ -14,6 +14,7 @@ import DraftJsText from './components/DraftJsText';
 import UnorderedListItem from './components/UnorderedListItem';
 import OrderedListItem from './components/OrderedListItem';
 import generateKey from './utils/generateKey';
+import getCounterByDepth from './utils/getCounterByDepth';
 
 type ParamsType = {
   contentState: {
@@ -211,7 +212,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
               <OrderedListItem
                 {...itemData}
                 separator={orderedListSeparator}
-                counter={number}
+                counter={getCounterByDepth(number, itemData.depth)}
                 entityMap={contentState.entityMap}
                 customStyles={customStyles}
                 navigate={navigate}
