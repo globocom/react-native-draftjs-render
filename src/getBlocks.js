@@ -194,11 +194,11 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
           }
 
           if (itemData.depth !== undefined && itemData.depth >= 1) {
-            if (counters[type].childCounters[parentIndex] === undefined) {
-              counters[type].childCounters[parentIndex] = 0;
+            if (counters[type].childCounters[itemData.depth] === undefined) {
+              counters[type].childCounters[itemData.depth] = 0;
             }
-            counters[type].childCounters[parentIndex] += 1;
-            number = counters[type].childCounters[parentIndex];
+            counters[type].childCounters[itemData.depth] += 1;
+            number = counters[type].childCounters[itemData.depth];
           } else {
             counters[type].count += 1;
             number = counters[type].count;
