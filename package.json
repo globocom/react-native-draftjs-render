@@ -1,7 +1,7 @@
 {
   "name": "rn-draftjs-render",
   "description": "React Native render for draft.js model (forked from globocom)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "yarn linter",
     "linter": "eslint .",
@@ -9,8 +9,8 @@
     "prepublishOnly": "npm run build",
     "build": "tsc -p ."
   },
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
