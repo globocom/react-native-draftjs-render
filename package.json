@@ -1,78 +1,67 @@
 {
-  "name": "react-native-draftjs-render",
-  "description": "React Native render for draft.js model",
-  "version": "2.9.0",
+  "name": "rn-draftjs-render",
+  "description": "React Native render for draft.js model (forked from globocom)",
+  "version": "1.0.0",
   "scripts": {
-    "test": "npm run linter && npm run flow && npm run coverage",
-    "test-coveralls": "npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "coverage": "jest --coverage",
-    "test-reset": "jest --updateSnapshot",
+    "test": "yarn linter",
     "linter": "eslint .",
     "linter:fix": "eslint . --fix",
-    "flow": "flow",
-    "flow-stop": "flow stop"
+    "prepublishOnly": "npm run build",
+    "build": "tsc -p ."
   },
-  "main": "index.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
   "keywords": [
+    "rn",
     "react-native",
     "draft-js"
   ],
-  "author": "globo.com",
+  "author": "pqkluan@gmail.com",
   "license": "MIT",
   "peerDependencies": {
     "react": "^16.6.3",
-    "react-native": ">=0.57.8"
+    "react-native": ">=0.60.0"
   },
   "dependencies": {
+    "@types/draft-js": "0.10.43",
     "stringz": "1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.2.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/node": "^14.6.2",
+    "@types/react-native": "^0.63.11",
+    "@typescript-eslint/parser": "^3.10.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
     "babel-jest": "23.6.0",
     "coveralls": "3.0.2",
-    "eslint": "5.11.1",
-    "eslint-config-airbnb": "17.1.0",
-    "eslint-plugin-flowtype": "3.2.0",
+    "draft-js": "0.11.7",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "7.12.2",
     "eslint-plugin-react-native": "3.5.0",
-    "flow-bin": "0.89.0",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
     "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.51.1",
+    "metro-react-native-babel-preset": "0.60.0",
+    "prettier": "^2.1.1",
     "react": "16.6.3",
     "react-dom": "16.6.3",
     "react-native": "0.57.8",
-    "react-test-renderer": "16.6.3"
-  },
-  "jest": {
-    "preset": "react-native",
-    "modulePathIgnorePatterns": [
-      "/sample/node_modules/"
-    ],
-    "clearMocks": true,
-    "coverageDirectory": "./coverage/",
-    "coverageReporters": [
-      "lcov",
-      "text"
-    ],
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "/sample/",
-      "/coverage/"
-    ],
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
-    ]
+    "react-test-renderer": "16.6.3",
+    "typescript": "3.9.6"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/globocom/react-native-draftjs-render.git"
+    "url": "git+https://github.com/pqkluan/rn-draftjs-render.git"
   },
   "bugs": {
-    "url": "https://github.com/globocom/react-native-draftjs-render/issues"
+    "url": "https://github.com/pqkluan/rn-draftjs-render/issues"
   },
-  "homepage": "https://github.com/globocom/react-native-draftjs-render#readme"
+  "homepage": "https://github.com/pqkluan/rn-draftjs-render#readme"
 }

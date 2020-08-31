@@ -1,8 +1,0 @@
-[ignore]
-.*/node_modules/.*
-
-[options]
-# Workaround to deal with this issue: https://github.com/facebook/flow/issues/869
-# More info: https://github.com/reactjs/react-redux/issues/137#issuecomment-264199618
-module.name_mapper='\(react-native\)' -> '<PROJECT_ROOT>/flow-workaround/GeneralStub.js.flow'
-module.name_mapper='\(react-native-draftjs-render\)' -> '<PROJECT_ROOT>/flow-workaround/GeneralStub.js.flow'
