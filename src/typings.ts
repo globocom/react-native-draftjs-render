@@ -43,7 +43,7 @@ export type CustomStyles = Partial<BlockStyles & InlineStyles & Record<CustomSty
 
 export interface InlineStyleRange {
   key?: number | string;
-  style: InlineType[];
+  style: InlineType | InlineType[];
   offset: number;
   length: number;
 }
