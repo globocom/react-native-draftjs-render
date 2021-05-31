@@ -10,6 +10,7 @@ import React from 'react';
 import {
   View,
   StyleSheet,
+  Text,
 } from 'react-native';
 
 import DraftJsText from './DraftJsText';
@@ -19,15 +20,11 @@ const styles = StyleSheet.create({
   unorderedListItemContainer: {
     flex: 1,
     flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'flex-start',
+    marginLeft: 8
   },
   unorderedListItemBullet: {
-    width: 5,
-    height: 5,
-    borderRadius: 5,
     marginRight: 8,
-    alignSelf: 'center',
-    backgroundColor: 'black',
   },
 });
 
@@ -46,11 +43,21 @@ const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
     ? depth * unorderedListItemCustomStyleBullet.marginLeft
     : depth * defaultMarginLeft;
 
+  const renderBulletFormat = () => {
+    const BULET_FORMATS = [0x2022, 0x25E6, 0x25AA, 0x25AA, 0x25AA];
+
+    return (
+      <Text style={[styles.unorderedListItemBullet, unorderedListItemCustomStyleBullet,
+        { marginLeft }]}
+      >
+        {String.fromCharCode(BULET_FORMATS[depth % 5])}
+      </Text>
+    );
+  }
+
   return (
     <View style={[styles.unorderedListItemContainer, unorderedListItemCustomStyleContainer]}>
-      <View style={[styles.unorderedListItemBullet, unorderedListItemCustomStyleBullet,
-        { marginLeft }]}
-      />
+      {renderBulletFormat()}
       <DraftJsText
         {...props}
       />

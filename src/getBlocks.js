@@ -171,7 +171,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
           counters[item.type].count += 1;
           const viewBefore = checkCounter(counters['ordered-list-item']);
           return (
-            <View key={generateKey()}>
+            <View key={generateKey()} style={{ marginTop: counters[item.type].count === 1 ? 8 : 0}}>
               {viewBefore}
               <UnorderedListItem
                 {...itemData}
