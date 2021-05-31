@@ -44,7 +44,7 @@ const UnorderedListItem = (props: UnorderedListItemPropsType): any => {
     : depth * defaultMarginLeft;
 
   const renderBulletFormat = () => {
-    const BULET_FORMATS = [0x2022, 0x25E6, 0x25AA, 0x25AA, 0x25AA];
+    const BULET_FORMATS = [0x2022, 0x25E6, 0x2B29, 0x2B29, 0x2B29];
 
     return (
       <Text style={[styles.unorderedListItemBullet, unorderedListItemCustomStyleBullet,
