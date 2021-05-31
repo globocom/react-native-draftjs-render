@@ -17,9 +17,11 @@ import type { TextStyledPropsType } from './types';
 const styles = StyleSheet.flatten({
   bold: {
     fontWeight: 'bold',
+    fontFamily: 'opensans-bold',
   },
   italic: {
     fontStyle: 'italic',
+    fontFamily: 'opensans-italic',
   },
   link: {
     textDecorationLine: 'underline',
