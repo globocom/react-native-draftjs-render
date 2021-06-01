@@ -18,19 +18,23 @@ const styles = StyleSheet.flatten({
   bold: {
     fontWeight: 'bold',
     fontFamily: 'opensans-bold',
+    color: '#48454F',
   },
   italic: {
     fontStyle: 'italic',
     fontFamily: 'opensans-italic',
+    color: '#48454F',
   },
   link: {
     textDecorationLine: 'underline',
   },
   underline: {
     textDecorationLine: 'underline',
+    color: '#48454F',
   },
   strikethrough: {
     textDecorationLine: 'line-through',
+    color: '#48454F',
   },
 });
 
