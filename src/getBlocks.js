@@ -178,6 +178,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
               customStyles={customStyles}
               navigate={navigate}
               textProps={textProps}
+              isFillBlockquote={true}
             />
           </View>
         );
