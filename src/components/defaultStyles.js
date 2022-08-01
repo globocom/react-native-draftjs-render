@@ -67,10 +67,6 @@ const defaultStyles = (PlatformOS: string): Object =>
       fontFamily: PlatformOS === "android" ? "monospace" : "Courier New",
       padding: 16,
     },
-    blockquote: {
-      fontSize: 14,
-      fontWeight: "normal",
-    },
   });
 
 export { defaultStyles as defaultStylesForTest };
