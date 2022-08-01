@@ -6,35 +6,31 @@
 
 // @flow
 
-import React from 'react';
-import {
-  Text,
-  StyleSheet,
-} from 'react-native';
+import React from "react";
+import { Text, StyleSheet } from "react-native";
 
-import type { TextStyledPropsType } from './types';
+import type { TextStyledPropsType } from "./types";
 
 const styles = StyleSheet.flatten({
-  bold: {
-    fontWeight: 'bold',
-  },
+  bold: {},
   italic: {
-    fontStyle: 'italic',
+    fontStyle: "italic",
   },
   link: {
-    textDecorationLine: 'underline',
+    textDecorationLine: "underline",
   },
   underline: {
-    textDecorationLine: 'underline',
+    textDecorationLine: "underline",
   },
   strikethrough: {
-    textDecorationLine: 'line-through',
+    textDecorationLine: "line-through",
   },
 });
 
 const getStyles = (itemType: any, customStyles?: Object): any => {
   if (!customStyles) return [styles[itemType]];
-  if (typeof itemType === 'string') return [styles[itemType], customStyles[itemType]];
+  if (typeof itemType === "string")
+    return [styles[itemType], customStyles[itemType]];
 
   const defaultTextStyles = {};
   const customTextStyles = {};
@@ -47,23 +43,21 @@ const getStyles = (itemType: any, customStyles?: Object): any => {
 };
 
 const TextStyled = (props: TextStyledPropsType): any => {
-  const {
-    type,
-    customStyles,
-    onPress,
-    lineHeight,
-    text,
-  } = props;
+  const { type, customStyles, onPress, lineHeight, text } = props;
   const textStyle = getStyles(type, customStyles);
 
   if (onPress) {
-    return <Text style={[textStyle, lineHeight]} onPress={onPress}>{text}</Text>;
+    return (
+      <Text style={[textStyle, lineHeight]} onPress={onPress}>
+        {text}
+      </Text>
+    );
   }
   return <Text style={[textStyle, lineHeight]}>{text}</Text>;
 };
 
 TextStyled.defaultProps = {
-  text: '',
+  text: "",
   onPress: undefined,
 };
 

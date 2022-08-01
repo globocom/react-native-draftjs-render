@@ -15,6 +15,7 @@ export type BlockQuotePropsType = {
   entityRanges: Array<Object>,
   entityMap: ?Object,
   textProps: ?Object,
+  isFillBlockquote?: boolean,
 };
 
 export type DraftJsTextPropsType = {
