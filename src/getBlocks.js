@@ -150,7 +150,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
         }
         return item;
       }
-
+      case "fillBlockquote":
       case "blockquote": {
         const viewBefore = checkCounter(counters);
         return (
@@ -162,23 +162,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
               customStyles={customStyles}
               navigate={navigate}
               textProps={textProps}
-            />
-          </View>
-        );
-      }
-
-      case "fillBlockquote": {
-        const viewBefore = checkCounter(counters);
-        return (
-          <View key={generateKey()}>
-            {viewBefore}
-            <BlockQuote
-              {...itemData}
-              entityMap={contentState.entityMap}
-              customStyles={customStyles}
-              navigate={navigate}
-              textProps={textProps}
-              isFillBlockquote={true}
+              isFillBlockquote={item.type === "fillBlockquote"}
             />
           </View>
         );
