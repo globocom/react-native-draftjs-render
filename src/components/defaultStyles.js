@@ -16,7 +16,6 @@ const defaultStyles = (PlatformOS: string): Object =>
     },
     unstyled: {
       fontSize: 14,
-      fontWeight: "normal",
     },
     "header-one": {
       fontSize: 32,
