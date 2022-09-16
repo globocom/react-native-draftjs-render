@@ -29,8 +29,9 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
       textProps: props.textProps,
       type: props.type,
     });
-
-    const customStyle = props.customStyles ? props.customStyles[props.type] : undefined;
+    const customStyle = props.customStyles
+      ? props.customStyles[props.type]
+      : undefined;
     const textAlignStyle = { textAlign: props.data.textAlignment };
 
     return (
@@ -42,7 +43,7 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
       </Text>
     );
   }
-  return null;
+  return <Text style={defaultStyles['empty-text']} />;
 };
 
 DraftJsText.defaultProps = {
