@@ -63,4 +63,5 @@ export type TextStyledPropsType = {
   customStyles?: Object,
   onPress?: Function,
   lineHeight: Object,
+  isFillBlockquote?: boolean,
 };

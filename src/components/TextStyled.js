@@ -15,9 +15,7 @@ import {
 import type { TextStyledPropsType } from './types';
 
 const styles = StyleSheet.flatten({
-  bold: {
-    fontWeight: 'bold',
-  },
+  bold: {},
   italic: {
     fontStyle: 'italic',
   },

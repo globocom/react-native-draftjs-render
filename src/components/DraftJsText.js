@@ -42,7 +42,7 @@ const DraftJsText = (props: DraftJsTextPropsType): any => {
       </Text>
     );
   }
-  return null;
+  return <Text style={props?.customStyles.emptyText} />;
 };
 
 DraftJsText.defaultProps = {

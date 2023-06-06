@@ -18,7 +18,6 @@ const defaultStyles = (PlatformOS: string): Object => StyleSheet.create({
   },
   unstyled: {
     fontSize: 14,
-    fontWeight: 'normal',
   },
   'header-one': {
     fontSize: 32,
@@ -68,12 +67,6 @@ const defaultStyles = (PlatformOS: string): Object => StyleSheet.create({
     backgroundColor: '#cecece',
     fontFamily: PlatformOS === 'android' ? 'monospace' : 'Courier New',
     padding: 16,
-  },
-  blockquote: {
-    fontSize: 14,
-    fontWeight: 'normal',
-    fontStyle: 'italic',
-    marginLeft: 16,
   },
 });
 

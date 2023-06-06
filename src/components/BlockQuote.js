@@ -27,15 +27,22 @@ const styles = StyleSheet.create({
 });
 
 const BlockQuote = (props: BlockQuotePropsType): any => {
-  const { customStyles } = props;
+  const { customStyles, isFillBlockquote } = props;
+
   const blockquoteCustomStyleContainer = customStyles
-    ? customStyles.blockquoteContainer
+    ? isFillBlockquote
+      ? customStyles.fillBlockquoteContainer
+      : customStyles.blockquoteContainer
     : undefined;
   const blockquoteCustomStyleIconBefore = customStyles
-    ? customStyles.blockquoteIconBefore
+    ? isFillBlockquote
+      ? customStyles.fillBlockquoteIconBefore
+      : customStyles.blockquoteIconBefore
     : undefined;
   const blockquoteCustomStyleIconAfter = customStyles
-    ? customStyles.blockquoteIconAfter
+    ? isFillBlockquote
+      ? customStyles.fillBlockquoteIconAfter
+      : customStyles.blockquoteIconAfter
     : undefined;
 
   return (

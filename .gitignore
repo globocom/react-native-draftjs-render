@@ -46,3 +46,5 @@ sample/react-native-draftjs-render/*
 # VSCode
 jsconfig.json
 
+#Custom
+.history

@@ -149,6 +149,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
           return item;
         }
 
+        case 'fillBlockquote':
         case 'blockquote': {
           const viewBefore = checkCounter(counters);
           return (
@@ -160,6 +161,7 @@ const getBlocks = (params: ParamsType): ?Array<React$Element<*>> => {
                 customStyles={customStyles}
                 navigate={navigate}
                 textProps={textProps}
+                isFillBlockquote={item.type === 'fillBlockquote'}
               />
             </View>
           );
